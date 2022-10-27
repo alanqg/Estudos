@@ -1,0 +1,116 @@
+/*
+    AqGoes
+*/
+
+/*
+    Paletas de cores:
+    https://www.colourlovers.com/palette/4884043/Overt_Display
+*/
+
+/*Google Fontes*/
+/*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+/*Paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos tipografia*/
+h1, h2, h3, h4, h5{
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.topo{
+    background-color: #0B2D49;
+    font-size: 25px;
+    font-size: normal;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+/*Logo*/
+.logo h2{
+    font-size: 25px;
+    color: #E61E38;
+}
+.menu-topp ul{
+    margin-top: 20px;
+}
+/*Área de menus*/
+.menu-topp ul li{
+    display: inline;
+    padding: 15px;
+}
+.menu-topp ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu-topp ul li a:hover{
+    color: #E61E38;
+}
+
+
+
+/*área do rodapé*/
+footer{
+    background-color: #0B2D49;
+}
+.menu-rodape ul{
+    margin-top: 20px;
+}
+.menu-rodape ul li{
+    display: inline;
+    padding: 15px;
+}
+.menu-rodape ul li a{
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.menu-rodape ul li a:hover{
+    color: #E61E38;
+    text-decoration: none;
+
+}
+.texto-rodape h2{
+    color: 25px;
+    color: #E61E38;
+}
+
+
+    /*Estilos para os posts*/
+     
+    /*Imagem do post*/
+    /*Posts Gerais do site*/
+    .post-padrao{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;        
+    }
+    /*Imagem dos post, class capturada no inspesionar elementos da página home, com a configuração página estatica*/
+    .wp-post-image {
+        float: left;
+        margin: 0 15px 10px 0;
+       
+    }
+
+    /*Paragrafos para as categorias tags etc*/
+    .pdetalhes{
+        color: #E61E38;
+    }
+
+
+

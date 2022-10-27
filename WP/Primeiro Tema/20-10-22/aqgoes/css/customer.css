@@ -1,0 +1,96 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Goolge Fontes*/
+/*Fonte para o h1*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+/*Fonte para os outros titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+
+/*Paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
+
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+
+h2, h3, h4, h5{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+/*Cabeçalho*/
+/*Logo*/
+.logo{
+    margin-top: -18px;
+    font-size: 35px;
+}
+.logo a:hover{
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.jumbotron h1{
+    color: brown;
+    font-size: 60px;
+
+}
+/*Div que envolve todo o cabecalho do site*/
+.cabecalho{
+    padding: 15px 0;
+}
+
+/*Estilo do menu principal*/
+.menu_pricipal ul{
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+}
+.menu_pricipal ul li{
+    display: inline;
+    margin: 0 25px 0 0 ;
+}
+.menu_pricipal ul li a{
+    color: brown;
+    font-size: 28px;
+}
+.menu_pricipal ul li a:hover{
+    color: #337AB7;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/*Campos de pequisa*/
+.campo-pesquisa{
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+}
+
+
+/*Estilos do aquivo para a página estática*/
+.corpo-pestica{
+    padding-top: 100px;
+}
+/*Foote*/
+footer p{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: brown;
+    font-size: 25px;
+}

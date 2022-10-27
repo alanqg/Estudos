@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .corpo{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            background-color: brown;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
+    <title>Luz</title>
+</head>
+<body>
+
+<div class="corpo"></div>
+    <h2>O que o JavaScript pode fazer</h2>
+    <p>JavaScript pode alterar os valores de atributo HTML.</p>
+    <p>Nesse caso, o JavaScript altera o valor do atributo src (source) de uma imagem.</p>
+
+    <button onclick="document.getElementById('myimg').src='pic_bulbon.jpg'">Acenda a luz</button>
+    <img id="myimg" src="pic_bulboff.jpg" style="width: 100px;">
+
+    <button onclick="document.getElementById('myimg').src='pic_bulboff.jpg'">Apague a luz</button>
+
+
+</body>
+</html>
