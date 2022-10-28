@@ -1,0 +1,36 @@
+/*  
+    Desenvolvido por: Alan
+*/
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+
+}
+body{
+    /*Grandiente começamdo da direita para a esquerda com duas cores para oa gradiente*/
+    background-image: linear-gradient(to right, #310ADF, #8C20FF);
+}
+main{
+    background-color: #fff; /*Cor do fundo*/
+    width: 600px; /*Largura*/
+    padding: 10px; /*Espaço interno do elemento*/
+    /*Centralizando o elemento main*/
+    margin: auto;
+    /*Arredonadamento das bordas*/
+    border-radius: 10px;
+    /*Sobre com espalhamento*/
+    box-shadow:  5px 5px 15px #232324;
+
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color: #FF2E05;
+    text-shadow: 1px 1px 2px #190501;;
+}
+h2{
+    color: #FF8D06;
+}

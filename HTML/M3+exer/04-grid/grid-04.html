@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .item1{grid-area: header;}
+        .item2{grid-area: menu;}
+        .item3{grid-area: main;}
+        .item4{grid-area: right;}
+        .item5{grid-area: footer;}
+
+        .grid-container{
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header'
+             'menu main main main right right'
+             'menu footer footer footer footer footer';   
+            gap: 10px;
+            background-color: burlywood;
+            padding: 10px;
+        }
+        .grid-container > div{ background-color: brown; text-align: center; padding: 20 0; font-size: 30px; }
+
+
+
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto; /*Controlando quatro colunar*/
+            margin-top: 10PX;
+            padding: 10px;
+            background-color: chocolate;
+        }
+        .itens{
+            background-color: rgb(12, 223, 153);
+            border: 3px solid rgba(4, 4, 44, 0.727);
+            padding: 20px;
+            font-size: 35px;
+            text-align: center;
+        }
+    </style>
+    <title>Grid Layout</title>
+</head>
+<body>
+    <h1>Grid Layout</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Cum illum molestiae ducimus asperiores quo magnam ipsa reprehenderit impedit 
+        incidunt explicabo. Blanditiis 
+        delectus voluptatum assumenda repudiandae, et aperiam harum beatae asperiores?</p>
+
+        <div class="grid-container">
+            <div class="item1">Header</div>
+            <div class="item2">Menu</div>
+            <div class="item3">Main</div>
+            <div class="item4">Right</div>
+            <div class="item5">Footer</div>
+        </div>
+
+
+        <div class="container">
+                
+                <div class="itens">
+                    <h2>Primeira caixa</h2>
+                    <p>
+                        Primeira caixa de quatro caixas uma do lado da outra.
+                    </p>
+                </div>
+
+
+                <div class="itens">
+                    <h2>Segunda caixa</h2>
+                    <p>
+                        Segunda caixa de quatro, um do lado do outro
+                    </p>
+                </div>
+
+                <div class="itens">
+                    <h2>Terceira caixa</h2>
+                    <p>
+                        Terceira caixa de quatro, uma do lado da  outra
+                    </p>
+                </div>
+
+                <div class="itens">
+                    <h2>Quarta caixa</h2>
+                    <p>
+                        Quarta caixa de quatro, uma do lado da outra
+                    </p>
+                </div>
+        </div>
+</body>
+</html>

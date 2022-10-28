@@ -1,0 +1,102 @@
+/*
+    Desenvolvido por: Alan
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1, h2, h3, h4{
+    font-family: 'Silkscreen', cursive;
+    font-size: 45px;
+    color: #ff4000;
+}
+.barra-topo{
+    background-color: brown;
+    color: azure;
+    padding: 15px 0;
+}
+.area-menu{
+    background-color: burlywood;
+    padding: 15px 0;
+}
+.menu-principal ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+}
+.menu-principal ul li{
+    display: inline;
+    margin: 0 30px 0 0;
+    
+}
+.menu-principal li:last-child{
+    margin: 0;
+}
+.menu-principal ul li a{
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: none;
+}
+
+.menu-principal ul li.currant-menu-tem a{
+    color: blueviolet;
+}
+
+/*Slider*/
+.slider{
+    padding: 25px 0;
+}
+.servicos{
+    background-color: blueviolet;
+    padding: 25px 0;
+    color: antiquewhite;
+}
+/*Meio*/
+.meio{
+    padding: 25px 0;
+}
+.meio h1{
+    text-transform: uppercase;
+}
+/*Barra lateral*/
+.barra-lateral {
+    padding: 25px 0;
+    background-color: firebrick;
+    color: aliceblue;
+}
+.footerr{
+    background-color: burlywood;
+    padding: 15px 0;
+    color: crimson;
+}
+.menu-principal ul li, .menu-rodape ul li{
+    display: inline;
+}
+/*Tag criada na chamada das miniaturas de imagem*/
+.wp-post-image{
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+
+/*Formatos de posts*/
+
+/*Formato de post padrão*/
+.titulo-post-padrao{
+    background-color: brown;
+    color: #000;
+}
+
+/*Formasto de vídeos*/
+.format-video-h1{
+    background-color: aqua;
+    color: #fff;
+}
+
+/*Formato imagem*/
+.format-image-h1{
+    background-color: #ff4000;
+    color: #fff;
+}
