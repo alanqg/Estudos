@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(179, 243, 222);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(5, 107, 73);
+}
+/*Em HTML tudo que dor ID para o css será #*/
+/*Tudo que for class para HTML será . para css*/
+h1#principal{
+text-align: center;
+background-color: rgb(163, 224, 207);
+color: bisque;
+}
+
+h2{
+    color: rgb(10, 202, 138);;
+}

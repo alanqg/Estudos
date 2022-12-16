@@ -1,0 +1,17 @@
+Dicas do segundo modulo HTML Guanabara
+
+    Site para captuar fontes dentro uma imagem.
+(01) --> https://www.whatfontis.com/
+(02) --> https://www.fontsquirrel.com/
+(03) --> https://www.myfonts.com/
+
+    Alinhamento de texto 
+  text-align: left; --> texto com a alinhamento padrão das fontes.
+  text-align: center; --> colcar os texto centralizado
+  text-align: right; --> alinhamento para a direita
+  text-align: justify; pequeno espaçamento nas letras.
+  text-indent: 20px; 20px  da esquerda para direita no paragrafo.
+
+    Seletores personalizadios
+/*Em HTML tudo que dor ID para o css será #*/
+/*Tudo que for class para HTML será . para css*/    
