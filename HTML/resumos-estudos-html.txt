@@ -1,5 +1,10 @@
-Baixando fontes 
+Site para baixar fontes 
 https://www.dafont.com/pt/
 
-Site para baixar arquivos para baixar fontes é chamar 
-no css depois.
+Complementos boostrap 
+Links do curso
+https://www.youtube.com/watch?v=OJ28PXJIQVM&list=PLBbHLUbqqCrQkAJWUTshN6DPEoJcFH3Pi&index=2
+
+
+
+
