@@ -1,10 +1,5 @@
 Site para baixar fontes 
 https://www.dafont.com/pt/
 
-Complementos boostrap 
-Links do curso
-https://www.youtube.com/watch?v=OJ28PXJIQVM&list=PLBbHLUbqqCrQkAJWUTshN6DPEoJcFH3Pi&index=2
-
-
-
-
+Links para efeitos  CSS
+https://www.htmlecsspro.com/artigo/scroll-suave-com-css-transition-css-transform-e-css-animation
