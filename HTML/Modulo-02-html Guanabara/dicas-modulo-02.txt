@@ -1,4 +1,5 @@
 Dicas do segundo modulo HTML Guanabara
+  link do modulo --> https://www.youtube.com/watch?v=WPtRX4n0UJs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22
 
     Site para captuar fontes dentro uma imagem.
 (01) --> https://www.whatfontis.com/
@@ -14,4 +15,29 @@ Dicas do segundo modulo HTML Guanabara
 
     Seletores personalizadios
 /*Em HTML tudo que dor ID para o css será #*/
-/*Tudo que for class para HTML será . para css*/    
+/*Tudo que for class para HTML será . para css*/   
+ Dentro do html só se usa um ID para cada elemento. ID# será sempre únco para casa elemento, class . pode usar para vários elementos.
+                  <==>
+ ## DICAS ==> PARA EDITAR DUAS CLASSES POR EXEMPLO NO VSCODE, USA O ALT É OS ELEMENTOS QUE SERÃO EDITADOS ##
+    
+    Pseudo-class
+    height --> Altura
+    width --> Largura
+Para representar as pseudo do class é com dois pontos : ele tem está relacionada a um elemento ou a uma class
+Mão na massa
+ /*Um paragrafo que filho da uma div */
+        /*Mexer somente no paragrado que estiver dentro da div*/
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+        div:hover{
+            color: red;
+        }
+        
+  

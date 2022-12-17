@@ -6,7 +6,7 @@ body{
 h1{
     color: rgb(5, 107, 73);
 }
-/*Em HTML tudo que dor ID para o css será #*/
+/*Em HTML tudo que for ID para o css será #, para um arquivo*/
 /*Tudo que for class para HTML será . para css*/
 h1#principal{
 text-align: center;
@@ -16,4 +16,21 @@ color: bisque;
 
 h2{
     color: rgb(10, 202, 138);;
+}
+
+/*Estilos para as classes*/
+.basico{
+    color: rgb(1, 19, 1);
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(238, 238, 69);
+    font-weight: bold;
+}
+.avancado{
+    color: brown;
+    font-weight: bold;
+}
+.destaque{
+    background-color: burlywood;
 }

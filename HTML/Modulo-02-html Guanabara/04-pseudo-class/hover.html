@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houver</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Um paragrafo que filho da uma div */
+        /*Mexer somente no paragrado que estiver dentro da div*/
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Pass o mouse sobre o text abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>Texte escondido......</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>
