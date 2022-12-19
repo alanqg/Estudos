@@ -21,8 +21,8 @@ Dicas do segundo modulo HTML Guanabara
  ## DICAS ==> PARA EDITAR DUAS CLASSES POR EXEMPLO NO VSCODE, USA O ALT É OS ELEMENTOS QUE SERÃO EDITADOS ##
     
     Pseudo-class
-    height --> Altura
-    width --> Largura
+        height --> Altura
+        width --> Largura
 Para representar as pseudo do class é com dois pontos : ele tem está relacionada a um elemento ou a uma class
 Mão na massa
  /*Um paragrafo que filho da uma div */
@@ -39,5 +39,6 @@ Mão na massa
         div:hover{
             color: red;
         }
+        
         
   
