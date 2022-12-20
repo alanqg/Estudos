@@ -60,6 +60,11 @@ Espaçamento de dentro da caixa --> padding
 Espaçamento de fora da caixa --> margin
 Uma trajado fora da bordar --> outline
 
+Para entender melhor sobre os modelos de caixa deve verificar os inspecionar elementos dos dev tolss dos navegadores, conteúdo, padding,  borda, marin dando sempre seus devidos valores.
+Difierença entre o padding é o margin.
+Margin --> Espaçamento fora da borda.
+Padding --> Espaçamento de entro da borda.
+
 
 
 
