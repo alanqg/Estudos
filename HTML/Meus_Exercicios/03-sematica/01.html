@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style> 
+        body{
+            background-color: #ccc;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+        }
+        
+        header{
+            background-color: #fff;
+            padding: 10;
+            margin: 10;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 10px;
+        }
+        nav > a{
+            color: #fff;
+            padding-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            color: black;
+            text-decoration: dashed;
+        }
+        main{
+            background-color: aquamarine;
+            padding: 20px;
+            margin: 20px;
+        }
+        article{
+            background-color: aquamarine;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: brown;
+            color: #fff;
+        }
+
+        footer{
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Logo do Site</h1>
+
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+   </header><!--Finalizando o cabeçalho-->
+
+   <main>
+        <section id="asuntos">
+            <p>
+                Notícia Esportes Tecnologia
+            </p>
+        </section><!--Primeira seção com os pricipais noticias-->
+
+        <section>
+            <article>
+                <h2>Primmeiro Artigo</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eos laudantium officiis sapiente exercitationem eius, tempora eaque dolores ut quidem est deleniti quibusdam enim velit? Praesentium voluptatem rerum quis fuga?
+                </p>
+                <aside>Artigos Dessevolvido por: Aqgoes</aside>
+
+                <article>
+                    <h2>Segundo Artigo</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae maxime quis vel recusandae fugit non tempore rem enim molestiae illum, accusantium culpa expedita iusto officia minima dolorem excepturi? Deserunt?
+                    </p>
+                </article>
+            </article><!--Segunda seçõa com os principais artigos-->
+        </section>
+   </main><!--Conteudo principal do site-->
+
+   <footer>
+    <p>Desenvolvido por: Aqgoes</p>
+   </footer>
+</body>
+</html>

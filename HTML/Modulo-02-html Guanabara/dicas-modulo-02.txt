@@ -111,7 +111,8 @@ header --> cabeçalhado, geral coloca os menus e as logos dos sites.
     </footer><!--Roidapé do site-->
 
         As tags header, nav, main, section, aside, são considaras divs, porém deve se usar essa semâtica para melhorar para os mecanismo de busca.
-         
+
+     
 
 
 
