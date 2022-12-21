@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags </title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+         }
+         header{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+         }
+         nav{
+            background-color: rgb(19, 141, 182);
+            padding: 10;
+         }
+         nav > a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 30px;
+         }
+         nav > a:hover{
+            text-decoration: underline;
+            color: black;
+         }
+         main{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10;
+         }
+         article
+         {
+            background-color: lightcyan;
+            padding: 5px;
+         }
+         article > aside{
+            background-color: rgb(43, 83, 83);
+            color: #fff;
+         }
+
+         footer{
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+            margin: 0;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header><!--Cabeçalho-->
+    
+    <main>
+        <section id="assuntos">
+            <p>
+                Esportes Politica Tecnologia
+            </p>
+        </section><!--Primeira seção para os assuntos-->
+
+
+        <section id="section">
+            <article>
+                <h2>Titulo do Artigos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos commodi reprehenderit dolore, atque cum, repellat numquam ad cumque nulla unde iure pariatur vel nam mollitia ducimus maxime soluta laboriosam.
+                </p>
+
+                <aside>
+                    <p>Artigo escrito por Joseá da Silva</p>
+                </aside><!--Assunto segundário da senção dos artigos-->
+            </article><!--Primeiro Artigo -->
+
+            <article>Segundo Artigo</article><!--Segundo Artigo-->
+        </section>
+    </main><!--Conteúdo do site-->
+
+    <footer>
+        <p>
+            Desemvolvido por: Aqgoes
+        </p>
+    </footer><!--Roidapé do site-->
+
+</body> 
+</html>

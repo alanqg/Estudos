@@ -65,7 +65,53 @@ Difierença entre o padding é o margin.
 Margin --> Espaçamento fora da borda.
 Padding --> Espaçamento de entro da borda.
 
+        Grouping Tags
+        Tags de Agrupament
+head --> cabeça do Site, colocar tags, como metas tags, titulo da barra superior do site
+header --> cabeçalhado, geral coloca os menus e as logos dos sites.
+    Os agrupamentos de tags são as nova semâticas do html, header, content, footer etc.
+    Modelo a seguir mostra um exemplo das novas semâticas do novo html5
 
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header><!--Cabeçalho-->
+    
+    <main>
+        <section id="assuntos">
+
+        </section><!--Primeira seção para os assuntos-->
+
+
+        <section id="section">
+            <article>
+                <h2>Titulo do Artigos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos commodi reprehenderit dolore, atque cum, repellat numquam ad cumque nulla unde iure pariatur vel nam mollitia ducimus maxime soluta laboriosam.
+                </p>
+
+                <aside>
+                    <p>Artigo escrito por Joseá da Silva</p>
+                </aside><!--Assunto segundário da senção dos artigos-->
+            </article><!--Primeiro Artigo -->
+
+            <article>Segundo Artigo</article><!--Segundo Artigo-->
+        </section>
+    </main><!--Conteúdo do site-->
+
+    <footer>
+        <p>
+            Desemvolvido por: Aqgoes
+        </p>
+    </footer><!--Roidapé do site-->
+
+        As tags header, nav, main, section, aside, são considaras divs, porém deve se usar essa semâtica para melhorar para os mecanismo de busca.
+         
 
 
 
