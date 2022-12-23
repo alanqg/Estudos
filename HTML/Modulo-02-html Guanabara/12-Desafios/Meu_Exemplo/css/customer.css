@@ -44,5 +44,16 @@ nav  a:hover{
 }
 /*Corpo do site */
 main{
-    margin: auto;
+    width: 70%;
+    background-color: #fff;
+    margin:  auto;
+}
+section > h2{
+    font-size: 40px;
+    color: aqua;
+    padding: 20px;
+}
+section > p{
+    font-size: 25px;
+    text-align:  center;
 }
