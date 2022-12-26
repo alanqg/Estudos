@@ -42,8 +42,10 @@ nav  a:hover{
     color: brown;
     text-decoration: dashed;
 }
+
 /*Corpo do site */
 main{
+<<<<<<< Updated upstream
     width: 70%;
     background-color: #fff;
     margin:  auto;
@@ -56,4 +58,20 @@ section > h2{
 section > p{
     font-size: 25px;
     text-align:  center;
+=======
+    width: 650px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Primeira seção*/
+.artium h2{
+    padding: 10px;
+    color: brown;
+}
+.artium p{
+    text-align: justify;
+>>>>>>> Stashed changes
 }
