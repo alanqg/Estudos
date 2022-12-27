@@ -6,6 +6,7 @@ Dicas do segundo modulo HTML Guanabara
 (02) --> https://www.fontsquirrel.com/
 (03) --> https://www.myfonts.com/
 (04)  --> https://erikasarti.com/html/dingbats-simbolos-desenhos/
+(5) --> https://wireframepro.mockflow.com/#/space/default --> para para planejar modelos 
 
     Alinhamento de texto 
   text-align: left; --> texto com a alinhamento padrão das fontes.
@@ -60,7 +61,8 @@ Espaçamento de dentro da caixa --> padding
 Espaçamento de fora da caixa --> margin
 Uma trajado fora da bordar --> outline
 
-Para entender melhor sobre os modelos de caixa deve verificar os inspecionar elementos dos dev tolss dos navegadores, conteúdo, padding,  borda, marin dando sempre seus devidos valores.
+Para entender melhor sobre os modelos de caixa deve verificar os inspecionar elementos dos dev tolss dos navegadores, conteúdo, padding,  
+borda, marin dando sempre seus devidos valores.
 Difierença entre o padding é o margin.
 Margin --> Espaçamento fora da borda.
 Padding --> Espaçamento de entro da borda.
@@ -92,7 +94,8 @@ header --> cabeçalhado, geral coloca os menus e as logos dos sites.
             <article>
                 <h2>Titulo do Artigos</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos commodi reprehenderit dolore, atque cum, repellat numquam ad cumque nulla unde iure pariatur vel nam mollitia ducimus maxime soluta laboriosam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos commodi reprehenderit dolore, atque cum, repellat numquam ad cumque 
+nulla unde iure pariatur vel nam mollitia ducimus maxime soluta laboriosam.
                 </p>
 
                 <aside>
@@ -111,6 +114,13 @@ header --> cabeçalhado, geral coloca os menus e as logos dos sites.
     </footer><!--Roidapé do site-->
 
         As tags header, nav, main, section, aside, são considaras divs, porém deve se usar essa semâtica para melhorar para os mecanismo de busca.
+
+		Planejamento do site 
+Layout 
+Cores 
+Fontes  ==> https://fonts.google.com/specimen/Bebas+Neue?query=bebas --> do google fontes 
+https://wireframepro.mockflow.com/#/space/default --> para para planejar modelos 
+
 
      
 
