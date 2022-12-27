@@ -69,7 +69,7 @@ main
 {
     margin-left: auto;
     margin-right: auto;
-    height: 1800px;
+    height: 1900px;
     width: 800px;
     background-color: #fff;
 }
@@ -92,11 +92,44 @@ section > article > p{
     color: #213435;
 }
 .video{
-    background-color: #000;
+    width: 750px;
+    height: 350px;
+    padding: 25px ;
+    background-color: #648A64;
   
 
 }
+.texto-segundario{
+    background-color: #A6B985;
+    width: 780px;
+    height: 310px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.texto-segundario h3{
+    border-radius: 20px;
+}
+.texto-segundario p{ 
+    text-align: center;
+}
 
+/*Lista*/
+
+ul {
+    padding: 5px;
+    padding-left: 15px;
+    list-style: none;
+}
+.list-01{
+    float: left;
+    width: 350px;
+    height: 150px;
+}
+.list-02{
+    float: right;
+    width: 350px;
+    height: 150px;
+}
 /*Rodapé*/
 footer{
     width: 100%;
@@ -105,6 +138,7 @@ footer{
     color: #fff;
     text-align: center;
 }
+
 footer > h3{
     padding-top: 10px;
     font-size: 18px;
