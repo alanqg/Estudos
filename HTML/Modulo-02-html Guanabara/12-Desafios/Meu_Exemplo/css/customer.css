@@ -138,7 +138,10 @@ footer{
     color: #fff;
     text-align: center;
 }
-
+/*Paragrafo depois das lista*/
+.paragrafo-final{
+    text-align: center;
+}
 footer > h3{
     padding-top: 10px;
     font-size: 18px;
