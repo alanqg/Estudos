@@ -1,24 +1,21 @@
 /*Desenvolvido por: AqGoes*/
+/*
+Paleta de cores
+ links --> https://www.colourlovers.com/palette/77155/land_of_1000_dances
+*/
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-color: #E1E3AC;
 }
 /*Estilos  principais*/
-main
-{
-    margin-left: auto;
-    margin-right: auto;
-    height: 650px;
-    width: 900px;
-    background-color: #fff;
-}
 header{
-    background-color: black;
+    background-color: #213435;
     height: 220px;
     width: 100%;
+    
 }
 header h1{
     font-size: 35px;
@@ -32,7 +29,7 @@ header h1{
 header p{
     padding: 20px;
     text-align: center;
-    color: blueviolet;
+    color: #fff;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -50,4 +47,29 @@ nav > ul > a:hover{
     color: rgb(185, 117, 28);
     text-decoration: dashed;
     border-radius: 30px;
+}
+
+/*Corpo do site*/
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1800px;
+    width: 800px;
+    background-color: #fff;
+}
+
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #213435;
+    color: #fff;
+    text-align: center;
+}
+footer h3{
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
