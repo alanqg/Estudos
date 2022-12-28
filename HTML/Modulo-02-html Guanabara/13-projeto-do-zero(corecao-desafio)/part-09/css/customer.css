@@ -172,7 +172,7 @@ aside{
 aside > ul{
     /*Bolas da listas para dentro*/
     list-style-position: inside;
-    /*Colocando a lista em duas lista uma do lado a outra*/
+    /*Colocando a lista em duas lista uma do lado a outra, nem todos navegadore essa opção funcoina*/
     columns: 2;
     /*mudando os sibolo da lista do site emojipedia emoje check*/
     list-style-type: '\2714\00A0\00A0';/*os cósdigo \00A0\00A0 são para dar espeaço entre as itens das lista*/
