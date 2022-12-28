@@ -118,7 +118,7 @@ nulla unde iure pariatur vel nam mollitia ducimus maxime soluta laboriosam.
 		Planejamento do site 
 Layout 
 Cores  --> https://www.colourlovers.com/palette/3855061/Android 
-Fontes  ==> https://fonts.google.com/specimen/Bebas+Neue?query=bebas --> do google fontes 
+Fontes  ==> 	 --> do google fontes 
 https://wireframepro.mockflow.com/#/space/default --> para para planejar modelos 
 
 Emmet: wrap width 
