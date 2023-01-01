@@ -1,0 +1,47 @@
+/*Desevolvido popr: AqGoes*/
+
+/*Links usados, como  paletas de core fontes etc*/
+/*
+Paletas de cores--> https://www.colourlovers.com/palette/4892160/Toadstools*/
+
+
+/*Fontes --> Titulos --> @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+/*Fontes --> paragrafos --> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #55a56859;
+}
+/*Criado as variaveis*/
+header{
+    margin: auto;
+    background-color: var(--cor-segudaria);
+    min-width: 650px;
+    max-width: 100%;
+    color: #fff;
+}
+header nav{
+    
+}
+:root{
+    /*Fontes*/
+    --font-titulos: 'Yeon Sung', cursive;
+    --fonte-paragrafos: 'Roboto', sans-serif;
+    /*Cores */
+    --cor-principal: #187793;
+    --cor-segudaria: #55A568;
+    --cor-terciaria: #D77A01;
+    --cor-terciaria: #D20E00;
+    --cor-quitaria: #614A76;
+
+}
+main{
+    margin: auto;
+    min-width: 650px;
+    max-width: 1000px;
+    background-color: #fff;
+}
