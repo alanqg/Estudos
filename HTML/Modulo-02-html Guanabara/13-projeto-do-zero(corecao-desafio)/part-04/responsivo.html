@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo HTML</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /*tamanho máxima de 800px*/
+            /*largura minimo*/
+            min-width: 280px;
+            /*largura máxima*/
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim veniam, impedit deserunt, eos perferendis sunt soluta minus quod aspernatur provident nihil nisi atque, qui culpa facilis quasi deleniti ratione?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, earum. Velit itaque consequatur vitae rem sint facilis magni omnis dignissimos, ut distinctio dolore fugit nihil, earum delectus laboriosam obcaecati harum?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam illum rem eos tenetur veritatis ut laboriosam molestiae, commodi dignissimos quasi itaque? Nihil facere reprehenderit sint unde magnam minus quis obcaecati.
+        </p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt=" Irina Blok">
+        </picture>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim veniam, impedit deserunt, eos perferendis sunt soluta minus quod aspernatur provident nihil nisi atque, qui culpa facilis quasi deleniti ratione?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, earum. Velit itaque consequatur vitae rem sint facilis magni omnis dignissimos, ut distinctio dolore fugit nihil, earum delectus laboriosam obcaecati harum?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam illum rem eos tenetur veritatis ut laboriosam molestiae, commodi dignissimos quasi itaque? Nihil facere reprehenderit sint unde magnam minus quis obcaecati.
+        </p>
+    </main>
+</body>
+</html>

@@ -1,10 +1,30 @@
-/*Desenvo.vido por: AqGoes*/
+/*Desenvolvido por: AqGoes*/
+/*
+Paleta de cores
+ links --> https://www.colourlovers.com/palette/77155/land_of_1000_dances
+*/
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-color: #E1E3AC;
+}
+/*Estilos  principais*/
+/*Fontes do site*/
+
+/*Google Fonte*/
+/*Fontes h2 h3*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+
+/*Fonto local*/
+@font-face{
+    font-family: idroid;
+    src: url(../font/idroid.otf);
+}
+h2, h3{
+    font-family: 'Rubik Gemstones', cursive;
 }
 
 /*Chamando uma fonte local*/
@@ -15,9 +35,114 @@ body{
     font-style: normal;
 }
 header{
+    background-color: #213435;
+    height: 220px;
     width: 100%;
-    height: 200px;
-    background-color: rgb(8, 63, 63);
+    
+}
+header h1{
+    font-size: 35px;
+    font-family: idroid;
+    font-style: normal;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+header p{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav > ul > a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+nav > ul > a:hover{
+    background-color: #e1e3ac41;
+    color: #E1E3AC;
+    text-decoration: dashed;
+    border-radius: 30px;
+}
+
+/*Corpo do site*/
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1900px;
+    width: 800px;
+    background-color: #fff;
+}
+.img-centralizada{
+    margin-left: 220px;
+}
+section > article > h1{
+    font-family: idroid;
+    padding: 20px 0 20px 0;
+    padding-left: 10px;
+}
+section > article > h2, h3{
+    color: #213435;
+    padding-left: 10px;
+    font-family: 'Rubik Gemstones', cursive;
+    background-image: radial-gradient(#648A64, #A6B985)
+}
+section > article > p{
+    text-align: justify;
+    color: #213435;
+}
+.video{
+    width: 750px;
+    height: 350px;
+    padding: 25px ;
+    background-color: #648A64;
+  
+
+}
+.texto-segundario{
+    background-color: #A6B985;
+    width: 780px;
+    height: 310px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.texto-segundario h3{
+    border-radius: 20px;
+}
+.texto-segundario p{ 
+    text-align: center;
+}
+
+/*Lista*/
+
+ul {
+    padding: 5px;
+    padding-left: 15px;
+    list-style: none;
+}
+.list-01{
+    float: left;
+    width: 350px;
+    height: 150px;
+}
+.list-02{
+    float: right;
+    width: 350px;
+    height: 150px;
+}
+/*Rodapé*/
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #213435;
     color: #fff;
     text-align: center;
 }
@@ -27,28 +152,5 @@ header > h1{
     font-weight: bold;
   
     padding: 20px 0 30px 0;
-}
 
-header > p{
-    font-size: 25px;
-    font-weight: 900;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-nav{
-    float: left;
-}
-
-nav  a{
-    text-decoration: none;
-    padding-left: 30px;
-    color: #fff;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-nav  a:hover{
-    color: brown;
-    text-decoration: dashed;
-}
 
