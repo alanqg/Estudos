@@ -2,6 +2,9 @@
 Links relacionado ao modulo 03 --> https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ
 Para colcar projetos online dentro de github deve colocar a opção dentro do gitpage.
 Sempre que for fazer o comit deve ser sempre olhar qual repositério está conctado, para poder fazer o pulse. Não opção de abrir no VsCode para dentro da pasta que está sendo usado no momento.
-Para colocar um repositório privado em publico ir em Settings/Danger Zone/Change repository visibility, mesma opção Danger Zone colocar gitpag.
+Para colocar um repositório privado em publico ir em Settings/Danger Zone/Change repository visibility, mesma opção Danger Zone para deletar os repositório.
+Para criar uma gitpages ir em Settings github pages.
+Ao fazer o processo de transformar o repositório em pagina, basta acessar qual projeto dentro do repositório transformado para visualizar um projeto, exemplo.
+https://alanqg.github.io/Estudos/HTML/Modulo-02-html%20Guanabara/13-projeto-do-zero(corecao-desafio)/part-09/
 
  
