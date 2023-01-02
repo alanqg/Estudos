@@ -23,9 +23,11 @@ header{
     min-width: 650px;
     max-width: 100%;
     color: #fff;
+    margin-bottom: 10px;
 }
-header nav{
-    
+header nav a{
+    color: #fff;
+    text-decoration: none;
 }
 :root{
     /*Fontes*/
@@ -41,6 +43,7 @@ header nav{
 }
 main{
     margin: auto;
+
     min-width: 650px;
     max-width: 1000px;
     background-color: #fff;
