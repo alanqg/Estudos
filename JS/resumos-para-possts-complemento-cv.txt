@@ -10,3 +10,7 @@ JavaScript provavelmente está envolvido.
 É a terceira camada do bolo das tecnologias padrões da web, duas das quais 
 (HTML e CSS) 
 nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.
+
+
+  Continuando JS aula 04
+  
