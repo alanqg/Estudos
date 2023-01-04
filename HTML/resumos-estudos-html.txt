@@ -3,3 +3,16 @@ https://www.dafont.com/pt/
 
 Links para efeitos  CSS
 https://www.htmlecsspro.com/artigo/scroll-suave-com-css-transition-css-transform-e-css-animation
+
+	HTML Curso em Vídeos
+Link para o material em PDF para os paragrafos é caracteres especias.
+https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20par%C3%A1grafos%20e%20quebras%20de%20linha.pdf
+
+Links para o material para os estudos de imagens é fivecon.
+Como colcoar imagens com várias demeções dentro de HTML, sem usar os estilos CSS.
+
+No exemplo abaixo tem três modelos de para três dimenções diferente, usando somente HTML.
+
+
+		Atalhos para VsCode
+ALT + Espaço para selecionar duas compos ao mesmo tempo.
