@@ -16,3 +16,9 @@ No exemplo abaixo tem três modelos de para três dimenções diferente, usando 
 
 		Atalhos para VsCode
 ALT + Espaço para selecionar duas compos ao mesmo tempo.
+Outro dica importa para fazer envelopamento nos tags, para isso primeira fazer a instalação do plugin.
+Para fazer essa instalação usa a combinação das telcas CRTl Chft T é instala o plugin Wrap with Abbreviation, depois selecionar qual grupo de teg que 
+envelopar é procura a opção emmet: Envelpper cp, a abreviatura.
+ 
+
+
