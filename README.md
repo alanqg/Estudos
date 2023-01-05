@@ -1,5 +1,5 @@
 # Estudos
-<h1>Todos os projetos JS HTML | CSS PHP WP</h1> <br>
+<h1 style="text-align: center; background-color: #063d1e; color: #ebe5c5;">Todos os projetos JS HTML | CSS PHP WP</h1> <br>
 _**Resumos dos estudos 2022**_
 <P>Todoas os projetos dos estudos atualizados</P>
 <p> Fazendo uma edição 2023 para mostrar algumas informações</p>
