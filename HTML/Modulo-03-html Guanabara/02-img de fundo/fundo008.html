@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container{
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+            /*Primeiro passo  para posicionar os elementos*/
+            position: relative; /*Posicionamento padrão dos navegadores*/
+            padding: 10px;
+            height: 96vh;
+            background-color: purple;
+        }
+        #conteudo{
+            /*Primeiro elemento foi relativo que é o padrão, agora o próximo elemento será posicionado absoluto*/
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            /*Como o elemento ficou absoluto agora coloca as posições*/
+            left: 50%;/*Da esquerda para direita */
+            top: 50%;/*Top do elemento*/
+            /*Deslocando 20px o elemento*/
+            /*Com essa declaração  o elemento amarelos central no algo do roxo*/
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
