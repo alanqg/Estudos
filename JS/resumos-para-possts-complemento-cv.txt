@@ -14,5 +14,5 @@ nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.
 
   Continuando JS aula 04
   Tipos de dados e Variáveis.
-  
-  
+
+  Os nomes da variáveis são chamados de identificadores
