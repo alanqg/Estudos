@@ -16,3 +16,5 @@ nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.
   Tipos de dados e Variáveis.
 
   Os nomes da variáveis são chamados de identificadores
+  Variáveis sevem para guardar dados.
+  
