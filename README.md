@@ -5,6 +5,4 @@ _**Resumos dos estudos 2022**_
 <p> Fazendo uma edição 2023 para mostrar algumas informações</p>
 <h2 style="color: red;"> Fui editado depois que virei site </h2>
 <p>Alguns exemplos de exercícios<p>
-<button type="button" style="background-color: #000;">
-    <a href="https://alanqg.github.io/Estudos/HTML/Modulo-02-html%20Guanabara/13-projeto-do-zero(corecao-desafio)/part-09/">Primeiro modelo</a>
-</button>
+    <a href="https://alanqg.github.io/Estudos/HTML/Modulo-02-html%20Guanabara/13-projeto-do-zero(corecao-desafio)/part-09/" style="border: solid 3px #000;">Primeiro modelo</a>
