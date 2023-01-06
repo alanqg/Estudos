@@ -1,5 +1,5 @@
 # Estudos
-<div style="background-color:#1a5c37;width:900px;width:1200px;">
+<div style="background-color:#1a5c37;width:900px;width:800px;">
     <h1 style="text-align:center;font-size:30px;background-color:#063d1e;color:#ebe5c5;border-radius:40px;">Todos os projetos JS HTML | CSS PHP WP</h1>
     <hr>
     <p style="text-align:center;font-size:20px;background-color:#1a5c37;color:#ebe5c5;border-radius:40px;">Acesso a todos os projetos prontos no links seguintes.</p>
