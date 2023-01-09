@@ -19,3 +19,21 @@ nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.
   Variáveis sevem para guardar dados.
 
 Continuando JS aula 06
+
+Dois principais tipos primitivos do JS
+Number 
+String
+
+Criando uma soma de dois núemros inteiros já convertendo de string para núemro.
+  /*Noma de dois numeros parseInt() converter string em n~umero*/
+       var n1 = Number.parseInt(window.prompt('Digite um númeor ')) //REcebe um valor string
+         /*Convertar os dois operadores para números Number.parseInt() converter string em n~umero*/
+       var n2 = Number.parseInt(window.prompt('Digite outro número'))//Recebe o valor string
+
+       /*Somando os dois valores digitados acima */
+       var  s = n1 + n2
+
+       window.alert('A soma dos valores e: ' + s)
+        // numeber + number  para adição 
+        // string +  string para concatenação
+
