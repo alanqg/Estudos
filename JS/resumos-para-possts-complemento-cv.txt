@@ -40,4 +40,6 @@ Criando uma soma de dois núemros inteiros já convertendo de string para núemr
     </script>
 
     Palavras chavas para fazer pesquisas 
-    Tratamentos de dados é tipos de dados 
+    Tratamentos de dados é tipos de dados.
+    rem -->  font-size: atual
+    
