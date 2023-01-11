@@ -39,7 +39,46 @@ Criando uma soma de dois núemros inteiros já convertendo de string para núemr
         // string +  string para concatenação
     </script>
 
-    Palavras chavas para fazer pesquisas 
-    Tratamentos de dados é tipos de dados.
-    rem -->  font-size: atual
+    "Palavras chavas para fazer pesquisas 
+    Tratamentos de dados é tipos de dados."
+
+        Operadores
+      Operadores de ariméricos 
+      +  Adição
+      -  Subtração
+      *  Subtração 
+      /  Divisão /forna real
+      %  Resto da divisão  inteira
+      ** Potência 
+
+      Prededência simples 
+      Quando tiver uma soma é uma divisão, sempre seré feito a divisão primeiro.
+      5 + 3 / 2
+
+      Para força para fazer primeiro a adição deve usar parenteses, isso é mudar a ondem de presência.
+      (5 + 3) / 2
+
+      As ordens de precedência são:
+
+      ()
+      **
+      * / % (Os trê operadores tem a mema ordem quem tiver primeiro ser[a executado).
+      + - 
+
+      Atribuição Simples 
+       =  ==> recebe
+       var a = 5 + 3
+       
+
+
+
+
+
+
+
+
+
+
+
+  
     
