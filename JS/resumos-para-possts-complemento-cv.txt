@@ -25,7 +25,8 @@ Number
 String
 
 Criando uma soma de dois núemros inteiros já convertendo de string para núemro.
-  /*Noma de dois numeros parseInt() converter string em n~umero*/
+    <script>
+       /*Noma de dois numeros parseInt() converter string em n~umero*/
        var n1 = Number.parseInt(window.prompt('Digite um númeor ')) //REcebe um valor string
          /*Convertar os dois operadores para números Number.parseInt() converter string em n~umero*/
        var n2 = Number.parseInt(window.prompt('Digite outro número'))//Recebe o valor string
@@ -36,4 +37,9 @@ Criando uma soma de dois núemros inteiros já convertendo de string para núemr
        window.alert('A soma dos valores e: ' + s)
         // numeber + number  para adição 
         // string +  string para concatenação
+    </script>
 
+    Palavras chavas para fazer pesquisas 
+    Tratamentos de dados é tipos de dados.
+    rem -->  font-size: atual
+    

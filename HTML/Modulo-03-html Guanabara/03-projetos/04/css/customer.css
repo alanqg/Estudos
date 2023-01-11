@@ -1,0 +1,100 @@
+/*Desenvolvido por: AqGoes*/
+/*Estilos Gerais*/
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+html, body{
+    font-family: var(--fonte01);
+    background-color: darkgray;
+    min-height: 100vh; 
+}
+
+/*Variáveis*/
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+
+/*Google Fontes*/
+/*Passion one*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*font-family: 'Passion One', cursive;*/
+
+/*Sriracha*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+/*Estilos do Cabeçalho*/
+header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    
+}
+header > h1{
+    font-family: var(--fonte02);
+    padding-top: 50px;
+    font-size: 10vw;
+       /*
+       Primeiro fomma para deixar a letra maiúsculas
+       text-transform: uppercase;
+       */ 
+       /*Segunda forma de deixar as letras maiúsculas*/
+       font-variant: small-caps; /*Todos os formatos maiúscukis, porém as primeiras letra das palavras são maiores*/
+
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+header a, footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+
+/*Estilos do coro do site*/
+/*Estilos mas as duas seções, tanto para normal, como imagem*/
+section{
+    font-family: var(--fonte03);
+    /*10% da vierport*/
+    padding: 10vh;
+    padding-bottom: 10vh;
+    /*Espaçamento na linda */
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    color: black;    
+}
+section.imagem{
+    background-color: rgba(51, 45, 45, 0.822);
+    color: #fff;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.226);
+
+}
+
+/*Rodapé*/
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
