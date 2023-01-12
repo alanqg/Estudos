@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Exemplo um</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+        table{
+             /*Largura das tabelas*/
+            width: 400px;
+            /*altura da tabela*/
+            height: 400px;
+            /*Juntando as bordas*/
+            border-collapse: collapse;
+
+        }
+        /*Colocando as bordas das tabelas*/
+        td{
+            border: 1px solid #000;
+            /*Espaçamento entre as tabelas*/
+            padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            /*Textos aliamento top vertical das tabelas*/
+            vertical-align: top;
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+    Hirarquia de tabela (Simples)
+    01- TABLE =Tabela
+        02- TABLE ROW = Linhas de tabela
+            03- TABLE HEADER = Cabeçalho de tabela
+                04 TABLE DATA = Dado de tabela
+    -->
+    <table>
+        <!--Primeira linda-->
+        <tr>
+            <!--Dados da primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <!--Segunda linda -->
+        <tr>
+            <!--Dados da segunda linda-->
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+
+        <!--Terceira linha-->
+        <tr>
+            <!--Dados da Segunda lihha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+
+        <!--Quarta linha -->
+        <tr>
+            <td>A4</td>
+            <td>C4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
