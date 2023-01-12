@@ -69,6 +69,39 @@ Criando uma soma de dois núemros inteiros já convertendo de string para núemr
        =  ==> recebe
        var a = 5 + 3
        
+        Operadores relacionais 
+        > Maior 
+        < Menor
+        >= Maior igual
+        <= Menos igual
+        == Igual
+        != Difetente
+Em uma exppressão sempre faz os operadores aritiméticos 
+Operador de identidade 
+===
+Exemplo de como usar o operador.
+5 == '5' --> true  '5' como string, não mostrar o valor string
+5 === '5' --> com essa novo operador de identidade mostrar o tipo de variável. Tem o mesmo valor, mas não tem o mesmo tipo.
+
+    Operadores lógicos.
+! -> Negação (NÂO)
+&& --> Conjunção (E)
+|| --> Desjunção (OU)
+
+Ordem de precedencia para os operadores lógicos 
+ ! (não)
+ && (E)
+ || (OU)
+ 
+
+
+
+
+
+
+
+
+       
 
 
 
