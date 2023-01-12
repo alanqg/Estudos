@@ -4,75 +4,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela Exemplo um</title>
+    <title>Uso de tabelas grandes</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-       
         table{
-             /*Largura das tabelas*/
-            width: 400px;
-            /*altura da tabela*/
-            height: 400px;
-            /*Juntando as bordas*/
+            width: 500px;
             border-collapse: collapse;
-
         }
-        /*Colocando as bordas das tabelas*/
-        td{
-            border: 1px solid #000;
-            /*Espaçamento entre as tabelas*/
-            padding: 8px;
-            text-align: center; /*Alinhamento horizontal*/
-            /*Textos aliamento top vertical das tabelas*/
-            vertical-align: top;
+        thead, tfoot{
+            background-color: grey;
+            color: #fff;
         }
-        .numero{
+        td, th{
+            border: 1px solid;
+            padding: 10px;
+        }
+        td.num{
+            background-color: crimson;
+            color: #fff;
             text-align: right;
         }
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
     <!--
-    Hirarquia de tabela (Simples)
-    01- TABLE =Tabela
-        02- TABLE ROW = Linhas de tabela
-            03- TABLE HEADER = Cabeçalho de tabela
-                04 TABLE DATA = Dado de tabela
+        Anatomia para tabelas grandes
+        TABLE
+            THEAD > cabeça da tabela
+                ( TR, TD, TH)
+            TBODY > Corpo da tabela
+                ( TR, TD, TH)
+            TFOOT > Rodapé da tabela
+                ( TR, TD, TH)
     -->
+    <h1>Tabela Grande</h1>
     <table>
-        <!--Primeira linda-->
-        <tr>
-            <!--Dados da primeira linha-->
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
-        </tr>
+        <!--Cabeça-->
+        <thead>
+            <tr>
+               <th>Estado</th>
+               <th>População</th>
+            </tr>
+        </thead>
 
-        <!--Segunda linda -->
-        <tr>
-            <!--Dados da segunda linda-->
-            <td>A2</td>
-            <td>B2</td>
-            <td class="numero">C2</td>
-        </tr>
+        <!--Corpo da tabela-->
+        <tbody>
+            <tr>
+                <td>São Paulo </td>
+                <td class="num">00 000 000</td>  
+            </tr><!--Primeiro estado com nome e quantidade da população-->
 
-        <!--Terceira linha-->
-        <tr>
-            <!--Dados da Segunda lihha-->
-            <td>A3</td>
-            <td>B3</td>
-            <td class="numero">C3</td>
-        </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">00 000 000</td>
+            </tr><!--Segundo estado com nome e quantidade-->
 
-        <!--Quarta linha -->
+            <tr>
+                 <td>Brasília</td>
+                <td class="num">00 000 000</td>
+            </tr><!--Terceiro estado com nome e quantidade-->
+
+            <tr>
+                <td>Minas Gerais</td>
+               <td class="num">00 000 000</td>
+           </tr><!--Terceiro estado com nome e quantidade-->
+
+           <tr>
+            <td>Bahia</td>
+           <td class="num">00 000 000</td>
+       </tr><!--Terceiro estado com nome e quantidade-->
+
+       <tr>
+            <td>Paraná</td>
+            <td class="num">00 000 000</td>
+        </tr><!--Terceiro estado com nome e quantidade-->
+
         <tr>
-            <td>A4</td>
-            <td>C4</td>
-            <td>C4</td>
-        </tr>
+            <td>Rio Grande do Sul</td>
+           <td class="num">00 000 000</td>
+       </tr><!--Terceiro estado com nome e quantidade-->
+
+       <tr>
+          <td>Pernambuco</td>
+          <td class="num">00 000 000</td>
+      </tr><!--Terceiro estado com nome e quantidade-->
+
+      <tr>
+        <td>Ceará</td>
+        <td class="num">00 000 000</td>
+     </tr><!--Terceiro estado com nome e quantidade-->
+
+     <tr>
+        <td>Pará</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Santa Catarina</td>
+        <td class="num">00 000 000</td>
+   </tr><!--Terceiro estado com nome e quantidade-->
+
+   <tr>
+        <td>Goiás</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Maranhão</td>
+       <td class="num">00 000 000</td>
+   </tr><!--Terceiro estado com nome e quantidade-->
+
+   <tr>
+     <td>Espirito Santo</td>
+     <td class="num">00 000 000</td>
+   </tr><!--Terceiro estado com nome e quantidade-->
+
+   <tr>
+     <td>Paríaba</td>
+     <td class="num">00 000 000</td>
+  </tr><!--Terceiro estado com nome e quantidade-->
+
+  <tr>
+     <td>Amazonas</td>
+     <td class="num">00 000 000</td>
+  </tr><!--Terceiro estado com nome e quantidade-->
+
+  <tr>
+    <td>Mato Grosso</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Rio Grande do Norte</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Piaui</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Alagoas</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Mato Grosso de Sul</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Sergipe</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+<tr>
+    <td>Rondônia</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Tocantins</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Acre</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Amapá</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->
+
+<tr>
+    <td>Roraíma</td>
+   <td class="num">00 000 000</td>
+</tr><!--Terceiro estado com nome e quantidade-->   
+</tbody>
+
+        <!--Rodapé da tabela-->
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="num"><strong>000 000 000</strong></td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
