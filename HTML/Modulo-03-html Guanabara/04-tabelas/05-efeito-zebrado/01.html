@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd) {/*no lugar de odd pode usar o 2n-1*/
+            background-color: chocolate;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even){ /*no lugar de even pode usar o 2n*/
+            /*De duas em duas linda vai ter a cor cinza*/
+            background-color: lightgray;
+           text-decoration: underline;
+        }
+        thead, tfoot{
+            background-color: grey;
+            color: #fff;
+        }
+        td, th{
+            border: 1px solid;
+            padding: 10px;
+        }
+        td.num{
+            background-color: crimson;
+            color: #fff;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Anatomia para tabelas grandes
+        CAPTION . Titulo da tabela
+        TABLE
+            THEAD > cabeça da tabela
+                ( TR, TD, TH)
+            TBODY > Corpo da tabela
+                ( TR, TD, TH)
+            TFOOT > Rodapé da tabela
+                ( TR, TD, TH)
+    -->
+    <h1>Tabela Grande</h1>
+ 
+    <table>
+        <caption>Federações das Unidades Federativas</caption>
+        <!--Cabeça-->
+        <thead>
+            <tr>
+               <th scope="col">Estado</th><!--Th tipo um titulo-->
+               <!--Para mostrar que o primeiro titulo e da pimrira coluna usa o seguinte comando scope="col" -->
+               <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+
+        <!--Corpo da tabela-->
+        <tbody>
+    <tr>
+        <td>São Paulo </td> <!--Dados tipo paragrafo-->
+        <td class="num">00 000 000</td>  
+    </tr><!--Primeiro estado com nome e quantidade da população-->
+
+    <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Segundo estado com nome e quantidade-->
+
+    <tr>
+        <td>Brasília</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Minas Gerais</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Bahia</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+     <tr>
+        <td>Paraná</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Pernambuco</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Ceará</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Pará</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Santa Catarina</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+    <td>Goiás</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Maranhão</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Espirito Santo</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Paríaba</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Amazonas</td>
+        <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Mato Grosso</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Rio Grande do Norte</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Piaui</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Alagoas</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Mato Grosso de Sul</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Sergipe</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+    <tr>
+        <td>Rondônia</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Tocantins</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Acre</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Amapá</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->
+
+    <tr>
+        <td>Roraíma</td>
+    <td class="num">00 000 000</td>
+    </tr><!--Terceiro estado com nome e quantidade-->   
+    </tbody>
+
+        <!--Rodapé da tabela-->
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num"><strong>000 000 000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
