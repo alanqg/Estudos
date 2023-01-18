@@ -1,0 +1,10 @@
+EXemplos de seletores para o css
+==> link referente aos estudos https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS
+
+	h1--> um exemplos de seletor.
+	{} --> dentro das chaves será colocado as declarações.
+	{
+		color: red; --> propriedade color com o valor red  
+	}
+Palavras chaves a ser pesquisada dentro do MDN
+"mdn color" e "mdn font-size"!
