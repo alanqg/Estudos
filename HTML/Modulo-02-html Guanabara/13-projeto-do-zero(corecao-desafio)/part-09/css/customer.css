@@ -4,6 +4,8 @@
 /*Google fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+
 /*Chamando fotnte local*/
 @font-face {
     font-family: 'Android';
@@ -38,6 +40,9 @@ body{
     /*Chamando a cor pela nome das variáveis em css*/
     background-color: var(--cor0);
     font-family: var(--font-padrao);
+}
+h2{
+    font-family: var(--font-android);
 }
 a.externo::after{
     content: '\00A0\1F517';
