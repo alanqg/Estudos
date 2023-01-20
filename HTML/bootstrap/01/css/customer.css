@@ -1,0 +1,19 @@
+/*EStudos Aqgoes*/
+
+/*Estilos Padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+span{
+    color: brown;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+}
