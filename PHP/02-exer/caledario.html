@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dia <?php echo date('d'); ?></title>
+    <style>
+        .horada{
+            width: 100%;
+            height: 150px;
+            background-color: red;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="horada">
+    <h1><?php "Titulo Dentro do H1"; ?></h1>
+    <h2>Estamos em <?php echo date('Y'); ?></h2>
+    <p>
+        Agora são <?php echo date('H'); ?>  horas e <?php echo date('i'); ?> minutos.
+    </p>
+</div>
+<br>
+<hr>
+        <?php 
+            function linha($semana)
+            {
+                echo "
+                    <tr>
+                        <td>{$semana[0]}</td>
+                        <td>{$semana[1]}</td>
+                        <td>{$semana[2]}</td>
+                        <td>{$semana[3]}</td>
+                        <td>{$semana[4]}</td>
+                        <td>{$semana[5]}</td>
+                        <td>{$semana[6]}</td>
+                    </tr>
+                ";
+            }
+
+            function caledario()
+            {
+                $dia = 1;
+                $semana = array();
+                while ($dia <= 31) {
+                    array_push($semana, $dia);
+
+                    if (count($semana) == 7) {
+                        linha($semana);
+                        $semana = array();
+                    }
+                    
+                    $dia++;
+                }
+
+            }
+        ?>
+        <table border="1">
+            <tr>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sab</th>
+            </tr>
+            <?php caledario(): ?>
+        </table>
+       
+</body>
+</html>
