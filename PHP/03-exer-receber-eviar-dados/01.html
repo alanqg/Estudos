@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gereancioador de Tarafas</title>
+    <title>Gerenciar Tarefas</title>
+    <style>
+        header.cabecalho{
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            background-color: #960;
+            margin-bottom: 15px;
+        }
+        header.cabecalho h1{
+            padding-top: 45px;
+            color: #fff;
+        }
+         section{
+            width: 850px;
+            height: 450px;
+       
+            margin: auto;
+            background-color: #ccc;
+        } 
+
+        fieldset{
+            border: none;
+        }  
+        form{
+            background-color: red;
+        }
+
+        table{
+            text-align: center;
+            width: 850px;
+            height: 40px;
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Gerencioador de Tarefas</h1>
+    
+    <header class="cabecalho">
+        <h1>Gerencioador de Tarefas</h1>
+    </header>
 
 
+    <section>
     <form>
         <fieldset>
             <legend>Nova Tarefa</legend>
@@ -20,8 +58,26 @@
             <input type="submit" value="Cadastrar">
         </fieldset>
     </form>
+    <?php
+       $lista_tarefas = array();
 
-
+       if (isset($_GET['nome'])) {
+        $lista_tarefas[] = $_GET['nome'];
+       }
+    ?>
     
+
+
+    <table>
+        <tr>
+            <th>Tarefas</th>
+            <?php foreach ($lista_tarefas as $tarefas) : ?>
+                <tr>
+                    <td><?php echo $tarefas; ?></td>
+                </tr>
+                <?php endforeach; ?>
+        </tr>
+    </table>
+    </section>
 </body>
 </html>
