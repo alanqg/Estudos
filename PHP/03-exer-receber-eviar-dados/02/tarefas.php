@@ -49,8 +49,7 @@
             border: none;
         }  
         form{
-            background-color: #024227;
-            color: #fff;
+            background-color: red;
             text-align: center;
             font-size: 20px;
             font-style: normal;
@@ -67,21 +66,21 @@
             padding: 5px 10px 5px  10px ;
             margin-left: 5px;
             border-radius: 40px;
-            background-color: #D93700;
+            background-color: blue;
             color: #fff;
         }
          section.resultado{
              width: 850px;
-            height: 540px;
+            height: 250px;
        
             margin: auto;
             background-color: #ccc;
         } 
        footer.rodape{
-            margin-top: 25px;
+        margin-top: 25px;
             width: 100%;
             height: 150px;
-            background-color: #770A07;
+            background-color: blue;
             color: #fff;
         }
         footer.rodape h2{
