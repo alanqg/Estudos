@@ -32,6 +32,27 @@
         background-color: #04aa6d;
         color: white;
     }
+    .topnav .icon{
+        display: none;
+    }
+    @media screen and (max-width: 600px) {
+        .topnav anot:(:first-child) { display: none; }
+        .topnav a.icon{
+            float: right;
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+    }
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav*/
 </style>
 </head>
 <body>
@@ -55,5 +76,17 @@
             Precisa remencionar a janela do navegador  para ver o resultado.
         </p>
     </section>
+
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.getElementsByClassName += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 </html>
