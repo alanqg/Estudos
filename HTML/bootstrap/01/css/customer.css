@@ -65,6 +65,10 @@ body{
     font-weight: normal;
 }
 
+/*aside*/
+aside{
+    position: fixed;
+}
 /*Titulos aside*/
 .titleaside{
     font-size: 40px;
