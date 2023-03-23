@@ -69,7 +69,7 @@ body{
 aside{
     position: fixed;
     border: solid royalblue 2px;
-    position: absolute;
+    color: blue;
 }
 /*Titulos aside*/
 .titleaside{
