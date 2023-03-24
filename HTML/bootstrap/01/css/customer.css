@@ -68,7 +68,7 @@ body{
 /*aside*/
 aside{
     position: fixed;
-    border: solid royalblue 2px;
+    border: solid royalblue 1px;
     color: blue;
 }
 /*Titulos aside*/
