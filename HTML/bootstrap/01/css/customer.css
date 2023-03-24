@@ -78,3 +78,9 @@ aside{
     font-weight: bold;
     color: burlywood;
 }
+
+/*Página de contato*/
+img {
+    width: 250px;
+    height: 250px;
+}
