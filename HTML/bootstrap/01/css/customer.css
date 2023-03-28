@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-weight: bold;
     font-style: normal;
@@ -25,7 +26,7 @@ body{
 }
 
 .esportes h2{
-    color: darkgreen;
+    color: #234419;
 }
 .esportes a{
     background-color: darkgreen;
@@ -36,14 +37,14 @@ body{
     color: darkgreen ;
 }
 .tecnoogia h2{
-    color: cadetblue;
+    color: #66937C;
 }
 .tecnoogia a{
     background-color: cadetblue;
     border: none;
 }
 .tecnoogia a:hover{
-    background-color: aliceblue;
+    background-color: #185738;
     color: cadetblue;
 }
 
@@ -120,7 +121,4 @@ img {
 }
 .sobre h2{
     margin-top: 20px;
-}
-.rodape{
-    position: relative;
 }
