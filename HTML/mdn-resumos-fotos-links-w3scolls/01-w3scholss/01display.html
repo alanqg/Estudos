@@ -69,6 +69,55 @@
             text-decoration: underline;
             color: black;
         }
+
+        .largura-max{
+            max-width: 100%;
+            height: 250px;
+            text-align: center;
+            background-color: rgb(165, 42, 42);
+            color: #fff;
+            margin-top: 5px;
+
+        }
+        .largura-max h2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-style: normal;
+        }
+        .largura-max p{
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+        }
+        .largura-max .exe1{
+            max-width: 100%;
+            margin: auto;
+            height: 50px;
+            background-color: chocolate;
+        }
+        .largura-max .exe1 p{
+            color: aqua;
+            font-size: 20px;
+            font-weight: 900;
+            font-style: normal;
+        }
+        .largura-max .exer2{
+            max-width: 650px;
+             height: 80px;
+             border: solid yellow 5px;
+            margin: auto;
+            color: burlywood;
+            background-color: crimson;
+            border-radius: 35px;
+        }
+        .largura-max .exer2 h2{
+            color: steelblue;
+            padding-top: 5px;
+        }
+        .largura-max .exer2 p{
+            padding-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -90,6 +139,21 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+    </div>
+
+
+    <div class="largura-max">
+        <h2>Largura máxima</h2>
+        <p>Cada elemento a seguir tem uma largaura máxima diferente um do outro</p>
+        <div class="exe1">
+            <p>Esse elemento tem uma larguda de <strong>100%</strong>  </p>
+        </div>
+        <br>
+
+        <div class="exer2">
+            <h2>Largura de 700px</h2>
+            <p>Essa elemento tem <strong>750px</strong>  de largura, com uma borda</p>
+        </div>
     </div>
 </body>
 </html>
