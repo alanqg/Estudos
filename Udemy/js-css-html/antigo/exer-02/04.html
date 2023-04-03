@@ -36,31 +36,23 @@
     <header>
         <h1>Modelos de Js</h1>
         <p>
-            Alguns exemplos dos curso JS da udemy. escrever duas <span>array</span> na tela com um br ecrever o nome da pessoa e a frura, tanto para o nome como para a fruta será a segunda opção.
+            Alguns exemplos dos curso JS da udemy. Criando um pequeno exemplo <span>if</span> em JavaScrpt 
 
         </p>
     </header>
 
 
+        <h1>If JavaScrpt</h1>
+            <p>
+                Criando um <span>if</span> de se o horário for menor que 18hs, então bom dia, se for mais que 18h boa noite.
+            </p>
+            <p class="demo">Boa noite</p>
+
+
     <script>
-    /*Array*/
-        var lista_coisa = Array();
-        
-        lista_coisa['frutas'] = Array();
-        lista_coisa['frutas'][1] = ' Banana' ;
-        lista_coisa['frutas'][2] = ' Maça';
-        lista_coisa['frutas'][3] = ' Morango';
-
-        lista_coisa['pessoas']= Array();
-        lista_coisa['pessoas'][1] = ' João';
-        lista_coisa['pessoas'][2] = ' José' ;
-        lista_coisa['pessoas'][3] = ' Alan';
-
-        document.write('Nome da pessoa:');
-        document.write(lista_coisa['pessoas'][2]);
-        document.write('<br>');
-        document.write('Nome da frutas:');
-        document.write(lista_coisa['frutas'][3]);
+        if(new Date().getHours() < 18) {
+            document.getElementById("demo").innerHTML = "Bom dia";
+        }
     </script>
 </body>
 </html>
