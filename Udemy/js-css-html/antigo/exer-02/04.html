@@ -30,6 +30,24 @@
         span{
             color: crimson;
         }
+        .aprova{
+            margin: auto;
+            padding-top: 2px;
+            width: 250px;
+            height: 50px;
+            background-color: aqua;
+            font-size: 45px;
+            color: #fff;
+        }
+        .resprov{
+            margin: auto;
+            padding-top: 2px;
+            width: 250px;
+            height: 50px;
+            background-color: black;
+            font-size: 45px;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -46,15 +64,21 @@
             </p>
 
 
-       <script>
+            <div class="central">
+                <h2>Meio </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet laboriosam ab soluta a, adipisci cum enim deserunt at harum quae consequuntur eius omnis non nesciunt beatae facilis sint aperiam fugiat.
+                </p>
+            </div>
+    <script>
         var nota = prompt("Digite a nota do alubo ");
-var media = 7;
+        var media = 7;
 
-if(nota >= media){
-    document.write('Aprovado');
-} else {
-    document.write('Reprovado')
-}
-       </script>
+        if(nota >= media){
+            document.write(' <div class="aprova"> Aprovado </div> ');
+        } else {
+            document.write(' <div class="resprov"> Reprovado </div> ')
+        }
+    </script>
 </body>
 </html>
