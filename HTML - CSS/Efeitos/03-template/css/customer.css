@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+.header-text h1{
+    font-size: 34px;
+}
+.quadrado{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0; 
+}
+.botão-header{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+   font-size: 15px;
+   line-height: 18px;
+   color: #777; 
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.linnha1{
+    width: 15px;
+    height: 15px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linnha2{
+    width: 80px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linnha3{
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.linha{
+    line-height: 8px;
+}
+
+
+
+
