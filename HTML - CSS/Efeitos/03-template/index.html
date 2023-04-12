@@ -29,6 +29,33 @@
     </section>
 
 
-    
+    <nav id="sidenav"> 
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </nav>
+
+
+    <img src="img/menu.png" alt="imagem menu" id="menuBtn">
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+            }
+            else{
+                sidenav.style.right - "-250px";
+            }
+        }
+    </script>
 </body>
 </html>
