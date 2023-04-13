@@ -79,6 +79,12 @@
     color: #E65632;
     font-size: 50px ;
 }
+.text-3{
+    text-align:  center;
+    color: #E65632;
+    font-size: 50px ;
+}
+
  </style>
 </head>
 
@@ -118,6 +124,16 @@
         <p id="demo2">Ao clicar no texto vai sumir o texto</p>
 
         <button type="button" onclick="document.getElementById('demo2').style.display='none'">Clique aqui</button>
+    </section>
+
+
+    <section class="text-3">
+        <h2>Aparecer outro texto</h2>
+        <p>
+            Java script pode mostrar elementos HTMl ocultos
+        </p>
+        <p id="demo3" style="display: none;">Olá JS</p>
+        <button type="button" onclick="document.getElementById('demo3').style.display='block'">Clique em mim!</button>
     </section>
 </body>
 </html>
