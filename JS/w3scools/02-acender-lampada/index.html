@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acender a luz</title>
+    <style>
+
+        /*Modelo criado para padrão de estudos*/
+        /*Paletas de cores --> https://www.colourlovers.com/palette/4910158/wave_1*/
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sedgwick+Ave+Display&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1, h2, h3, h4{
+           font-family: 'Tilt Prism', cursive;
+        }
+        header{
+           text-align: center;
+           color: #E65632;
+           font-size: 35px;
+           width: 100%;
+           height: 250px;
+           background-image: linear-gradient(#000000be, #07274d);
+           border-radius: 0 0 50% 50%;
+           border: 1px solid #E65632;
+
+        }
+    
+ header h1{
+    padding: 45px 0 45px 0;
+    text-align: center;
+ }
+ header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+ }
+ header a:hover{
+    text-decoration: underline;
+    color: #ccc;
+ }
+ section{
+    margin:  auto;
+ }
+    section{
+        margin-top: 45px;
+        width: 100%;
+        height: 350px;
+    }
+  
+ </style>
+</head>
+
+<body>
+    <header>
+        <h1>O que JS pode fazer?</h1>
+    </header>
+        
+
+
+    <section class="lampada">
+        <h2>Efeito acender lâmpada</h2>
+
+        <p>JavaScript pode alterar o valor do  atrubuto da imagem.</p>
+        <p> Nessa caso o javascript altera o valor do atrubuto SRC (fonte) de uma imagem</p>
+
+        <button onclick="document.getElementById('minhaimg').src='pic_bulbon.gif'">Clique para cender</button>
+
+        <img src="pic_bulboff.gif" id="minhaimg" style="width:100px" alt="Primeira imagem">
+
+
+      
+        <button onclick="document.getElementById('minhaimg').src='pic_bulboff.gif'">Clique para apagar</button>
+    </section>
+</body>
+</html>
