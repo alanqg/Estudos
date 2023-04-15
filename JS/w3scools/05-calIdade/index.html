@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Idade</title>
+    <style>
+        #resultado{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Calcule sua Idade</h1>
+    </header>
+    <div>
+        <h2 id="nome"></h2>
+    </div>
+    <button onclick="executar(event);">Executar</button>
+
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+
+    <script>
+       function executar(ev){
+
+        // http://stackoverflow.com/questions/7763327/how-to-calculate-date-difference-in-javascript
+
+        var dia = prompt("Digite o dia do nascimento.");
+        var mes =  prompt("Digite o mês de Nascimento.");
+        var ano = prompt("Digite o ano de Nascimento");
+
+
+        var dataNascimento = new Date(0 + ano, 0 + mes -1, 0 + dia );
+        var hoje = new Date();
+        var intervalo = hoje - dataNascimento;
+
+        var dias = parseInt((hoje - intervalo) / (24 * 3600 * 1000));
+
+        var d1y = dataNascimento.getFullYear();
+        var d2y = hoje.getFullYear();
+        var d1m = dataNascimento.getMonth();
+        var d2m = hoje.getMonth();
+
+
+        var meses = (d2m+12*d2y)-(d1m+12*d1y);
+        var anos = hoje.getFullYear() - dataNascimento.getFullYear();
+        alert("" + dias + ", " + meses + ", " + anos);
+
+       }
+    </script>
+</body>
+</html>
