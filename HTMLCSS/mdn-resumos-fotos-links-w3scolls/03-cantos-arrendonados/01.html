@@ -34,28 +34,28 @@
         color: cadetblue;
         text-decoration: underline;
        }
-       #paragrafo1{
-        /*25px de arredondamento*/
-            border-radius: 25px;
-            background-color: #73ad21;
-            padding: 20px;
-            width: 200px;
-            height: 150px;
-       }
        section{
         width: 100%;
         height: 450px;
         background-color: chocolate;
         margin-top: 10px;
        }
+       #paragrafo1{
+           float: left;
+            border-radius: 25px;
+            background-color: #73ad21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+       }
        #paraggrafo2{
         border-radius: 25px;
-        border: 2px solid#73ad21;
+        border: 2px solid #73ad21;
         padding: 20px;
         width: 200px;
         height: 150px;
-        float: right;
-        margin: -150px 1400px;
+        float: left;
+        margin: -150px 1000px;
        }
        #paragrafo3{
         border-radius: 25px;
@@ -67,7 +67,29 @@
         height: 150px;
 
         float: right;
-        margin: -150px 1100px;
+        margin: -150px 1020px;
+       }
+
+       .secao-centro{
+        box-shadow: 10px 10px 8px tomato;
+        width: 80%;
+        margin: 90px 0 50px 150px;
+        height: 250px;
+        text-align: center;
+        background-color: rgb(34, 14, 0);
+        color: #fff;
+       }
+
+       .secao-centro h2{
+        font-size: 45px;
+        padding-top: 50px;
+        /*Sobre para texto*/
+        text-shadow: 2px 3px 8px tomato;
+
+       }
+       .secao-centro p{
+        padding-top: 25px;
+        font-size: 30px;
        }
     </style>
 </head>
@@ -92,9 +114,14 @@
     <p id="paragrafo3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
+</section>
 
+<section class="secao-centro">
+    <h2>Sombreamento </h2>
 
-
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident dolore incidunt earum odit, commodi ipsa? Hic totam sint nesciunt illum, adipisci blanditiis dolorum iste dolorem possimus, rem neque provident.
+    </p>
 </section>
 </body>
 </html>
