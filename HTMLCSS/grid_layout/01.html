@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+    <style>
+       .item1{
+        grid-area: header;
+       }
+       .item2{
+        grid-area: menu;
+       }
+       .item3{
+        grid-area: main;
+       }
+       .item4{
+        grid-area: right;
+       }
+       .item5{
+        grid-area: footer;
+       }
+       .grid-container{
+        display: grid;
+        grid-template-areas: 'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+        gap: 10px;
+        background-color: brown;
+        padding: 10px;
+       }
+       .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+       }
+
+       /*SEgundo bloco*/
+       .grid-container2{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: cadetblue;
+            padding: 10px;          
+       }
+       .itemgrid{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+       }
+       .grid-container3{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        background-color: chocolate;
+        padding: 10px;
+       }
+       .item001{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+       }
+
+
+       /*Terceira seção*/
+       .grid-container4{
+        display: grid;
+        columns: 50px;
+        grid-template-columns: auto auto auto;
+        background-color: darkkhaki;
+        padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grid Css</h1>
+    </header>
+
+    <section>
+        <h2>Grid & Flex box</h2>
+        <p>Primeira tecnologia grid, depois veio o flex box. Gid  beseado em grades com linhas e colunas    uw faliciatam o design da página. <br> Abaixe será mostra um llayout com o suste de grades gris</p>
+    </section>
+    
+
+    <h1>Grid layout</h1>
+    <p>Layout de grades comtém seis colunase três linhas</p>
+
+    <div class="grid-container">
+        <div class="item1">Cabeçalho</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Conteúdo principal</div>
+        <div class="item4">Lado Direito</div>
+        <div class="item5">Rodapé</div>
+    </div>
+
+    <h2>Exibindo grade</h2>
+    <p>Usando exbição de grade para criar um container com um nível de bloco</p>
+     <div class="grid-container2">
+        <div class="itemgrid">UM</div>
+        <div class="itemgrid">DOIS</div>
+        <div class="itemgrid">TRÊS</div>
+        <div class="itemgrid">QUATRO</div>
+        <div class="itemgrid">CINCO</div>
+        <div class="itemgrid">SEIS</div>
+        <div class="itemgrid">SETE</div>
+        <div class="itemgrid">OITO</div>
+        <div class="itemgrid">NOVA</div>
+     </div>
+
+     <h2>Exibição em grade linha</h2>
+     <p>Exibição de grade em linha, para criar um container de grade em linha</p>
+     <div class="grid-container3">
+        <div class="item001">Um</div>
+        <div class="item001">Dois</div>
+        <div class="item001">Três</div>
+        <div class="item001">Quatro</div>
+        <div class="item001">Cinco</div>
+        <div class="item001">Seis</div>
+        <div class="item001">Sete</div>
+        <div class="item001">Oito</div>
+        <div class="item001">Nove</div>
+     </div> 
+
+
+     <h2>Propriedade de espaçamento entre as colunas</h2>
+     <p>A Propriedade column-gap para ajustar entre as colunas</p>
+
+     <div class="grid-container4">
+        <div class="item0005">Um</div>
+        <div class="item0005">Dois</div>
+        <div class="item0005">Três</div>
+        <div class="item0005">Quatro</div>
+        <div class="item0005">Cinco</div>
+        <div class="item0005">Seis</div>
+        <div class="item0005">Sete</div>
+        <div class="item0005">Oito</div>
+        <div class="item0005">Nove</div>
+     </div>
+
+</body>
+</html>
