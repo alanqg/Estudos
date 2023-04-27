@@ -1,5 +1,5 @@
     /*Estilos Gerais*/
-    body, ul, li{
+    body, ul, li p{
         margin: 0;
         padding: 0;
         list-style: none;
@@ -8,6 +8,7 @@
     }
     a{
         text-decoration: none;
+        color: #fff;
     }
     h1{
         text-align: center;
@@ -42,13 +43,19 @@
         display: block;
         padding: 10px;
     }
+
+    /*Css flex box*/
     .flexbox{
         /*Imagens uma do lado da outro devido ao display flex na divi principal, container principal*/
         display: flex;
         /*Quebrar a linha*/
         flex-wrap: wrap;
+        /*Largura máxima*/
+        max-width: 800px;
+        /*Alinhando ao centro*/
+        margin: 0 auto;
     }
     .flexbox > div{
-        /*espandir, menor, base de 200px  */
         flex: 1 1 200px;
+        margin: 10px;
     }
