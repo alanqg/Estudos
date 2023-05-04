@@ -1,0 +1,75 @@
+    /*Estilos Gerais*/
+    body, ul, li p{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: arial;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+    img{
+        /*Tamanho máximo de 100%*/
+        max-width: 100%;
+        display: block;
+    }
+    .header{
+        background-color: teal;
+        display: flex;
+        /*PAra deixar a logo na parte de cima os menus me baixo em telas menores*/
+        flex-wrap: wrap;
+        /*Colocando um espaçamento entre os itens logo e o memu*/
+        justify-content: space-between;
+        /*Alinhando os itens*/
+        align-items: center;
+        padding: 20px;
+
+        
+    }
+    .menu{
+        display: flex;
+
+    }
+    .menu li{
+        margin-left: 10px;
+    }
+    .menu li a{
+        display: block;
+        padding: 10px;
+    }
+
+   .grid-04{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 10px;
+   } 
+   .grid3-item:nth-child(1) {
+      /*Ocupando dá linda um até a linha três*/
+    grid-row: 1 / 3;
+
+   }
+   .grid3-item {
+    display: grid;
+   }
+   .grid3-item img{
+    grid-column: 1;
+    grid-row: 1/3;
+    align-self: end;
+   }
+   .grid3-item p{
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10;
+        color: white;
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
+   }

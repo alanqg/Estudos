@@ -1,0 +1,61 @@
+    /*Estilos Gerais*/
+    body, ul, li p{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: arial;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+    img{
+        /*Tamanho máximo de 100%*/
+        max-width: 100%;
+        display: block;
+    }
+    .header{
+        background-color: teal;
+        display: flex;
+        /*PAra deixar a logo na parte de cima os menus me baixo em telas menores*/
+        flex-wrap: wrap;
+        /*Colocando um espaçamento entre os itens logo e o memu*/
+        justify-content: space-between;
+        /*Alinhando os itens*/
+        align-items: center;
+        padding: 20px;
+
+        
+    }
+    .menu{
+        display: flex;
+
+    }
+    .menu li{
+        margin-left: 10px;
+    }
+    .menu li a{
+        display: block;
+        padding: 10px;
+    }
+
+    /*Css flex box*/
+    .flexbox{
+        /*Imagens uma do lado da outro devido ao display flex na divi principal, container principal*/
+        display: flex;
+        /*Quebrar a linha*/
+        flex-wrap: wrap;
+        /*Largura máxima*/
+        max-width: 800px;
+        /*Alinhando ao centro*/
+        margin: 0 auto;
+    }
+    .flexbox > div{
+        flex: 1 1 200px;
+        margin: 10px;
+    }

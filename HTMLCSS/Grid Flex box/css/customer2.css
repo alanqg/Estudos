@@ -1,0 +1,95 @@
+    /*Estilos Gerais*/
+    body, ul, li p{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: arial;
+    }
+    body{
+        margin-bottom: 100px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+    img{
+        /*Tamanho máximo de 100%*/
+        max-width: 100%;
+        display: block;
+    }
+    .header{
+        background-color: teal;
+        display: flex;
+        /*PAra deixar a logo na parte de cima os menus me baixo em telas menores*/
+        flex-wrap: wrap;
+        /*Colocando um espaçamento entre os itens logo e o memu*/
+        justify-content: space-between;
+        /*Alinhando os itens*/
+        align-items: center;
+        padding: 20px;
+
+        
+    }
+    .menu{
+        display: flex;
+
+    }
+    .menu li{
+        margin-left: 10px;
+    }
+    .menu li a{
+        display: block;
+        padding: 10px;
+    }
+    .grid{
+        display: grid;
+        /*Quantidada de colunas*/
+        /*grid-template-columns: 1fr 1fr 1fr; --> opção de 100% em tês parte*/
+        /*Modelo igual comando só que abreviado*/
+        grid-template-columns: repeat(3, 1fr);
+        max-width:  800px;
+        padding: 10px;
+        margin: 0 auto;
+        /*Espaçamento entre caixas "Divs"*/
+        grid-gap: 20px;
+
+
+    }
+
+    /*estilos para as três primeiras divs aparti do 4 item*/
+    .grid > div:nth-child(n + 4){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        /*Centralizando os itens ao centro*/
+        align-items: center;
+    }
+    .grid > div.anuncio{
+        grid-column: 1;
+        grid-row: 2 /5;
+        border-top: 10px solid tomato;
+        display: block;
+    }
+
+    
+    /*Parte responsiva media query*/
+    @media ( max-width: 600px ){
+        .grid{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .grid > div:nth-child(n + 4){
+            display: block;
+        }
+        .grid > div.anuncio{
+            grid-column: auto;
+            grid-row: auto;
+            /*Mudando o anúncio para ser o primeira posição essa posição não muda no DOM*/
+            order: -1;
+        }
+
+    }
