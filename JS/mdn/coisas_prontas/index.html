@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha Número</span></title>
+</head>
+<body>
+    <p class="palpite"></p>
+    <p class="ultimoResultado"></p>
+    <p class="baixoOuAlto"></p>
+    
+    <label for="campoPalpite">Digite seu Palpite</label>
+    <input type="text" id="campoPalpite" class="campoPalpite">
+    <input type="submit" value="Enviar Palpite" class="envioPalpite">
+    <script>
+        var numeorAleatorio= Math.floor(Math.random() * 100) + 1;
+
+        var palpites = document.querySelector('.palpite');
+        var ultimoRsultado = document.querySelector('.ultimoResultado');
+        var baixoOuAlto = document.querySelector('.baixoOuAlto');
+
+        var envioPalpite = document.querySelector('envioPalpite');
+        var campoPalpite =document.querySelector('campoPalpite');
+
+        var contagemPalpite =  1;
+        var botaoReinicar;
+
+    </script>
+</body>
+</html>
