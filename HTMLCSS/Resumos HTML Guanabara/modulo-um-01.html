@@ -6,41 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro Modulo</title>
     <style>
+
+        /*EStilos Gerais*/
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+        body{
+            background-color: burlywood;
+        }
+
+
+        /*Cabeçalho*/
         header{
             height: 150px;
             width: 100%;
             background-color: brown;
             text-align: center;
+            box-shadow: 1px 3px 10px black;
+            border-radius: 0 0 5px 5px;
         }
         
         header h1{
+            text-shadow: black 2px 3px 4px;
             padding-top: 50px;
             color: #fff;
         }
 
+        /*Corpo do site*/
         main{
             display: flex;
-            margin-top: 10px;
+            padding: 10px 0 10px 0;
         }
+
+        /*Caixa do corpo do site*/
          #modulo-um{
             width: 70%;
             height: 800px;
             background-color: aquamarine;
+            box-shadow: 1px 3px 10px black;
+            border-radius: 10px;
         }
+        
+        #modulo-um h2, p{
+            margin: 10px 0 10px 15px;    
+        }
+
+
+
+
+
+        /*Lateral*/
         .laleral{
             width: 30%;
-            background-color: burlywood;
+            background-color: tomato;
+            box-shadow: 1px 3px 10px black;
             margin-left: 10px;
+            border-radius: 10px;
 
         }
-        .laleral h4{
-            color: tomato;
-            text-align: center;
+        .laleral h3, h4{
+            color: #000;
+            margin: 10px 0 10px 5px;
+        }
+        .laleral p{
+            color: #fff;
+            margin: 10px 0 10px 5px;
+        }
+        .laleral a{
+            margin: 10px 0 10px 5px;
+            color: yellow;
+        }
+        footer{
+            margin-top: 5px;
+            border-radius: 5px;
+            text-align: center; 
+            box-shadow: 1px 3px 10px black;
+            background-color: chocolate;
+            color: #fff;
+        }
+        footer h2{
+            padding-top: 10px;
+            
+        }
+        footer p{
+            padding-top: 10px;
+            
         }
     </style>
 </head>
@@ -87,6 +139,9 @@
         </aside>
     </main>
 
-
+<footer>
+    <h2>Aqgoes</h2>
+    <p>Desenvolvimento</p>
+</footer>
 </body>
 </html>
