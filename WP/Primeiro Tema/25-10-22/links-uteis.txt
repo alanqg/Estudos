@@ -1,8 +1,0 @@
-==> Loop Wp Documentação WP
-
-https://codex.wordpress.org/pt-br:O_Loop
-
-
-==> Tutorias JS developer.mozilla
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript

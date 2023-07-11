@@ -1,5 +1,0 @@
-Servidor local --> laragon-wamp
-	Para criar um tema wp deve entender a
-hirarquia dos modelos de arquivos, dois 
-principais modelos são a idenx.php é style.css
-	
