@@ -9,4 +9,5 @@ https://developer.wordpress.org/reference/functions/wp_nav_menu/
 
 # > Quando foi criado o loop para mostrar foi data uma dica que quando fot mostrar algum comando com para get na frente se não funcionar usar oa para echo para chamar o valor.
 # > Ao se criar essas loops também servira tanto para as páginas como para os posts, com será criado loop especifigos para as páginas como para os posts.
-# > 
+# > Para mudar essa confirações será necessário criar modelos de páginas, template page.
+# > Outro forma que criar modelos de página é arquivo de templates, esse modelo pode ser reutilizado para outras páginas ao criar uma págima para uma opção de modelos de página nos menus ao lado direto do painel de criação de página.
