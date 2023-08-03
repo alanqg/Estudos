@@ -20,6 +20,7 @@ https://developer.wordpress.org/reference/functions/wp_nav_menu/
     */
 ?>
 Essa página foge da página padrão.
-
+# > /*theme_suporte*/ Função wp para habilitatr vários suporte para o wp como cabeçalho personalizado, miniaturas de imagens para os posts etc.
+ 
 
 
