@@ -5,3 +5,8 @@
 Links úteis 
 # > assundo relacioando os argumentos dos menus
 https://developer.wordpress.org/reference/functions/wp_nav_menu/
+
+
+# > Quando foi criado o loop para mostrar foi data uma dica que quando fot mostrar algum comando com para get na frente se não funcionar usar oa para echo para chamar o valor.
+# > Ao se criar essas loops também servira tanto para as páginas como para os posts, com será criado loop especifigos para as páginas como para os posts.
+# > 
