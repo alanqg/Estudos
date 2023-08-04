@@ -1,0 +1,26 @@
+/* Top Bar Section */
+.social-media-icons{
+	background: green;
+	height: 30px;
+}
+.search{
+	background: yellow;
+	height: 30px;
+}
+
+/* Menus */
+.main-menu ul li, .footer-menu ul li{ 
+	display: inline; 
+}
+.img  h2{
+	background-color: rgb(95, 9, 9);
+	text-align: center;
+	border-radius: 20px;
+	color: #fff;
+}
+.video h2 {
+	background-color: chartreuse;
+	text-align: center;
+	border-radius: 20px;
+	color: brown;
+}
