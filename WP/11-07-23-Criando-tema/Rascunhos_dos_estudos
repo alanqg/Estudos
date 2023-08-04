@@ -36,6 +36,16 @@ Essa página foge da página padrão.
 Aula 19 foi removido a parte o loop do artigo para ideex para um arqui em parte, para ser chamado para outros arquivos com o mesmo loop em algum montentos. Nome do arquivo em questão é o content.php. E será chamando essa arquivo dentro a idnex com o cmando <?php get_template_part( 'templates_parts/content' );?>
 primeiro parametro é o cominho do aquivo sem o .php
 
+    Formatos de posts 
+# > Ao adicionar a função aa add_theme_sopprt com os paramentros post-formats depois colocar outro paramentro para os tipos de posts.
+ 
+ # > Para dois formar de post deve usar o seguinte comando
+  add_theme_support( 'post-formats', array( 'image', 'video') ); e segunda paramentro é um arrey para os tipos de postsno caso de videos e imagem. Os formatos serão para todos os posts ao criar um.
+
+
+
+
+
 
 
 
