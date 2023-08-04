@@ -1,0 +1,26 @@
+.social-media-icons{
+    background-color: green;
+    height: 30px;
+}
+.search{
+    background-color: yellow;
+    height: 30px;
+} 
+.menu ul li, .footer-menu ul li {
+    display: inline;
+  
+}
+/*Confiração extra no estudante no caso eu!!*/
+.menu ul li a, .footer-menu ul li a{
+    text-decoration: none;
+}
+/*Tab criado depois que adionnado o comando para chamar a miniatura de imagem com theme support*/
+.wp-post-image{
+   float: left;
+   margin: 0 15px 10px 0;
+
+}
+/*class blag foi criado pelo WP através do comando <?php body_class(); ?> colocado na tab body*/
+.blog article{
+    display: inline-block;
+}
