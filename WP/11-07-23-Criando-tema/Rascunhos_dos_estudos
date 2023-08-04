@@ -29,6 +29,15 @@ Essa página foge da página padrão.
 # > /*theme_suporte*/ Função wp para habilitatr vários suporte para o wp como cabeçalho personalizado, miniaturas de imagens para os posts etc.
 
 # > Ao criar o theme supporte para as imagens em destaque é fazezr a chamado local onde o cliente que que fique, ao inspecionar o elemento encima da magem terá uma classe com o nome wp-post-image, com será possivel fazer mais estilizações na imagem.
+            
+                Pricipais pontos de pesquisas
+        # > theme_support
+        # > template parts
+Aula 19 foi removido a parte o loop do artigo para ideex para um arqui em parte, para ser chamado para outros arquivos com o mesmo loop em algum montentos. Nome do arquivo em questão é o content.php. E será chamando essa arquivo dentro a idnex com o cmando <?php get_template_part( 'templates_parts/content' );?>
+primeiro parametro é o cominho do aquivo sem o .php
+
+
+
 
 
 
