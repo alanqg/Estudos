@@ -42,8 +42,9 @@ primeiro parametro é o cominho do aquivo sem o .php
  # > Para dois formar de post deve usar o seguinte comando
   add_theme_support( 'post-formats', array( 'image', 'video') ); e segunda paramentro é um arrey para os tipos de postsno caso de videos e imagem. Os formatos serão para todos os posts ao criar um.
 
-
-40040104
+    O que foi feito até agora?
+Looo menus, imagem de destaque, modelos de páginas, templates parts.
+ 
 
 
 
