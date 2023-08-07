@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    color: teal;
+}
+.logo:hover{
+    color: rgba(0, 0, 255, 0.473);
+}
+.menu ul li {
+    display: inline;
+    font-size: large; 
+}
+
+.menu ul li a{
+    color: teal;
+    margin: 0px 0 0 60px;
+}
+.menu ul li a:hover{
+    color: rgba(0, 0, 255, 0.473);
+    text-decoration: overline;
+}
+.menu-footer ul li{
+    display: inline;
+    margin: 0 0 0 30px;
+ 
+}
+.menu-footer ul li a{
+   color: teal;
+}
+.menu-footer ul li a:hover{
+    color: rgba(0, 0, 255, 0.473);
+    text-decoration: overline;
+}
