@@ -44,6 +44,7 @@ primeiro parametro é o cominho do aquivo sem o .php
 
     O que foi feito até agora?
 Looo menus, imagem de destaque, modelos de páginas, templates parts.
+WP_Query --> Função que musa o loop padrão do wp
  
 
 
