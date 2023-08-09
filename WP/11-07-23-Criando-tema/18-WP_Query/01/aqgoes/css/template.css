@@ -1,0 +1,183 @@
+/*Fontes do projeto.*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*EStilos Gerais*/
+body{
+    font: 16px/1.6 'Oswald', sans-serif;
+}
+body p{
+    font: 16/1.6 'Lato', sans-serif;
+}
+h1{
+    font-size: 28px;
+    margin: 15px 0 15px;
+}
+h2{
+    font-size: 24;
+    margin-top: 0;
+}
+h3{
+    font-size: 20px;
+    margin-top: 0;
+}
+h4{
+    font-size: 18px;
+    margin-top: 0;
+}
+.top-bar{
+    background-color: #b9121b;
+    color: #fff;
+    padding: 15px 0;
+}
+
+
+/*Header*/
+.menu-area{
+    background-color: #f3f3f3;
+    padding: 15px 0;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+}
+.menu ul li{
+    display: inline;
+    margin: 0 30px 0 0;
+}
+.menu ul li:last-child{
+    margin: 0;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    color: #4c1b1b;
+    text-decoration: none;
+}
+/*Menu home me destaque*/
+.menu ul li.current-menu-item a{ 
+    color: #e58888;
+}
+
+/*Slider*/
+.slide{
+    padding: 25px 0;
+}
+
+/*Serviços*/
+.services{
+    background-color: #4c1b1b;
+    padding: 25px 0;
+    color: #fefefe;
+}
+.services h1{
+    text-align: center;
+    color: #fcfae1;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.services .widget-wrapper{
+    text-align: center;
+}
+.services .widget-wrapper h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #f6e497;
+    font-weight: 200;
+}
+.services .widget-wrapper:first-child{
+    padding: 15px 0;
+}
+.services .widget-wrapper img{
+    border:  15px solid #fff;
+}
+
+/*Maddle Area*/
+.middle-area{
+    padding: 25px 0;
+}
+.middle-area h1{
+    color: #4c1b1b;
+    text-decoration: underline;
+}
+/*Maddle Area Sibebar*/
+.sidebar{
+    background-color: #f6e497;
+    padding: 20px;
+    margin: 0 0 30px;
+}
+
+
+
+
+
+/*Blog*/
+.blog article{
+    display: inline-block;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.blog article h2{
+    margin-bottom: 15px;
+}
+.blog article p > img{
+    width: 100%;
+    height: auto;
+}
+.blog .meta-info p{
+    line-height: 1em;
+    font-weight: bold;
+}
+.blog p > a {
+    color: #9d9d9d;
+    font-weight: normal;
+}
+
+/*Classe criada ao adionar comando da imagem para o posts, via wp*/
+.wp-post-image{
+    float: left;
+    margin:  0 15px 10px 0;
+}
+.format-image h2{
+    color: #fff;
+    background-color: #717171;
+    padding: 15px;
+}
+.format-video  h2{
+    color: #fff;
+    background-color: #211e1e;
+    padding: 15px;
+}
+.format-standard h2{
+    color: #444;
+    background-color: #d2d2d2;
+    padding: 15px;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: #000;
+    padding: 15px 0;
+    color: #fcfae1;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.footer-menu ul li{
+    display: inline;
+    margin: 0 15px 0 0;
+}
+.footer-menu ul li:last-child{
+    margin: 0;
+}
+.footer-menu ul li a{
+    color: #e58888;
+}
+
+
