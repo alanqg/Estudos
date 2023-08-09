@@ -42,6 +42,9 @@ primeiro parametro é o cominho do aquivo sem o .php
  # > Para dois formar de post deve usar o seguinte comando
   add_theme_support( 'post-formats', array( 'image', 'video') ); e segunda paramentro é um arrey para os tipos de postsno caso de videos e imagem. Os formatos serão para todos os posts ao criar um.
 
+  # > Para criar os estilos diferentes para cada tipo de notícia, foi criaddo uma arqui para tipo de post videos outro para imagem é uma para os psots padrões, dentro da tag article o mesmo comando dando para o boby para criar novas class na página onde está o comando no caso wp-image etc.
+  
+
     O que foi feito até agora?
 Looo menus, imagem de destaque, modelos de páginas, templates parts.
 WP_Query --> Função que musa o loop padrão do wp
