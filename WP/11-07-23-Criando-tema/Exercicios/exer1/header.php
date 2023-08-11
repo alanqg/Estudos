@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AqGoes</title>
+    <title>Estudo</title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+    <h1>Cabeçalho</h1>    
 
-<header>
-    <h1>Eu</h1>
-</header>
