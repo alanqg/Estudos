@@ -1,5 +1,18 @@
-<?php get_header();  ?>
-    <h1>AqGoES</h1>
+<?php get_header(); ?>
+
+<?php
+    if(have_posts() ):
+        while( have_posts() ): the_post();
+?>
+    <?php get_template_part('template-parts/content', get_post_format() ); ?>
+
+<?php endwhile; ?>
+<?php else: ?>
+
+    <p>Nada para mostrar</p>
+
+<?php endif; ?>
+
 
 
 <?php get_footer(); ?>

@@ -9,4 +9,19 @@
         wp_enqueue_style('customer', get_template_directory_uri(). '/css/customer.css', array(), '1.0', 'all');
     }
     add_action('wp_enqueue_scripts', 'carregando_scripts');
+
+
+    /*Config do site*/
+    function confisite(){
+        register_nav_menus(
+            array(
+                'menu_topo' => 'Menu Principal',
+                'menu_secudario' => 'Menu Segudário'
+            )
+        );
+
+
+        
+    }
+    add_action('after_setup_theme', 'confisite');
 ?>

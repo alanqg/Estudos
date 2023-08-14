@@ -1,0 +1,16 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+h1, h2{
+    font-family: 'Tilt Prism', cursive;
+}
+
+
+/*EStilos menus*/
+nav, .menu-header ul li {
+    display: inline;
+}
+
+nav, .menu-footer ul li{
+    display: inline;
+}
