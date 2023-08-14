@@ -1,16 +1,42 @@
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
-h1, h2{
+h1, h2, h3, h4{
     font-family: 'Tilt Prism', cursive;
 }
 
-
+/*header*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: burlywood;
+}
+header .logo{
+    margin-top: 30px;
+    color: maroon;
+    font-weight: bold;
+    font-style: normal;
+}
 /*EStilos menus*/
 nav, .menu-header ul li {
     display: inline;
+    margin: 10px;
+    font-size: 25px;
+}
+nav, .menu-header ul li a{
+    list-style: none;
+    color: maroon;
 }
 
 nav, .menu-footer ul li{
     display: inline;
+}
+
+
+
+/**Posts**/
+/*Post padrão*/
+article .format-standard img{
+    border: solid #000 5px 3px;
+    border-radius: 35px;
 }

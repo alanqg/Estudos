@@ -10,9 +10,11 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-4"><h1>AqGoeS</h1></div>
+
+                <div class="col-md-4 logo"><h1>AqGoeS</h1></div>
+                
                 <div class="col-md-8">
-                    <nav class="menu-header">
+                    <nav class="menu-header text-end">
                         <?php
                             wp_nav_menu(
                                 array(
