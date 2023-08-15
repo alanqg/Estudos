@@ -25,6 +25,21 @@
         add_theme_support( 'post-thumbnails');
 
     }
-    
     add_action('after_setup_theme', 'confisite');
+
+    //Sidebar
+    function sidebars(){
+        regsiter_sidebar(
+            array(
+                'name' => 'Sidebar Blog',
+                'id' => 'sidebar_blog',
+                'description' => 'Sidebar do Blog',
+                'before_widget' => '<div class="widget-wrapper">',
+                'after_widget' => '</div>',
+                'before_title' => '<h2 class="widget-title">',
+                'after_title' => '</h2>'
+            )
+        );
+    }
+ 
 ?>

@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 copyright">
         <p>Copyright</p>
         </div>
 
