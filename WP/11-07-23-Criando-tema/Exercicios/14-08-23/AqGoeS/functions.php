@@ -27,12 +27,13 @@
     }
     add_action('after_setup_theme', 'confisite');
 
-    //Sidebar
+     //Sidebar
+    add_action('widgets_init', 'sidebars');
     function sidebars(){
-        regsiter_sidebar(
+        register_sidebar(
             array(
                 'name' => 'Sidebar Blog',
-                'id' => 'sidebar_blog',
+                'id' => 'sidebar-blog',
                 'description' => 'Sidebar do Blog',
                 'before_widget' => '<div class="widget-wrapper">',
                 'after_widget' => '</div>',

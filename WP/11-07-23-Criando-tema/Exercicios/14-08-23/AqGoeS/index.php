@@ -2,10 +2,8 @@
     <article>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <?php get_sidebar(); ?>
-                </div>
-                <div class="col-md-8">
+               <?php get_sidebar('blog'); ?>
+                <div class="col-md-7">
                      <?php
                         if(have_posts() ):
                             while( have_posts() ): the_post();

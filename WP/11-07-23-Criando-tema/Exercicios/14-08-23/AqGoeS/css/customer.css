@@ -49,6 +49,9 @@ nav, .menu-header ul li a:hover{
 
 /**Posts**/
 /*Post padrão*/
+.format-standard h2{
+    margin: 10px 30px 30px 0;
+}
 article .format-standard img{
     box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.408);
     border-radius: 35px;
@@ -57,7 +60,12 @@ article .format-standard img{
 
 
 
+/*Sidebar*/
+ .sidebar{
+    box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.408);
+    margin: 15px 5px 0 0 ;
 
+}
 
 
 /*footer*/
