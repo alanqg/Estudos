@@ -23,7 +23,8 @@
         //Theme_support
         //Imagem de destaque para os posts
         add_theme_support( 'post-thumbnails');
-
+        //Formatos de posts
+        add_theme_support( 'post-formats', array( 'video', 'image'));
     }
     add_action('after_setup_theme', 'confisite');
 

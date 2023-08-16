@@ -20,11 +20,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-8"> 
-                    Artigos
-                </div>
+            <div class="col-md-8"> 
+                asasasasa
 
-                <div class="col-md-4">Sidebar</div>
+            </div>
             </div>
         </div>
     </section>

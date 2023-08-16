@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <article>
+    <article <?php post_class(); ?>>
         <div class="container">
             <div class="row">
                <?php get_sidebar('blog'); ?>
