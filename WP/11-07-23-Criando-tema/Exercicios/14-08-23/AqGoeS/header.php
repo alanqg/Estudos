@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,22 +11,19 @@
     <header>
         <div class="container">
             <div class="row">
+                <div class="col-md-4">
+                    <h1>AqGoeS</h1> 
+                    <p>Desevovimento</p>
+                </div>
 
-                <div class="col-md-4 logo"><h1>AqGoeS</h1></div>
-                
-                <div class="col-md-8">
-                    <nav class="menu-header text-end">
-                        <?php
-                            wp_nav_menu(
-                                array(
-                                    'theme_location' => 'menu_topo'
-                                )
-                            );
+                <nav class="menu">
+                    <div class="col-md-4">Menu</div>
+                </nav>
 
-                        ?>
-                    </nav>
+                <div class="col-md-4">
+                    Search
                 </div>
             </div>
         </div>
-        
+       
     </header>
