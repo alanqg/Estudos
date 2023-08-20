@@ -12,6 +12,24 @@
         //css customer
     wp_enqueue_style('customer', get_template_directory_uri() . '/css/customer.css', array(), '1.0', 'all');
     }
+    //Estilos
     add_action('wp_enqueue_scripts', 'carregar_script');
 
+    function config_tema(){
+        
+        //Registrar menus
+        register_nav_menus(
+            array(
+                'menu_principal' => 'Menu do Topo',
+                'menu_segudario' => 'Menu Secudário'
+            )
+        );   
+    //theme Support
+    }
+    //Chamada para a função das confirações do tema
+    add_action('after_setup_theme', 'config_tema', 0 ); 
+
+
+
+    
 ?>

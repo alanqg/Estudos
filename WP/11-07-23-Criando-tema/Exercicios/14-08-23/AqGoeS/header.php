@@ -7,6 +7,23 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <header class="cabecalho" id="headerFixo">
-        <h1>AqGoEs</h1>
+    <header class="cabecalho">
+        <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">AqGoEs</a>
+                <ul class="right hide-on-med-and-down">
+                    <?php 
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'menu_principal'
+                            )
+                        );
+
+                    ?>
+                
+                </ul>
+            </div>
+        </nav>
+    </div>
     </header>
