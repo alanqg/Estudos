@@ -1,19 +1,8 @@
 <?php get_header(); ?>
-    <h2>Nossos Artigos</h2>
-<<<<<<< Updated upstream
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-   <br><br><br>
-=======
-    <div class="container">
+
+ <img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="">
+
+  <div class="container">
         <div class="row">
         <div class="col s12">
             <?php
@@ -29,6 +18,5 @@
         </div>
         </div>
     </div>
->>>>>>> Stashed changes
 
 <?php get_footer();?>
