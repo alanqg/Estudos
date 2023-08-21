@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 <footer class="page-footer rodape">
     <h2>Veja mais</h2>
+=======
+<footer>
+<footer class="page-footer">
+>>>>>>> Stashed changes
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -7,6 +12,7 @@
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
               </div>
               <div class="col l4 offset-l2 s12">
+<<<<<<< Updated upstream
                 <h5 class="white-text">Links Útteis</h5>
                 <ul>
                     <?php 
@@ -17,6 +23,20 @@
                         );
 
                     ?>
+=======
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">
+                        <?php
+                            wp_nav_menu(array
+                            (
+                                'theme_location' => 'menu_rodape'
+
+                            )
+                        );
+                        ?>
+                  </a></li>
+>>>>>>> Stashed changes
                 </ul>
               </div>
             </div>
