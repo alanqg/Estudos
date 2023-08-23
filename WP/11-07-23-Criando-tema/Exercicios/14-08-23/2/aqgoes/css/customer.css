@@ -1,0 +1,39 @@
+/*
+    Desenvolvido por: AqGoEs
+    Paletas de Cores: https://www.colourlovers.com/palette/623761/Walking_Away
+
+    Fontes Paragrafos: 
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); font-family: 'Oswald', sans-serif;
+
+    Fontes Titulos:
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');  font-family: 'Poppins', sans-serif;
+
+*/
+
+/*Fonte paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); 
+
+/*Fonte Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1, h2, h3{
+    color: 333333;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.segundestaque img{
+    width: 350px;
+    height: 350px;
+}
+.destaqueum img{
+    width: 750px;
+    height: 450px;
+}
+
+.rodape h2{
+    text-align: center;
+    color: #333333;
+}
