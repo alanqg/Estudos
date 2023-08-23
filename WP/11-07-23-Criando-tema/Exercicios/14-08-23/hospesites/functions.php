@@ -1,10 +1,10 @@
 <?php
     function carregar_scripts(){
-        //JS materialize
-        wp_enqueue_script('materialice-js', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js', array(), '1.0.0', true);
+        //JS Bootstrap
+        wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', array(), '5.3.1', true);
 
         //Css Materialze 
-        wp_enqueue_style('materialize-css', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css', array(), '1.0.0', 'all');
+        wp_enqueue_style('bootstrap-css','https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css' , array(), '5.3.1', 'all');
 
         //icone
         wp_enqueue_style('icones', 'https://fonts.googleapis.com/icon?family=Material+Icons', array(), '1.0', 'all' );

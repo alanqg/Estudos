@@ -10,11 +10,11 @@
 <header>
     <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-4">
         <h1>AqGoEs</h1>
     </div>
 
-    <div class="col-md-8">Menu</div>
+    <div class="col-8">Menu</div>
     </div>
     </div>
 </header>
