@@ -6,6 +6,8 @@
     Fonte Paragrafos: @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');     font-family: 'Bebas Neue', sans-serif;
 
     Paletas de Cores: https://www.colourlovers.com/palette/623761/Walking_Away
+
+    Cabeçalho: https://www.dio.me/articles/construindo-um-header-fixo-no-topo-com-html-e-css
 */  
 
 /*Estilos Gerias*/
@@ -17,3 +19,4 @@ p{
     font-size: 20px;
     font-weight: 700;
 }
+/*Cabeçalho*/

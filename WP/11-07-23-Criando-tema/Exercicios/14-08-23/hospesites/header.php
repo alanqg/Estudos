@@ -11,10 +11,19 @@
     <div class="container">
     <div class="row">
         <div class="col-4">
-        <h1>AqGoEs</h1>
-    </div>
+            <h1>AqGoEs</h1>
+        </div>
 
-    <div class="col-8">Menu</div>
+    <div class="col-4">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>contato</li>
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="col-md-4">Pesquisa</div>
     </div>
     </div>
 </header>
