@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<header>
+<header id="myheader">
     <div class="container">
     <div class="row">
         <div class="col-4">
@@ -27,4 +27,10 @@
     </div>
     </div>
 </header>
-   
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br>

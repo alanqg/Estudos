@@ -35,4 +35,4 @@
         
         
     </main>
-<?php footer(); ?>
+<?php get_footer(); ?>
