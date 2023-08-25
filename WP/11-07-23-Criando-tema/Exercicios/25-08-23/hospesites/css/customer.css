@@ -60,6 +60,7 @@ footer{
    
 }
 footer ul {
+    margin-top: 15px;
     list-style: none;
 }
 footer ul li {
