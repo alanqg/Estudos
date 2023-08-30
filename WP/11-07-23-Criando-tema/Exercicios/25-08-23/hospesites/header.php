@@ -31,7 +31,7 @@
         <div class="col-md-3">
             <form class="d-flex" role="search">
             <input class="form-control me-2 " type="search" placeholder="Pesquise aqui.." aria-label="Search">
-            <button class="btn btn-outline-dark btn-pesuisar" type="submit">Pesquisa</button>
+            <button class="btn btn-outline-dark btn-pesquisa" type="submit">Pesquisa</button>
         </form>
         </div>
     </div>

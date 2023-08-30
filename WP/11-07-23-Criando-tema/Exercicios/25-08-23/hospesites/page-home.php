@@ -7,6 +7,7 @@
                 </div>
             </div>
          </section><!--Slider-->
+         
           <section>
             <div class="container">
               <div class="row">
@@ -18,7 +19,7 @@
             <section class="artigos">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">Sidebar</div>
+                        <?php get_sidebar('home'); ?>
                         <div class="col-md-8">Artigos</div>
                         <div class="containr">
                             <div class="row">
