@@ -38,6 +38,8 @@
     add_theme_support('custom-header', $args);
     //Miniaturas de imagens para posts
     add_theme_support('post-thumbnails');
+    //Tipos de posts
+    add_theme_support('post-formats', array('video', 'image') );
 
   }
   add_action('after_setup_theme', 'config_tema');
