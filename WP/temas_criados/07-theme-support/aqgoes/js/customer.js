@@ -1,4 +1,0 @@
-/*
-    Desenvolvido por: Alan
-    
-*/
