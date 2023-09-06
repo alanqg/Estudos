@@ -1,1 +1,3 @@
-<h1><?php the_title(); ?></h1>
+<article>
+    <h2>Dois posts</h2>
+</article>
