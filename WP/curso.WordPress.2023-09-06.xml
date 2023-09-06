@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.3.1" created="2023-09-04 13:56" -->
+	<!-- generator="WordPress/6.3.1" created="2023-09-06 11:51" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Curso</title>
 	<link>http://localhost/sites/curso</link>
 	<description></description>
-	<pubDate>Mon, 04 Sep 2023 13:56:05 +0000</pubDate>
+	<pubDate>Wed, 06 Sep 2023 11:51:05 +0000</pubDate>
 	<language>pt-BR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/sites/curso</wp:base_site_url>
@@ -319,6 +319,14 @@
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1910;s:6:"height";i:225;s:4:"file";s:19:"2023/09/heaer01.jpg";s:8:"filesize";i:192120;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"10";s:6:"credit";s:0:"";s:6:"camera";s:5:"E-M10";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"40";s:3:"iso";s:3:"250";s:13:"shutter_speed";s:5:"0.002";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_curso]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693836265]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[curso]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[heaer02]]></title>
@@ -351,6 +359,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1912;s:6:"height";i:227;s:4:"file";s:19:"2023/09/heaer02.jpg";s:8:"filesize";i:146363;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_curso]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693836248]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[curso]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -385,6 +401,14 @@
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:225;s:4:"file";s:19:"2023/09/heaer03.jpg";s:8:"filesize";i:231059;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_curso]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693836257]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[curso]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[heaer04]]]></title>
@@ -417,6 +441,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1906;s:6:"height";i:225;s:4:"file";s:19:"2023/09/heaer04.jpg";s:8:"filesize";i:138405;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"8";s:6:"credit";s:0:"";s:6:"camera";s:13:"Canon EOS 80D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"18";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:5:"0.008";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_curso]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693836241]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[curso]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -915,66 +947,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Olá, mundo!]]></title>
-		<link>http://localhost/sites/curso/index.php/2023/09/04/ola-mundo/</link>
-		<pubDate>Mon, 04 Sep 2023 13:02:57 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:02:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:02:57]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:50:53]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:53]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[ola-mundo]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="politica"><![CDATA[politica]]></category>
-		<category domain="category" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[17]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Um comentarista do WordPress]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://br.wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2023-09-04 10:02:57]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2023-09-04 13:02:57]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Oi, isto é um comentário.
-Para iniciar a moderar, editar e excluir comentários, visite a tela Comentários no painel.
-Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
-					<item>
 		<title><![CDATA[Página de exemplo]]></title>
 		<link>http://localhost/sites/curso/index.php/pagina-exemplo/</link>
 		<pubDate>Mon, 04 Sep 2023 13:02:57 +0000</pubDate>
@@ -1145,243 +1117,6 @@ Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravata
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:640;s:6:"height";i:423;s:4:"file";s:28:"2023/09/web-development2.jpg";s:8:"filesize";i:50347;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:11:"NIKON D5100";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"50";s:3:"iso";s:4:"1000";s:13:"shutter_speed";s:4:"0.01";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Post Relacionado Noticias Geral]]></title>
-		<link>http://localhost/sites/curso/index.php/2023/09/04/post-relacionado-noticias-geral/</link>
-		<pubDate>Mon, 04 Sep 2023 13:16:25 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?p=30</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>30</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:16:25]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:16:25]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:50:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[post-relacionado-noticias-geral]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="noticias"><![CDATA[Noticias]]></category>
-		<category domain="post_tag" nicename="politica"><![CDATA[politica]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Esportes Post Relacionado para essa Categoria]]></title>
-		<link>http://localhost/sites/curso/index.php/2023/09/04/esportes-post-relacionado-para-essa-categoria/</link>
-		<pubDate>Mon, 04 Sep 2023 13:17:48 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?p=32</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>32</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:17:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:17:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:50:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:25]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[esportes-post-relacionado-para-essa-categoria]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="basquete"><![CDATA[Basquete]]></category>
-		<category domain="category" nicename="esportes"><![CDATA[Esportes]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[17]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Posts para Tecnologia Segundo Posts]]></title>
-		<link>http://localhost/sites/curso/index.php/2023/09/04/posts-para-tecnologia-segundo-posts/</link>
-		<pubDate>Mon, 04 Sep 2023 13:18:28 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?p=34</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:18:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:18:28]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:50:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:10]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[posts-para-tecnologia-segundo-posts]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="js"><![CDATA[js]]></category>
-		<category domain="post_tag" nicename="php"><![CDATA[php]]></category>
-		<category domain="category" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[15]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home]]></title>
-		<link>http://localhost/sites/curso/</link>
-		<pubDate>Mon, 04 Sep 2023 13:53:13 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=47</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>47</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:53:13]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:53:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:53:13]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Blog]]></title>
-		<link>http://localhost/sites/curso/index.php/blog/</link>
-		<pubDate>Mon, 04 Sep 2023 13:53:22 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=49</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>49</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:53:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:22]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:53:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:53:22]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Sobre]]></title>
-		<link>http://localhost/sites/curso/index.php/sobre/</link>
-		<pubDate>Mon, 04 Sep 2023 13:53:49 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=51</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>51</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:53:49]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:49]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:53:49]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:53:49]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[sobre]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[general-template.php]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Contato]]></title>
-		<link>http://localhost/sites/curso/index.php/contato/</link>
-		<pubDate>Mon, 04 Sep 2023 13:54:07 +0000</pubDate>
-		<dc:creator><![CDATA[gestao]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=53</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>53</wp:post_id>
-		<wp:post_date><![CDATA[2023-09-04 10:54:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-09-04 13:54:07]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-09-04 10:54:07]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-09-04 13:54:07]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contato]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[general-template.php]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1784,6 +1519,330 @@ Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravata
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[web-development2-1]]></title>
+		<link>http://localhost/sites/curso/web-development2-1/</link>
+		<pubDate>Mon, 04 Sep 2023 13:59:19 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/web-development2-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>62</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:59:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:59:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:59:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:59:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[web-development2-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/web-development2-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/web-development2-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:640;s:6:"height";i:423;s:4:"file";s:30:"2023/09/web-development2-1.jpg";s:8:"filesize";i:50347;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:11:"NIKON D5100";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"50";s:3:"iso";s:4:"1000";s:13:"shutter_speed";s:4:"0.01";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[web-development1-1]]></title>
+		<link>http://localhost/sites/curso/web-development1-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:01:23 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/web-development1-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>63</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:01:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:01:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:01:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:01:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[web-development1-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/web-development1-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/web-development1-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:640;s:6:"height";i:425;s:4:"file";s:30:"2023/09/web-development1-1.jpg";s:8:"filesize";i:108588;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"8";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D300";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"50";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:5:"0.005";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[portfolio_item2-1]]></title>
+		<link>http://localhost/sites/curso/portfolio_item2-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:08:16 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/portfolio_item2-1.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>65</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:08:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:08:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:08:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:08:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[portfolio_item2-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/portfolio_item2-1.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/portfolio_item2-1.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1218;s:6:"height";i:823;s:4:"file";s:29:"2023/09/portfolio_item2-1.png";s:8:"filesize";i:1199062;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[image1-1]]></title>
+		<link>http://localhost/sites/curso/image1-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:24:16 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/image1-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>67</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:24:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:24:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:24:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:24:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[image1-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/image1-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/image1-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:1280;s:4:"file";s:20:"2023/09/image1-1.jpg";s:8:"filesize";i:841031;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"10";s:6:"credit";s:0:"";s:6:"camera";s:5:"E-M10";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"40";s:3:"iso";s:3:"250";s:13:"shutter_speed";s:5:"0.002";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[image3-1]]></title>
+		<link>http://localhost/sites/curso/image3-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:27:28 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/image3-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>70</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:27:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:27:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:27:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:27:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[image3-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/image3-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/image3-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:1371;s:4:"file";s:20:"2023/09/image3-1.jpg";s:8:"filesize";i:1113387;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[image2-1]]></title>
+		<link>http://localhost/sites/curso/image2-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:27:29 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/image2-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>71</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:27:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:27:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[image2-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/image2-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/image2-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:1271;s:4:"file";s:20:"2023/09/image2-1.jpg";s:8:"filesize";i:498452;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[image4-1]]></title>
+		<link>http://localhost/sites/curso/image4-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:27:29 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/image4-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:27:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:27:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[image4-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/image4-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/image4-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:1280;s:4:"file";s:20:"2023/09/image4-1.jpg";s:8:"filesize";i:687460;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"8";s:6:"credit";s:0:"";s:6:"camera";s:13:"Canon EOS 80D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"18";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:5:"0.008";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[image5-1]]></title>
+		<link>http://localhost/sites/curso/image5-1/</link>
+		<pubDate>Mon, 04 Sep 2023 14:27:29 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/wp-content/uploads/2023/09/image5-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>73</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 11:27:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 11:27:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 14:27:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[image5-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/sites/curso/wp-content/uploads/2023/09/image5-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/09/image5-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:1440;s:4:"file";s:20:"2023/09/image5-1.jpg";s:8:"filesize";i:818045;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Olá, mundo!]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/04/ola-mundo/</link>
+		<pubDate>Mon, 04 Sep 2023 13:02:57 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:02:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:02:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:50:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:53]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[ola-mundo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="politica"><![CDATA[politica]]></category>
+		<category domain="category" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Um comentarista do WordPress]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://br.wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2023-09-04 10:02:57]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2023-09-04 13:02:57]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Oi, isto é um comentário.
+Para iniciar a moderar, editar e excluir comentários, visite a tela Comentários no painel.
+Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
 		<title><![CDATA[Navegação]]></title>
 		<link>http://localhost/sites/curso/index.php/2023/09/04/navigation/</link>
 		<pubDate>Mon, 04 Sep 2023 13:03:07 +0000</pubDate>
@@ -1807,6 +1866,147 @@ Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravata
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
+					<item>
+		<title><![CDATA[Post Relacionado Noticias Geral]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/04/post-relacionado-noticias-geral/</link>
+		<pubDate>Mon, 04 Sep 2023 13:16:25 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:16:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:16:25]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:50:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:41]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[post-relacionado-noticias-geral]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="noticias"><![CDATA[Noticias]]></category>
+		<category domain="post_tag" nicename="politica"><![CDATA[politica]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Reedite o que passou para viver o seu destino" width="500" height="281" src="https://www.youtube.com/embed/d7LyTe0yR0o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693837627]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Esportes Post Relacionado para essa Categoria]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/04/esportes-post-relacionado-para-essa-categoria/</link>
+		<pubDate>Mon, 04 Sep 2023 13:17:48 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=32</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:17:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:17:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:50:25]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:25]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[esportes-post-relacionado-para-essa-categoria]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="basquete"><![CDATA[Basquete]]></category>
+		<category domain="category" nicename="esportes"><![CDATA[Esportes]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Posts para Tecnologia Segundo Posts]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/04/posts-para-tecnologia-segundo-posts/</link>
+		<pubDate>Mon, 04 Sep 2023 13:18:28 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=34</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu ipsum ipsum. Duis urna eros, tincidunt id venenatis vitae, molestie at dui. Nulla vel lorem eu felis maximus ornare. Suspendisse at mauris et velit porttitor gravida. Curabitur non hendrerit libero. Ut eleifend enim tincidunt libero luctus, nec lobortis magna pellentesque. Donec blandit ligula vitae tortor vulputate, in porttitor nisi vehicula. Cras blandit ex non tincidunt posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas lacinia efficitur elementum. Phasellus sit amet venenatis purus, nec gravida nibh. Phasellus dapibus magna sit amet dolor semper, et vehicula ex dignissim. Nam condimentum rutrum felis, vel auctor orci feugiat non.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Curabitur ipsum sapien, congue ut lorem id, fringilla interdum urna. Sed diam libero, ornare molestie ipsum vitae, rutrum accumsan sem. Ut eu semper arcu. Donec tempus mollis nisl a sagittis. Nulla quis finibus quam. Curabitur ultrices condimentum dui eu maximus. Proin sed urna nibh. Fusce elementum mattis lacus, in laoreet elit sagittis in. Proin mollis libero ante, non scelerisque est congue gravida. Cras a interdum nisi. In orci risus, hendrerit at gravida facilisis, fringilla vel nulla. Vivamus sed enim nec lacus rutrum tempus. Aenean tempor est ut dapibus dictum. Etiam non felis a ipsum volutpat hendrerit. Donec cursus erat nec est viverra blandit. Proin feugiat bibendum volutpat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Aliquam nisl sapien, luctus bibendum viverra vitae, sollicitudin at quam. Vestibulum viverra ligula lectus, eu pretium risus ultricies vel. Nam dui massa, ultrices id ex non, dignissim semper sem. Proin porttitor ante vel ipsum rhoncus, in hendrerit purus ornare. Nulla congue nec ante sed interdum. Nullam laoreet arcu a feugiat auctor. Aliquam vel congue sapien. Phasellus leo lacus, porta et nisi non, commodo tincidunt nibh. Etiam ut orci convallis metus porta aliquam. Mauris vel nunc tempus, mattis urna scelerisque, congue dui. Donec efficitur ex ac turpis pellentesque, ac auctor elit sagittis. Vestibulum at erat at tortor ornare tempus pharetra non enim. Quisque luctus justo in nisl condimentum congue. Maecenas feugiat, risus eget maximus fermentum, arcu lectus vehicula massa, nec tempus leo eros sit amet odio. Etiam nec blandit nibh.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In eu erat eu turpis porta cursus vitae id ex. Suspendisse in elit malesuada, placerat leo at, interdum leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer pellentesque tortor in diam ultricies, et venenatis dui facilisis. Duis eu elit id lectus eleifend commodo ac vel felis. Nam ac leo eu urna efficitur malesuada. Phasellus dignissim eros in ante consequat tincidunt. Suspendisse pharetra purus ac laoreet elementum. Curabitur interdum pharetra augue, eget sodales mi fermentum sit amet. Proin at blandit justo, vel scelerisque lorem. Etiam quis tincidunt arcu. Nullam pharetra ut purus id cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat velit, at vulputate quam sollicitudin eget. Duis vehicula aliquam fringilla.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:18:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:18:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:50:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:50:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[posts-para-tecnologia-segundo-posts]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="js"><![CDATA[js]]></category>
+		<category domain="post_tag" nicename="php"><![CDATA[php]]></category>
+		<category domain="category" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[Noticias Segundo Post Relacionado]]></title>
 		<link>http://localhost/sites/curso/index.php/2023/09/04/noticias-segundo-post-relacionado/</link>
@@ -1849,6 +2049,14 @@ Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravata
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Reedite o que passou para viver o seu destino" width="500" height="281" src="https://www.youtube.com/embed/d7LyTe0yR0o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1694001041]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2025,6 +2233,274 @@ Os avatares dos comentaristas vêm do <a href="https://br.gravatar.com/">Gravata
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Reedite o que passou para viver o seu destino" width="500" height="281" src="https://www.youtube.com/embed/d7LyTe0yR0o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_50b903db8867e8bbbd1817ac69e023cf]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693838194]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[gestao]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[alanqg@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://localhost/sites/curso</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[::1]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2023-09-04 11:20:55]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2023-09-04 14:20:55]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[dwew]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[Home]]></title>
+		<link>http://localhost/sites/curso/</link>
+		<pubDate>Mon, 04 Sep 2023 13:53:13 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=47</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:53:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:13]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:53:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:53:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_0202745f65e964abecb799be8bf809e9]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="a boneca humana criou uma seita" width="500" height="281" src="https://www.youtube.com/embed/lWCHBD3k2VU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_0202745f65e964abecb799be8bf809e9]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693837468]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_6e5164e576297f3978da973742cbc53e]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="&quot;OLHA ISSO! QUE BOS%@! OU É BURRICE OU...&quot; LANCE de Cebolinha em Botafogo x Flamengo REVOLTA!" width="500" height="281" src="https://www.youtube.com/embed/zjNwBisgX4A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_6e5164e576297f3978da973742cbc53e]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693837469]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_c42e9ceaccaf3ef232f05beb8af1326d]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="COMO CONQUISTAR O BEIJO DA GATA? Mari Vabo - Praticast" width="500" height="281" src="https://www.youtube.com/embed/zHrbDGRvuJ8?start=21&feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_c42e9ceaccaf3ef232f05beb8af1326d]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1693837922]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Blog]]></title>
+		<link>http://localhost/sites/curso/index.php/blog/</link>
+		<pubDate>Mon, 04 Sep 2023 13:53:22 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=49</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>49</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:53:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:22]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-04 10:53:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-04 13:53:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Sobre]]></title>
+		<link>http://localhost/sites/curso/index.php/sobre/</link>
+		<pubDate>Mon, 04 Sep 2023 13:53:49 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=51</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; white-space-collapse: collapse;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.</span></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>51</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:53:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:53:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-06 08:22:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-06 11:22:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sobre]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[general-template.php]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Contato]]></title>
+		<link>http://localhost/sites/curso/index.php/contato/</link>
+		<pubDate>Mon, 04 Sep 2023 13:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?page_id=53</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-04 10:54:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-04 13:54:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-06 08:22:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-06 11:22:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contato]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[general-template.php]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Lorem ipsum dolor sit amet,]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/06/lorem-ipsum-dolor-sit-amet/</link>
+		<pubDate>Wed, 06 Sep 2023 11:49:19 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=77</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Donec ac efficitur ligula. Fusce accumsan tellus a mollis pulvinar. Sed ante massa, viverra eu dapibus vel, aliquet vitae mi. Fusce quis rhoncus nulla. Quisque eu est et justo dictum scelerisque sit amet nec lorem. Donec bibendum ac est sit amet rutrum. Suspendisse a mauris tempus, tristique massa nec, scelerisque orci. Cras varius rhoncus vehicula. Morbi aliquet ex sit amet velit dignissim, quis lacinia lectus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et velit sem. Pellentesque viverra consequat mauris, iaculis fringilla dui porta eu. Etiam ipsum diam, maximus id aliquam ac, elementum a tortor. Vestibulum quis aliquam leo, et finibus ligula. Ut semper nisi id leo porttitor, nec hendrerit nibh ultrices. Nulla in blandit erat.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>77</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-06 08:49:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-06 11:49:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-06 08:49:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-06 11:49:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[lorem-ipsum-dolor-sit-amet]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="esportes"><![CDATA[Esportes]]></category>
+		<category domain="post_tag" nicename="sao-paulo"><![CDATA[São Paulo]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Ut semper nisi id leo porttitor]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/06/ut-semper-nisi-id-leo-porttitor/</link>
+		<pubDate>Wed, 06 Sep 2023 11:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=79</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Donec ac efficitur ligula. Fusce accumsan tellus a mollis pulvinar. Sed ante massa, viverra eu dapibus vel, aliquet vitae mi. Fusce quis rhoncus nulla. Quisque eu est et justo dictum scelerisque sit amet nec lorem. Donec bibendum ac est sit amet rutrum. Suspendisse a mauris tempus, tristique massa nec, scelerisque orci. Cras varius rhoncus vehicula. Morbi aliquet ex sit amet velit dignissim, quis lacinia lectus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et velit sem. Pellentesque viverra consequat mauris, iaculis fringilla dui porta eu. Etiam ipsum diam, maximus id aliquam ac, elementum a tortor. Vestibulum quis aliquam leo, et finibus ligula. Ut semper nisi id leo porttitor, nec hendrerit nibh ultrices. Nulla in blandit erat.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>79</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-06 08:49:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-06 11:49:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-06 08:49:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-06 11:49:51]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[ut-semper-nisi-id-leo-porttitor]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="local"><![CDATA[Local]]></category>
+		<category domain="post_tag" nicename="mundo"><![CDATA[Mundo]]></category>
+		<category domain="category" nicename="noticias"><![CDATA[Noticias]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Ut in mi quis ipsum tempus consequat.]]></title>
+		<link>http://localhost/sites/curso/index.php/2023/09/06/ut-in-mi-quis-ipsum-tempus-consequat/</link>
+		<pubDate>Wed, 06 Sep 2023 11:50:34 +0000</pubDate>
+		<dc:creator><![CDATA[gestao]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/sites/curso/?p=81</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue tellus, ut placerat erat. Vivamus est tortor, tincidunt non pharetra eu, feugiat eget risus. Sed a lacus id ligula eleifend lobortis vel vitae sem. Suspendisse non sagittis arcu. Ut commodo a tellus sit amet molestie. Aenean sed lectus neque. Nam eget aliquet tortor, quis sodales nunc. Vestibulum erat est, blandit vel erat sed, vestibulum interdum purus. Ut vitae condimentum neque. Vivamus dapibus arcu eros, non maximus leo mattis vel. Morbi ac magna sed elit semper vulputate. Ut in mi quis ipsum tempus consequat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Donec ac efficitur ligula. Fusce accumsan tellus a mollis pulvinar. Sed ante massa, viverra eu dapibus vel, aliquet vitae mi. Fusce quis rhoncus nulla. Quisque eu est et justo dictum scelerisque sit amet nec lorem. Donec bibendum ac est sit amet rutrum. Suspendisse a mauris tempus, tristique massa nec, scelerisque orci. Cras varius rhoncus vehicula. Morbi aliquet ex sit amet velit dignissim, quis lacinia lectus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et velit sem. Pellentesque viverra consequat mauris, iaculis fringilla dui porta eu. Etiam ipsum diam, maximus id aliquam ac, elementum a tortor. Vestibulum quis aliquam leo, et finibus ligula. Ut semper nisi id leo porttitor, nec hendrerit nibh ultrices. Nulla in blandit erat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Quisque turpis nunc, varius in faucibus vel, dapibus at nisi. Nunc et consequat diam. Ut massa erat, blandit at dignissim at, viverra sit amet purus. Sed euismod nibh magna, quis porttitor eros pulvinar consequat. Vivamus venenatis finibus orci, quis sagittis ex sollicitudin ac. Pellentesque sed augue nulla. Nullam dignissim et est sit amet feugiat.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>81</wp:post_id>
+		<wp:post_date><![CDATA[2023-09-06 08:50:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-09-06 11:50:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-09-06 08:50:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-09-06 11:50:34]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[ut-in-mi-quis-ipsum-tempus-consequat]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="html"><![CDATA[html]]></category>
+		<category domain="post_tag" nicename="js"><![CDATA[js]]></category>
+		<category domain="category" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
