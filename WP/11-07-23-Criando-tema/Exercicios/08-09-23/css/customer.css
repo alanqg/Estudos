@@ -1,0 +1,13 @@
+/*
+Desenvolvido por: Alan
+*/
+header{
+    overflow: hidden;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+main{
+    margin-top: 100px;
+}
