@@ -5,9 +5,12 @@ Desenvolvido por: Alan
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 /*Paragrafos*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*Paletas de cores ==> https://www.colourlovers.com/palette/123774/Homage_to_the_Chefs */
+
 /*paletas de cores ==> Paletas de Cores: https://www.colourlovers.com/palette/623761/Walking_Away*/
 h1, h2{
     font-family: 'Rubik Iso', cursive;
+    color: #D31900;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -19,24 +22,25 @@ p{
   body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background: #FFF2AF;
   }
   
   /* Header/Blog Title */
   .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: #FF6600;
   }
   
   .header h1 {
     font-size: 50px;
+    color: #FFF;
   }
   
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #D31900;
   }
   
   /* Style the topnav links */
@@ -66,13 +70,13 @@ p{
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #FFF2AF;
     padding-left: 20px;
   }
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-color: #7CB490;
     width: 100%;
     padding: 20px;
   }
@@ -95,8 +99,11 @@ p{
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #FF6600;
     margin-top: 20px;
+  }
+  .footer h2{
+    color: #fff;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
