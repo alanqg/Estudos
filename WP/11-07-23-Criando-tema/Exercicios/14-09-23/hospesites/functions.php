@@ -14,6 +14,10 @@
                     'menu_rodape' => 'Menu Rodapé'
                  )
             );
+
+            //Add-them-support
+            add_theme_support('title-tag'); //Chamado o title do head
+            
         }
         add_action('after_setup_theme', 'conf_geral', 0);
 
