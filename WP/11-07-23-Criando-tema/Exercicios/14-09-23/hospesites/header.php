@@ -7,6 +7,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+	<header>
 	<div class="header">
 	<h1>My Website</h1>
 	<p>Resize the browser window to see the effect.</p>
@@ -24,6 +25,11 @@
 				?>
 	  		</nav> 
         <div class="search">
-          <a href="#">Link</a>
+			
+			<?php get_search_form(); ?>
         </div>
       </div>	
+
+
+	</header>
+	

@@ -30,6 +30,7 @@ p{
     padding: 30px;
     text-align: center;
     background: #FF6600;
+
   }
   
   .header h1 {
@@ -59,7 +60,6 @@ p{
   .topnav  .search{
     float:right;
   }
-
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
