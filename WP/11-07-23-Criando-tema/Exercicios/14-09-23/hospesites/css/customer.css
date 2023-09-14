@@ -1,9 +1,6 @@
 /*
 Desenvolvido por: Alan
-Lindo Modelo inspirado para o site --> https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_blog
 */
-
-
 /*Titulos*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 /*Paragrafos*/
@@ -45,6 +42,9 @@ p{
     overflow: hidden;
     background-color: #D31900;
   }
+  .topnav nav ul{
+    list-style: none;
+  }
   
   /* Style the topnav links */
   .topnav a {
@@ -71,6 +71,7 @@ p{
   .leftcolumn {   
     float: left;
     width: 75%;
+
   }
   
   /* Right column */
@@ -111,6 +112,20 @@ p{
   }
   .footer h2{
     color: #fff;
+  }
+  .footer nav ul{
+    list-style: none;
+    
+  }
+  .footer nav ul li{
+    display: inline;
+    margin: 15px;
+  }
+  .footer nav ul a{
+    font-size: 45px;
+    color: #f2f2f2;
+    text-decoration: none;
+
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
