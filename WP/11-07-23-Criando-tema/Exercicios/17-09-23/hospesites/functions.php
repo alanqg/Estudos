@@ -16,7 +16,7 @@ function carregar_scripts(){
         //regitro dos menus
         register_nav_menus(
             array(
-                'menu_topo' => 'Menu Principal',
+                'menu_principal' => 'Menu Principal',
                 'menu_footer' => 'Menu Footer'
             )
         );

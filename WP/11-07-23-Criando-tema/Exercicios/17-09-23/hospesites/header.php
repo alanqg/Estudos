@@ -10,12 +10,18 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">Logo</div>
+            
+            <div class="col-md-3 logo">
+                <h1>AqGoeS</h1>
+            </div>
+
+
+
             <div class="col-md-6">
                 <div class="menu">
                     <?php wp_nav_menu(
                         array(
-                            'theme_locaction' => 'menu_topo'
+                            'theme_locaction' => 'menu_principal'
                         )
                     ); ?>
                 </div>

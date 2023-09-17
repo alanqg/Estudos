@@ -1,33 +1,30 @@
 <?php get_header(); ?>
-<div class="container-fluid">
-    <main>  
-    <h2>Slider Noticias</h2>
-            <p>Pequeno Slider de Noticias</p>
-        </section>
+<main>  
+    <section class="slider">
+        <h2>Slider</h2>
+    </section>
 
-        <section>
-            <article>
-                <h2>Seção dos Artigos</h2>
-                <p>Seção dos artigos também terá uma sidebar</p>
+    <section class="posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <article>
+                        <h2>Posts</h2>
+                    </article>
+                </div>
 
-                <aside>
-                    <h2>Sidebar ao Lado Direito dos Artigos</h2>
-                </aside>
-            </article>
-        </section>
+                    <div class="col-md-4">
+                        <aside>
+                            <h2>Sibebar</h2>
+                        </aside>
+                   </div>
+            </div>
+        </div>
+    </section>
 
-        <section>
-            <h2>Seção Sobre</h2>
-            <p>Seção texto sobre</p>
-</section>
-</div>
-<section>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </main>
+    <section class="sobre">
+        <h2>Sobre</h2>
+    </section>
+</main>
 
 <?php get_footer(); ?>

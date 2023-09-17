@@ -1,14 +1,32 @@
 /*
     Desevolvido por: Alan Queirós 
+    Paletas de Cores -- >https://www.colourlovers.com/palette/369905/v_e_l_v_e_t_.
 
 */
+/*Google Fontes*/
+/*Paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;700;900&display=swap');
+/*Fento Logo*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Fonte titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-   
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+h2, h3, h4{
+    font-family: 'Lilita One', cursive;
 }
 header{
   padding-top: 25px;
@@ -17,23 +35,30 @@ header{
   top: 0;
   width: 100%;
   height: 85px;
-  background-color: brown;
+  background-color: #990303;
+  box-shadow: 2px 3px 5px #000;
 }
-main{
-    margin-top: 100px;
+.logo h1{
+    color: #fff;
+    font-size: 35px;
 }
 .menu ul li{
     display: inline;
 }
 .menu ul li a {
-    margin: 15px;
+    text-decoration: none;
+    margin: 5px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     font-style: normal;
+    font-family: 'Press Start 2P', cursive;
 }
 .search input{
     width: 70px;
     font-size: 15px;
    
+}
+main{
+    margin-top: 100px;
 }
