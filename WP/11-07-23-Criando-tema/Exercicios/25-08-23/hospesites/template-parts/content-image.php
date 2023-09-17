@@ -1,1 +1,0 @@
-<h1>Tipo Imagem</h1>
