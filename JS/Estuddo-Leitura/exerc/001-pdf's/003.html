@@ -27,20 +27,23 @@
     </style>
 </head>
 <body>
-    <h1>Interagindo com um Botão</h1>
+    <h1>Trabalhando com dados JS</h1>
     <p>
-       Usuária irá clicar no botão, ao clicar irá aparecer uma tela para coolcar seu nome, essas dados será armazerado em uma variável, que depois será recupara com um comando alert. Tudo será feito dentro de uma função ela que será resposável de interação entro o html é o Js.
+        Recupando dados Js uma variáveis, Recupando dados digitados.
     </p>
-    
-    <button onclick="inicio()">Clique para comerça!</button>
+    <button onclick="inicio()">Clique para comerça</button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+
     <script>
         function inicio(){
-            //Pergunda os dados para colocar em uma variável.
             let nome = window.prompt('Qual seu nome? ')
-            //Buca o valor que foi digigitado é retorna o valor com o uma mensagem na tela 
-            window.alert('Olá,' +  nome  + '!' + 'É uma prazer tem conhecer!')
-            
-        }
+            let res = window.document.getElementById('resultado')
+            res.innerHTML = '<p> Olá!' + 'nome é ' + '<strong>' +  nome + '</strong>! ' + ' É um prazer!' + '&#x1f596' + '</p>'
+
+            }
     </script>
+
 </body>
 </html>
