@@ -29,13 +29,17 @@
 <body>
     <h1>Interagindo com um Botão</h1>
     <p>
-        Ao clicar no botão será motrado um texto que foi criado dentro do comando alert dentro de uma função JS 
+       Usuária irá clicar no botão, ao clicar irá aparecer uma tela para coolcar seu nome, essas dados será armazerado em uma variável, que depois será recupara com um comando alert. Tudo será feito dentro de uma função ela que será resposável de interação entro o html é o Js.
     </p>
-    <button onclick="clicou()">Clique que Mim</button>
-
+    
+    <button onclick="inicio()">Clique para comerça!</button>
     <script>
-        function clicou(){
-            window.alert('Você clicou no botão! ')
+        function inicio(){
+            //Pergunda os dados para colocar em uma variável.
+            let nome = window.prompt('Qual seu nome? ')
+            //Buca o valor que foi digigitado é retorna o valor com o uma mensagem na tela 
+            window.alert('Olá,' +  nome  +'!' + 'É uma prazer tem conhecer!')
+            
         }
     </script>
 </body>
