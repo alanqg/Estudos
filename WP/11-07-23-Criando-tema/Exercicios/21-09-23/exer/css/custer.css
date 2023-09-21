@@ -71,10 +71,11 @@ main{
 .posts-sidebar{
     display: grid;
     justify-content: space-around;
-    grid-template-columns: auto auto;
-    grid-template-rows: 70% 40%;
+    grid-template-columns: 1100px 400px;
+    grid-template-rows: 80% 20%;
     gap: 10px;
-    background-color: #990303;
+    margin: 10px;
+    
 
 }
 .dois-posts{
@@ -85,7 +86,12 @@ main{
     grid-template-rows: 50% 50%;
 }
 
-
+/*Sidebar*/
+.sidebar{
+    background-color: #211f1c2d;
+    color: #000;
+    padding: 10px;
+}
 /*Footer*/
 .container-footer{
     display: grid;
