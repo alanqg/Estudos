@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01</title>
+    <style>
+        .container-01{
+            display: grid;
+            /*Oito divs divida em 4 x 4 duas com 80px, duas com 200px, duas com o tamanho automatico, duas com 30px*/
+            grid-template-columns: 80px 200px auto 30px;
+            background-color: brown;
+            /*Espacamento entre os elementos divs*/
+            gap: 10px;
+            padding: 10px;
+        }
+        .container-01 > div{
+            background-color: aquamarine;
+            text-align: center;
+            padding: 20px 0 ;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade Grid-template-columns</h1>
+    <p>Usando a propriedade <em>Grid-template-columns</em> para especificar o tamnaho de cada coluna</p>
+    <div class="container-01">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+
+
+</body>
+</html>
