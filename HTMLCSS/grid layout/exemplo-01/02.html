@@ -43,6 +43,19 @@
             font-size: 30px;
 
         }
+        .container-03{
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 50px 50px 50px;
+            gap: 10px;
+            background-color: brown;
+            padding: 10px;
+        }
+        .container-03 > div{
+            background-color: aqua;
+            text-align: center;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -66,6 +79,21 @@
 
 
     <div class="container-02">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <h1>Propriedade justiy-content</h1>
+    <p>
+        Propriedade usada para alinhar todas as grades dentro container, as larguras total da grade deve ser mennor que a largura do container para que a justiy-content tenha efeito <br>
+        O valor space-evenly propriedade para alinhar a grade dentro do container, o valor da propriedade dará uma quantidade igual a o espaço entre e ao rede delas
+    </p>
+
+    <div class="container-03">
         <div>1</div>
         <div>2</div>
         <div>3</div>
