@@ -1,0 +1,111 @@
+/*
+    Desevolvido por: Alan Queirós 
+    Paletas de Cores -- >https://www.colourlovers.com/palette/369905/v_e_l_v_e_t_.
+
+*/
+/*Google Fontes*/
+/*Paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;700;900&display=swap');
+/*Fento Logo*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Fonte titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+h2, h3, h4{
+    font-family: 'Lilita One', cursive;
+}
+header{
+  padding-top: 25px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  background-color: #990303;
+  box-shadow: 2px 3px 5px #000;
+}
+.logo h1{
+    color: #fff;
+    font-size: 35px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+}
+.menu ul li a:hover{
+    color: #211F1C;
+    text-decoration: underline;
+}
+.search input{
+    width: 70px;
+    font-size: 15px;
+   
+}
+main{
+    margin-top: 100px;
+}
+
+
+/*Seção dos posts*/
+.posts-sidebar{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    grid-template-rows: 70% 40%;
+    gap: 10px;
+    background-color: #990303;
+
+}
+.dois-posts{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-template-rows: 50% 50%;
+}
+
+
+/*Footer*/
+.container-footer{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: #990303;
+
+}
+.container-footer nav ul li {
+    display: inline;
+    margin: 25px;
+    padding-top: 5px;
+}
+.container-footer nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.container-footer nav ul li a:hover{
+    color: #211F1C;
+    text-decoration: underline;
+}
