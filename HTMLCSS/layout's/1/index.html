@@ -3,61 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayout um</title>
+    <title>Felx</title>
     <style>
-        /*Estilos para todas as tags*/
-        *{
-            margin: 0;
-            padding: 0;
-            /*Preechimento da largura é da altura*/
-            box-sizing: border-box;
+        .container{
+            display: flex;
+            align-items: stretch;
+            background-color: brown;
         }
-        body{
-            display: flex;   
-            margin: 30px;
-            flex: 1 1 100vw;
-            flex-wrap: wrap;
-        
-
+        .container > div{
+            background-color: burlywood;
+            color: black;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
         }
-        header{
-            display: flex;  
-            margin: 30px;
-            flex: 1 1 100vw;  
-            background-color: #ccc;
+        .container > nav{
+            background-color: burlywood;
+            color: black;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
         }
-        nav{
-            display: flex;  
-            margin: 30px;
-            flex: 1 1 100vw;  
-            background-color: #ccc;
-        }
-        main{
-            display: flex;  
-            margin: 30px;
-            flex: 1 1 100vw;  
-            background-color: #ccc;
-        }
-        aside{
-            display: flex;  
-            margin: 30px;
-            flex: 1 1 100vw;  
-            background-color: #ccc;
-        }
-        footer{
-            display: flex;  
-            margin: 30px;
-            flex: 1 1 100vw;  
-            background-color: #ccc;
-        }
-
     </style>
 </head>
 <body>
-    <header>Cabeçalho </header>
-    <nav>Menu</nav>
-        <main>Conteúdo</main>
-        <aside>Lateral</aside>
-        <footer>Footer</footer>
+    <header class="container">
+        <div style="flex-grow: 1" class="logo"> AqGoes</div>
+        <nav style="flex-grow: 8">Menu</nav>
+        <div style="flex-grow: 1">Campo Pesquisa</div>
+    </header>
+    <main>
+        <section>
+            
+        </section>
+    </main>
 </body>
 </html>
