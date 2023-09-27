@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        html{
+            font-family: sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        header{
+            background-color: brown;
+            height: 100px;
+        }
+        h1{
+            text-align: center;
+            color: #fff;
+            line-height: 100px;
+            margin: 0;
+        }
+        /*
+            O elemento pai que possui display: flex configurado ( <section> em nosso exemplo) é chamado de flex container.
+            Os itens iniciados como flexible boxes dentro do flex container são chamados flex items (o <article> em nosso caso).
+        */
+        section{
+            display: flex;
+        }
+        article{
+            padding: 10px;
+            margin: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>AqGoeS</h1>
+  </header>
+
+
+  <section>
+    <article>
+        <h2>Primeiro Artigo</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio earum repellendus nemo libero, ut reprehenderit vero dolores facilis voluptate fugiat. Quasi dignissimos eum sed hic neque aliquid architecto velit!
+        </p>
+      </article>
+    
+      <article>
+        <h2>Segundo Artigo</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quidem in nulla doloribus laboriosam ad voluptatibus quia totam? Adipisci cupiditate fugiat id quod aliquam molestias, facilis atque deserunt magnam inventore?
+        </p>
+      </article>
+    
+      <article>
+        <h2>Terceiro Artigo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel cum necessitatibus? Fugit distinctio omnis cupiditate voluptatibus facilis inventore, neque accusantium corporis odit eum suscipit sapiente vero animi non expedita.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta totam quisquam culpa cumque. Excepturi neque ipsa qui cumque enim doloremque nemo, error quibusdam architecto atque corporis nulla. Praesentium, veritatis officia?
+        </p>
+      </article>
+
+
+  </section>
+</body>
+</html>
