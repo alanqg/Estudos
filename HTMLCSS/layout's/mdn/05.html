@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+
+        .estrutura-basica{
+            width: 500px;
+            margin: 0 auto;
+        }
+        .estrutura-basica p{
+            background-color: rgba(255, 85, 104, 0.3);
+            border: 2px solid rgb(255, 84, 104);
+            padding: 10px;
+            margin: 10px;
+        }
+        .estrutura-basica span{
+            background-color: white;
+            border: 1px solid black;
+        }
+        .estrutura-basica img{
+            width: 250px;
+            height: 45px;
+        }
+         .wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="estrutura-basica">
+        <h1>Fluxo Basico do Documento</h1>
+        <p>
+            Elementos básicos de nível de blocos. Os elementos de nível de bloco que ficam um abaixo do outro.
+        </p>
+        <p>
+            Por padrão pegamos 100$ da largura do nossa elemento pai e temos a mesma altura como o nossao conteúdo filho. Nossa largarua e altura tatais são nosso contúdo + padding + margin + largura/altura da borda
+        </p>
+        <p>
+            Estamos separados pelas nossas margens. Devido ao colapso das margens, estamos
+            separados pela largura de uma de nossas margens, não de ambas.
+        </p>
+        <p>
+            Elementos inline <span>como este</span> e <span>este</span> ficam
+            a mesma linha um do outro e nós de texto adjacentes, se houver espaço
+            a mesma linha. O excesso de elementos embutidos irá
+            <span>quebrar em uma nova linha, se possível (como esta contendo texto)</span>,
+            ou simplesmente vá para uma nova linha, caso contrário, como esta imagem fará:
+        <img src="img/back.jpg" alt="Iamgem Aqui">
+        </p>
+    </div>
+    <div class="wrapper">
+        <div class="um">1</div>
+        <div class="dois">2</div>
+        <div class="tres">3</div>
+        <div class="quatro">4</div>
+        <div class="quinta">5</div>
+        <div class="sex">6</div>
+    </div>
+</body>
+</html>
