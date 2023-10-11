@@ -63,6 +63,17 @@ section.banner{
     background-size: cover;
     background-attachment: fixed;
 }
+section.banner2{
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-color: var(--corterciaria);
+    color: #fff;
+    box-shadow: inset 6px 6px 13px var(--corquarciaria);
+    background-size: cover;
+    background-attachment: fixed;
+}
 section.banner a{
     font-size: 45px;
     letter-spacing: 8px;
@@ -116,6 +127,13 @@ section#sobre{
     background-image: url(../img/bck3.jpg);
     background-size: cover;
 }
+section#fotobanner2{
+    color: #000;
+    background-image: url(../img/bck4.jpg);
+    background-size: cover;
+    font: 900;
+    font-size: 100px;
+}
 /*Sobre*/
 section.container{
     width: 100%;
@@ -127,20 +145,62 @@ section.container{
 .formrs{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 18px;
     background-color: var(--corhover);
-    width: 50%;
+    width: 100%;
+    height: 250px;
 }
-.foto{
-    background-color: #000;
-    background-image: url(../img/bck4.jpg);
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 5px;
-    width: 50%;
-}
-.foto img{
-    width: 250;
+
+/*Formulário*/
+.container-contato{
+    width: 100%;
     height: 450px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], select, textarea{
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: var(--corbtm);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: var(--corterciaria);
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--corterciaria);
+}
+.copyright{
+    font-size: 35px;
+    color: var(--corquarciaria);
+}
+.copyright:hover{
+    color: var(--corhover);
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+}
+.footer ul  a{
+    margin: 25px;
+    font-size: 25px;
 }
