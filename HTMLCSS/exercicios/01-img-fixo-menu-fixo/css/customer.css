@@ -75,7 +75,6 @@ section.banner h2{
 
 
 section.sobre{
-    display: flex;
     color: #fff;
     width: 100%;
     height: 750px;
@@ -83,20 +82,29 @@ section.sobre{
     box-shadow: inset 6px 6px 13px #ccc;
 }
 section.sobre h2.tsobre{
-    font-size: 70px;
+    text-align: center;
+    font-size: 50px;
     letter-spacing: 6px;
-    
-
 }
-section.sobre p{
-    margin-top: 450px;
-    margin-right: 150px;
+section.sobre .container-text{
+    display: flex;
+    justify-content: center;
+}
+section.sobre .container-text p{
+    margin-top: 350px;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
-    letter-spacing: 4px;
+    font-style: normal;
+    font-weight: 800;
 }
-section.sobre p.psobre2{
+
+.container-text p.psobre1{
     color: #f0371a;
-    margin-left: 350px;
+    margin-right: 150px;
+    margin-left: 15px;
+}
+.container-text p.psobre2{
+    margin-left: 150px;
 }
 section#fotobanner{
     background-image: url(../img/bck1.jpg);
