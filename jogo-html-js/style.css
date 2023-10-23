@@ -1,0 +1,69 @@
+/*Aqgoes Desenvolvimento*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-board{
+    width: 80%;
+    height: 500px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    /*Não  aparacer nada fora do pipe*/
+    overflow: hidden;
+}
+.pipe{
+    position: absolute;
+    bottom: 0; /*Deixa a imagem na parte de baixo*/
+    width: 80px;
+    /*Chamando a nimação infinito*/
+    animation: pipe-animation 2s infinite linear;
+
+}
+.mario{
+   width: 150px; 
+   position: absolute;
+   bottom: 0;
+}
+.jump{
+    animation:  jump 500ms ease-out;
+}
+/*Animação do pipe*/
+@keyframes pipe-animation{
+    /*Onde começa a aniação pipe*/
+    from {
+         /*Começando a animação fora da tela */
+        right: -80px;
+    }
+
+    /*Onde termina a nimação pipe*/
+    to {
+        right: 100%;
+    }
+}
+
+/*Animação mario*/
+@keyframes jump{
+/*Inicio*/
+0%{
+    bottom: 0;
+}
+/*Primeiro ponto intermediário*/
+40%{
+    bottom: 180px;
+}
+/*Meio*/
+50%{
+    bottom: 180px;
+}
+/*Segundo ponto intermediário*/
+60%{
+    bottom: 180px;
+}
+/*Fim*/
+
+100%{
+    bottom: 0;
+}
+}
