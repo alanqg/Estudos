@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label{
+            background-color: brown;
+        }
+    </style>
     <title>Formulário</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="pextra.html" method="get">
       
         <p>
-            <label for="nome">
-                <input type="text">Nome:
+            Nome:
+            <label for="nome" >
+                <input type="text" autocomplete="on">
             </label>
         </p>
       
         <p>
+            Sobrenome:
             <label for="sobrenome">
-                <input type="text">Sobrenome:
+                <input type="text"> 
             </label>
         </p>
 
-        <p>
+        
             <input type="submit" value="Enviar">
-        </p>
-       
+            <input type="reset" value="Limpar">
 
-        <input type="reset" value="Limpar">
 
     </form>
 
