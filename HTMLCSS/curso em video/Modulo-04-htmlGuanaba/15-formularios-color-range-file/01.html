@@ -5,7 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Range File</title>
 </head>
+<style>
+    h1{
+        background-color: #02c2c5;
+        border-radius: 20px;
+        text-align: center;
+    }
+</style>
 <body>
-    
+    <h1>Formulários</h1>
+    <form action="cadastro.html" method="get" autocomplete="on">
+        
+        <p>
+            <label for="icor">Cor</label>
+            <input type="color" name="color" id="icor" value="#00ff00">
+        </p>
+        <p>
+            Nível de cor escolhido é o verde, sendo possível ser tracado o valor.
+        </p>
+        <h2>Nível de satisfação</h2>
+        <p>
+            <label for="satisfacao">Nível de Satisfação</label>
+            <input type="range" name="nivel" id="nivel" min="1" max="5" value="2">
+            <p>
+                Nível de padrão vai de 0 à 100
+            </p>
+        </p>
+        <p>
+
+            <p>
+                <label for="arquivos">Foto do Perfil</label>
+                <input type="file" name="arquivos" id="arquivos">
+                <p>
+                    Para criar o formulários para envios de arquivo sempre deve usar o form Post
+                </p>
+            </p>
+             <input type="submit" value="Enviar">
+             <input type="reset" value="Limpar">   
+        </p>
+    </form>
 </body>
 </html>
