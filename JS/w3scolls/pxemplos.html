@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Estudos Js</h1>
+    <p>
+        Variável z vai receber o valor da soma das variáveis y e x
+    </p>
+    <p>Os exemplos mostrados abaixo são variáveis não declaradas</p>
+    <p id="soma"></p>
+    
+    <P class="somavariaveis"></P>
+    <script>
+        y = 5;
+        x = 6;
+        z = x + y;
+        
+        document.getElementById("soma").innerHTML = " O valor de Z é: " + z + ', esse valor foi a soma do y com x';
+
+        document.write("Proximos Exemplos serão com variáveis declarada. ");
+
+        var nome = "Alan";
+        var idade = 44;
+        var cidade = "Distrito Fedral";
+
+        document.getElementById("somavariaveis").innerHTML = "Meu nome é " + nome + ", tenho " + idade + ", moro no " + cidade;
+
+    </script>
+</body>
+</html>
