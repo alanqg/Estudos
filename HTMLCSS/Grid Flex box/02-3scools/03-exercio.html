@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercício</title>
+    <style>
+        .contianer{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .contianer .logo{
+            padding: 25px 0 0 20px;
+
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li{
+            padding-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contianer">
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
