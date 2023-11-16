@@ -6,28 +6,64 @@
     <title>Flex</title>
     <style>
 
+
         .container01{
             display: flex;
         }
         .container01 > div{
             /*espaçamento de 20px para todas a divs do container01*/
             margin-left: 20px;
-            margin-left: 35px;
         }
         .container01 .um{
             background-color: brown;
         }
-        
+
+        .container02{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            
+
+        }
+        .container02 > div{
+            margin-left: 15px;
+            background-color: blueviolet;
+            width: 600px;
+            height: 600px;
+            text-align: center;
+            line-height: 45px;
+            font-size: 20px;
+        }
+        .container02 .um01{
+            margin-left: 40px;
+        }
     </style>
 </head>
 <body>
+
     <h1>Usando Flex</h1>
     <p>Na próxima div, será usado </p>
 
     <div class="container01">
-        <div class="um">Um</div>
+        <div class="um">
+            <h2>Só flex</h2>
+            <p>
+                Dentro no primeiro estilos, está somante com flex para deixar uma div do lado da outra. <br> Não foi definido nem tamnho, nem largura.
+            </p>
+        </div>
         <div class="dois">Dois</div>
         <div class="tres">Três</div>
+    </div>
+
+    <div class="container02">
+        <div class="um01">
+            <h2>Segundo container </h2>
+            <p>
+                No segundo container tem um tamanho de 600px é uma largura também de 600px. O tamanho foi definido para todas as divs, mas cada div tem sua classe para ter seus proprios estilos
+            </p>
+        </div>
+        <div class="dois02">Dois</div>
+        <div class="tres03">Três</div>
     </div>
 </body>
 </html>
