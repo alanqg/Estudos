@@ -37,6 +37,33 @@
         .container02 .um01{
             margin-left: 40px;
         }
+
+        .container03{
+            margin-top: 10px;
+            display: flex;
+            align-items: stretch;
+            background-color: burlywood;
+        }
+        .container03 > div{
+            background-color: dodgerblue;
+            color: white;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px
+        }
+        .container03 .um001{
+            flex-grow: 1;
+            background-color: blueviolet;
+        }
+        .container03 .dois002{
+            flex-grow: 1;
+            background-color: chocolate;
+        }
+        .container03 .tres003{
+            flex-grow: 8;
+            background-color: chartreuse;
+        }
+
     </style>
 </head>
 <body>
@@ -64,6 +91,17 @@
         </div>
         <div class="dois02">Dois</div>
         <div class="tres03">Três</div>
+    </div>
+
+    <div class="container03">
+        <div class="um0001">Um</div>
+        <div class="dois0002">Dois</div>
+        <div class="tres003">
+            <h2>Tamanho maior que as outros dis</h2>
+            <p>
+                Essa div será oito vezes mais larga que as outras divs, com a propridade flex-grow. 
+            </p>
+        </div>
     </div>
 </body>
 </html>
