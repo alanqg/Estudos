@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 100%;
+            height: 150px;
+            box-shadow: -2px 1px 20px #000;
+            background-color: burlywood;
+            font-size: 25px;
+        }
+        header .logo h1{
+            color: brown;
+        }
+        header .logo h1:hover{
+            color:#000;
+            text-decoration: underline;
+        }
+        header .logo span:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+        header .logo span{
+            color: #000;
+        }
+        header nav ul{            
+            margin-top: 20px;
+            list-style: none;
+        }
+        header nav ul li {
+            display: inline;
+            padding: 25px;
+        }
+        header nav ul li a{
+            text-decoration: none;
+        }
+        header nav ul li a:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+
+        section .homebanner{
+            margin-top: 5px;
+            width: 100%;
+            height: 780px;
+            box-shadow: 1px 5px 8px #000;
+            background-color: brown;
+            color: #fff;
+            text-align: center;
+            padding-top: 240px;
+        }
+        section .homebanner h2{
+            padding-bottom: 25px;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+        section .homebanner p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: 2px;
+        }
+
+
+        .sobre1{
+            display: flex;
+            width: 800%;
+            height: 650px;
+            background-color: cadetblue;
+        }
+        .sobre1 h3{
+            display: block;
+        }
+        .textsobre{
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Aq<span>Goes</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <main>
+            <section id="banner" class="homebanner">
+                <h2>Home</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus, mollitia reprehenderit praesentium aliquid assumenda molestias! Eos mollitia, ab consequatur hic asperiores recusandae illo quas in tempora, sint ipsa et?
+                </p>
+            </section>
+        </main>
+    </section>
+
+
+    <section id="sobre" class="sobre1">
+        <h2>Sobre</h2>
+        <div class="textsobre">
+            <h3>Titulo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam laborum non iure quam molestias. Maxime nobis amet iste ab, magni ad alias expedita esse suscipit officia aperiam sit dolorum.
+            </p>
+        </div>
+
+
+        <div class="img">
+            <img src="" alt="Imagem sobre">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt cum pariatur corrupti quis facere eveniet neque illum? Repudiandae assumenda tempora dolorum dolorem laboriosam beatae voluptatem, praesentium corrupti perferendis? Consequuntur.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
