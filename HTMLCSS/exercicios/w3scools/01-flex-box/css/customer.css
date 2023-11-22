@@ -59,6 +59,20 @@ header nav ul li a{
     font-size: 25px;
     letter-spacing: 8px;
 }
+
+.banner .btn-banner{
+    width: 280px;
+    height: 80px;
+    margin-top: 15px;
+    border-radius: 80px;
+    background-color: brown;
+    color: #fff;
+    font-size: 25px;
+}
+.banner .btn-banner:hover{
+    background-color: burlywood;
+    color: #000;
+}
 .sobre{
     margin-top: 5px;
     width: 100%;
