@@ -4,91 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Templates </title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header{
-            display: grid;
-            grid-template-columns: auto auto;
-            width: 100%;
-            height: 150px;
-            box-shadow: -2px 1px 20px #000;
-            background-color: burlywood;
-            font-size: 25px;
-        }
-        header .logo h1{
-            color: brown;
-        }
-        header .logo h1:hover{
-            color:#000;
-            text-decoration: underline;
-        }
-        header .logo span:hover{
-            color: brown;
-            text-decoration: underline;
-        }
-        header .logo span{
-            color: #000;
-        }
-        header nav ul{            
-            margin-top: 20px;
-            list-style: none;
-        }
-        header nav ul li {
-            display: inline;
-            padding: 25px;
-        }
-        header nav ul li a{
-            text-decoration: none;
-        }
-        header nav ul li a:hover{
-            color: brown;
-            text-decoration: underline;
-        }
-
-        section .homebanner{
-            margin-top: 5px;
-            width: 100%;
-            height: 780px;
-            box-shadow: 1px 5px 8px #000;
-            background-color: brown;
-            color: #fff;
-            text-align: center;
-            padding-top: 240px;
-        }
-        section .homebanner h2{
-            padding-bottom: 25px;
-            font-size: 45px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 900;
-            font-style: normal;
-        }
-        section .homebanner p{
-            font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 900;
-            font-style: normal;
-            letter-spacing: 2px;
-        }
-
-
-        .sobre1{
-            display: flex;
-            width: 800%;
-            height: 650px;
-            background-color: cadetblue;
-        }
-        .sobre1 h3{
-            display: block;
-        }
-        .textsobre{
-            width: 250px;
-            height: 250px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/customer.css">
 </head>
 <body>
     <header>
@@ -116,10 +32,9 @@
     </section>
 
 
-    <section id="sobre" class="sobre1">
-        <h2>Sobre</h2>
+    <section id="sobre" class="container-sobre">
         <div class="textsobre">
-            <h3>Titulo</h3>
+            <h3>Sobre</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam laborum non iure quam molestias. Maxime nobis amet iste ab, magni ad alias expedita esse suscipit officia aperiam sit dolorum.
             </p>
@@ -127,9 +42,10 @@
 
 
         <div class="img">
-            <img src="" alt="Imagem sobre">
+            <img src="img/bck07.jpg" alt="Imagem sobre">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt cum pariatur corrupti quis facere eveniet neque illum? Repudiandae assumenda tempora dolorum dolorem laboriosam beatae voluptatem, praesentium corrupti perferendis? Consequuntur.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusantium magni voluptatem, doloribus enim ex itaque vero culpa ipsa temporibus ratione quis aperiam nisi sunt labore expedita odio aspernatur. Laudantium.
             </p>
         </div>
     </section>
