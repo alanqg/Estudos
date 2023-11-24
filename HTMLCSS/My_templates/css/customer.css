@@ -47,18 +47,69 @@ nav ul li a{
 footer{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 150px;
 }
-.copyright{
-    font-size: 45px;
+footer .copyright{
+    margin-top: 25px;
+    font-size: 38px;
 }
-
 footer h3 span{
+    font-size: 35px;
     color: brown;
+}
+footer .espacamento {
+    width: 5px;
+    height: 50px;
+    margin: 25px;
+    background-color: burlywood;
+}
+footer .menu-footer ul li a{
+    color: #000;
+    font-size: 45px;
 }
 
 .menu-footer{
     color: #000;
 }
+
+
+
+
+@media screen and (max-width: 581px) {
+    header .logo{
+        text-align: center;
+        color: aqua;
+    }
+    footer{
+        display: inline;
+        margin: 0 auto;
+    }
+    .copyright h3{
+        font-size: 35px;
+    }
+    .copyright span{
+        font-size: 25px;
+    }
+ 
+    footer .menu-footer ul li a{
+        font-size: 25px;
+        margin-top: 3px;
+    }
+
+    footer .espacamento{
+        margin: 10px;
+        width: 205px;
+        height: 10px;
+    }
+
+}
+
+
+
+
+
+
 @media screen and (max-width: 450px) {
     header .logo{
         padding-left: 60px;
@@ -73,6 +124,21 @@ footer h3 span{
         justify-content: center;
     
     }
+
+    footer{
+        display: inline;
+    }
+    footer h3{
+        font-size: 25px;
+    }
+    footer .menu-footer ul li a{
+        font-size: 25px;
+    }
+    footer .espacamento{
+        width: 205px;
+        height: 10px;
+    }
+
 }
 
 
