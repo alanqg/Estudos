@@ -43,8 +43,6 @@ header nav ul li a{
     width: 100%;
     height: 850px;
     background-image: url(../img/bck07.jpg);
-   background-color: #000;
-   opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -79,9 +77,26 @@ header nav ul li a{
     margin-top: 5px;
     width: 100%;
     height: 850px;
-    background-image: linear-gradient(brown, #000);
     color: #fff;
+    font-size: 45px;
+    background-image: linear-gradient(brown, #000);
+}
+.sobre h2{
+    text-align: center;
+    padding-top: 35px;
+}
 
+
+.container{
+    display: flex;}
+ .texto{
+    width: 450px;
+    height: 450px;
+    font-size: 25px;
+    
+}.img{
+    width: 450px;
+    height: 450px;
 }
 .blog{
     margin-top: 5px;
