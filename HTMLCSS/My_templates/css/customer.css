@@ -78,31 +78,40 @@ footer .menu-footer ul li a{
 
 
 /*Média Quaries */
-@media screen and (max-width: 581px) {
+@media screen and (max-width: 601px) {
     header .logo{
         text-align: center;
         color: aqua;
+        transition: 1s;
+    }
+    header ul li a {
+        transition: 1s;
     }
     footer{
         display: inline;
         margin: 0 auto;
+        transition: 1s;
     }
     .copyright h3{
         font-size: 35px;
+        transition: 1s;
     }
     .copyright span{
         font-size: 25px;
+        transition: 1s;
     }
  
     footer .menu-footer ul li a{
         font-size: 25px;
         margin-top: 3px;
+        transition: 1s;
     }
 
     footer .espacamento{
         margin: 10px;
         width: 205px;
         height: 10px;
+        transition: 1s;
     }
 
 }
@@ -117,6 +126,7 @@ footer .menu-footer ul li a{
         padding-left: 60px;
         text-align: center;
         color: blue;
+        transition: 1s;
 
     }
     nav ul li a{
@@ -124,22 +134,27 @@ footer .menu-footer ul li a{
         font-size: 18px;
         align-items: center;
         justify-content: center;
+        transition: 1s;
     
     }
 
     /*Footer*/
     footer{
         display: inline;
+        transition: 1s;
     }
     footer h3{
         font-size: 25px;
+        transition: 1s;
     }
     footer .menu-footer ul li a{
         font-size: 25px;
+        transition: 1s;
     }
     footer .espacamento{
         width: 205px;
         height: 10px;
+        transition: 2s;
     }
 
 }
