@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
@@ -7,6 +8,8 @@
 }
 
 /*Paletas de cores --> https://www.colourlovers.com/palette/4934176/Emile_Brand_Palette*/
+/*Padrão sobre contato*/
+/*Padrão header footer*/
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -32,19 +35,31 @@ header h1 {
 }
 
 .contato {
+  width: 100%;
+  height: 800px;
+  margin-top: 10px;
   font-size: 85px;
-  color: #333333;
-  background-color: #CCCCCC;
-  border-radius: 25px #333333;
+  text-align: center;
+  color: #CCCCCC;
+  border-radius: 25px;
+  background-color: #333333;
 }
 
 .sobre {
   width: 100%;
   height: 800px;
+  margin-top: 10px;
+  font-size: 85px;
+  text-align: center;
+  color: #CCCCCC;
+  border-radius: 25px;
+  background-color: #CE672B;
 }
 
 footer {
   width: 100%;
   height: 150px;
-  background-color: #113300;
+  background-color: #CE672B;
+  text-align: center;
+  color: #CCCCCC;
 }/*# sourceMappingURL=variavel.css.map */

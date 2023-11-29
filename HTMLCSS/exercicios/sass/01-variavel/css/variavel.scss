@@ -26,23 +26,31 @@ $tamnho-cemporcento: 100%;
 $tamnho-oitocentopx: 800px;
 $tamanho-header: 150px;
 
-
-@mixin nome {
+/*Padrão sobre contato*/
+@mixin box-cont-sobre {
+    width: $tamnho-cemporcento;
+    height: $tamnho-oitocentopx;
+    margin-top: 10px;
     font-size: 85px;
-    color: $cor-segu01;
-    background-color: $cor-segu03;
-    border-radius: 25px $cor-segu01;
-}
-body{
-    font-family: $fonte-geral ;
+    text-align: center;
+    color: $cor-segu03;
+    border-radius: 25px;
 }
 
-header{
+/*Padrão header footer*/
+@mixin header-footer{
     width: $tamnho-cemporcento;
     height: $tamanho-header;
     background-color: $cor-btn;
     text-align: center;
     color: $cor-segu03;
+}
+
+body{
+    font-family: $fonte-geral ;
+}
+header{
+    @include header-footer;
 }
 header h1{
     padding: 10px;
@@ -55,14 +63,14 @@ header h1{
     margin-top: 5px;
 }
 .contato{
-    @include nome;
+    @include box-cont-sobre;
+    background-color: $cor-segu01
 }
+
 .sobre{
-    width: $tamnho-cemporcento;
-    height: $tamnho-oitocentopx;
+    @include box-cont-sobre;
+    background-color: $cor-btn;
 }
 footer{
-    width: $tamnho-cemporcento;
-    height: $tamanho-header;
-    background-color: $cor-hover;
+  @include header-footer;
 }
