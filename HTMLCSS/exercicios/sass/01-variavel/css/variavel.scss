@@ -25,6 +25,14 @@ $fonte-titulos: 'Vina Sans', sans-serif;
 $tamnho-cemporcento: 100%;
 $tamnho-oitocentopx: 800px;
 $tamanho-header: 150px;
+
+
+@mixin nome {
+    font-size: 85px;
+    color: $cor-segu01;
+    background-color: $cor-segu03;
+    border-radius: 25px $cor-segu01;
+}
 body{
     font-family: $fonte-geral ;
 }
@@ -45,6 +53,9 @@ header h1{
     background-color: $cor-segu01;
     color: $cor-segu03;
     margin-top: 5px;
+}
+.contato{
+    @include nome;
 }
 .sobre{
     width: $tamnho-cemporcento;
