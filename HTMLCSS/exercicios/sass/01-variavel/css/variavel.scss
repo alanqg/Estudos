@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+//Fonte titulos
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+//Geral
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Paletas de cores --> https://www.colourlovers.com/palette/4934176/Emile_Brand_Palette*/
+
+//Variáveis
+$cor-btn: #CE672B;
+$cor-hover: #113300;
+$cor-segu01: #333333;
+$cor-segu02: #402B00;
+$cor-segu03: #CCCCCC;
+
+$fonte-geral: 'Roboto', sans-serif;
+$fonte-titulos: 'Vina Sans', sans-serif;
+
+$tamnho-cemporcento: 100%;
+$tamnho-oitocentopx: 800px;
+$tamanho-header: 150px;
+body{
+    font-family: $fonte-geral ;
+}
+
+header{
+    width: $tamnho-cemporcento;
+    height: $tamanho-header;
+    background-color: $cor-btn;
+    text-align: center;
+    color: $cor-segu03;
+}
+header h1{
+    padding: 10px;
+}
+.banner{
+    width: $tamnho-cemporcento;
+    height: $tamnho-oitocentopx;
+    background-color: $cor-segu01;
+    color: $cor-segu03;
+    margin-top: 5px;
+}
+.sobre{
+    width: $tamnho-cemporcento;
+    height: $tamnho-oitocentopx;
+}
+footer{
+    width: $tamnho-cemporcento;
+    height: $tamanho-header;
+    background-color: $cor-hover;
+}
