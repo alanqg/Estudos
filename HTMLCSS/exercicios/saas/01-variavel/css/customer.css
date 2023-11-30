@@ -1,5 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/*Fonte para os titulos*/
+/*Fonte Titulos*/
+/*Paletas de cores | https://www.colourlovers.com/palette/623761/Walking_Away*/
+header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 150px;
+  background-color: #990100;
+}
+
+header h1 {
+  padding: 35px;
+  font-family: "Indie Flower", cursive;
+  color: #F6F6F6;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding: 35px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #F6F6F6;
 }/*# sourceMappingURL=customer.css.map */
