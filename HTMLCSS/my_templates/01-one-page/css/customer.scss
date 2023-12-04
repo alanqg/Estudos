@@ -6,9 +6,26 @@
 
 /*Importanto google fontes*/
 @import "fontes";
+/*Cores*/
+@import "cores";
+/*Tamanhos*/
+@import "tamanhos";
+
 p{
     font-family: $fonte-paragrafos;
 }
 h1, h2{
     font-family: $fonte-titulos;
+}
+header{
+    width: $largura-total;
+    height: $footer-header;
+    background-color: $cor-escura;
+    color: $cor-clara;
+}
+.banner{
+    width: $largura-total;
+    height: $altura-caixas;
+    background-color: $cor-btn;
+    color: $cor-clara;
 }
