@@ -3,18 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: $font-paragrafos;
-}
+
+/*Importanto google fontes*/
 @import "fontes";
-@import "cores";
-
-h1, h2, h3{
-    font-family:  $font-titulos;
+p{
+    font-family: $fonte-paragrafos;
 }
-
-header .container{
-    width: 100%;
-    height: 450px;
-    background-color: $cor-escuro;
+h1, h2{
+    font-family: $fonte-titulos;
 }

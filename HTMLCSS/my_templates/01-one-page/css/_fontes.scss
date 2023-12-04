@@ -1,12 +1,12 @@
+/*Fonte titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
-//Titulos
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-//Paragrafos
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*Fonte paragrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 
-//Fonte dos titulos
-$font-titulos: 'Permanent Marker', cursive;
-//Fonte paragrafos
-$font-paragrafos: 'Roboto', sans-serif;
+/*Fonte titulos*/
+$fonte-titulos: 'Caveat', cursive;
+
+/*Fonte paragrafos*/
+$fonte-paragrafos: 'Lato', sans-serif;
