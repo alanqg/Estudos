@@ -1,0 +1,15 @@
+/*Estilos Gerial*/
+*{
+ box-sizing: border-box;
+}
+.banner > div {
+    display: block;
+    margin: 0 auto;
+    background-color: brown;
+}
+.um {
+    display: block;
+}
+.dois{
+    display: block;
+}
