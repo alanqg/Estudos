@@ -1,15 +1,8 @@
 /*Estilos Gerial*/
-*{
- box-sizing: border-box;
+
+.cabecalho h1{
+    text-align: center;
 }
-.banner > div {
-    display: block;
-    margin: 0 auto;
-    background-color: brown;
-}
-.um {
-    display: block;
-}
-.dois{
-    display: block;
+.banner{
+    padding-top: 150px ;
 }
