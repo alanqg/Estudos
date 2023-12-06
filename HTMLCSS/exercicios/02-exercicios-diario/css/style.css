@@ -7,7 +7,21 @@ header{
     height: 100px;
     background-color: blanchedalmond;
 }
+span{
+    color: brown;
+    font-size: 35px;
+}
+header .logo a{
+    color: black;
+    font-size: 35px;
+}
+
+header .menu-nav{
+    margin-top: 10px;
+}
+
 form{
+    margin-top: 10px;
     width: 250px;
     height: 45px;
 }
@@ -15,14 +29,6 @@ button{
     width: 110px;
     height: 45px;  
    
-}
-span{
-    color: brown;
-    font-size: 35px;
-}
-.logo a{
-    color: black;
-    font-size: 35px;
 }
 
 
@@ -37,8 +43,9 @@ span{
         height: 30px;
     }
     button{
+        display: inline-block;
         width: 80px;
         height:  25px;
-        text-align: center;
+        
     }
     }
