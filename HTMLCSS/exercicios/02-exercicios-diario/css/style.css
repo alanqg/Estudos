@@ -1,8 +1,44 @@
-/*Estilos Gerial*/
+/*Estilos Gerais*/
 
-.cabecalho h1{
-    text-align: center;
+/*Estilos extras topo*/
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blanchedalmond;
 }
-.banner{
-    padding-top: 150px ;
+form{
+    width: 250px;
+    height: 45px;
 }
+button{
+    width: 110px;
+    height: 45px;  
+   
+}
+span{
+    color: brown;
+    font-size: 35px;
+}
+.logo a{
+    color: black;
+    font-size: 35px;
+}
+
+
+/*Responsivo*/
+@media screen and (max-width: 760px) {
+    header {
+     width: 100%;
+     height: 180px;
+    }
+    form{
+        width: 200px;
+        height: 30px;
+    }
+    button{
+        width: 80px;
+        height:  25px;
+        text-align: center;
+    }
+    }
