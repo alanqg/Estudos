@@ -23,8 +23,9 @@ header h1{
 }
 
 /*Area de treino*/
-section .container{
+.container{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    background-color: $cor-seg;
 }
