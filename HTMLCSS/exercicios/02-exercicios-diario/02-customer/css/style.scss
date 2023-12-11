@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 @import "fontes";
+@import "cores";
+@import "tamanhosp";
 
+body{
+    font-family: $font-paragrafo;
+}
 header{
-    width: 100%;
-    height: 150px;
+    text-align: center;
+    width: $largura100p;
+    height: $theader-footer;
+    background-color: $cor-btn;
+    color: #fff;
 }
-section .banner{
-    width: 100%;
-    height: 650px;
-    background-color: brown;
-    color: antiquewhite;
-}
-.banner h2{
-    font-family: $font-titulos;
+header h1{
+    font-family: $font-titulos; 
+    padding: 25px;
 }
