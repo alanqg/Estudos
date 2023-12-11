@@ -22,4 +22,10 @@ header {
 header h1 {
   font-family: "Assistant", sans-serif;
   padding: 25px;
+}
+
+/*Area de treino*/
+section .blog {
+  display: block;
+  background-color: aquamarine;
 }/*# sourceMappingURL=style.css.map */
