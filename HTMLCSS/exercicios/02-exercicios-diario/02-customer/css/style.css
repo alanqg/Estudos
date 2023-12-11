@@ -25,7 +25,8 @@ header h1 {
 }
 
 /*Area de treino*/
-section .blog {
-  display: block;
-  background-color: aquamarine;
+section .container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
