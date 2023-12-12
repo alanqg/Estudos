@@ -8,10 +8,12 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: #233eff;
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
+    color: #fff;
+    text-shadow: 2px 2px 0px #0f1a74;
     padding: 10px;
-    color: wheat;
-    text-shadow: 2px 2px 0px #1526a7;
 }
