@@ -1,13 +1,8 @@
 # Estudos
-<style>
-    .home{
-        background-color: #906;
-    }
-</style>
-<div class="home" style="background-color:#906;">
+<header class="home" style="background-color:#906;">
     <h2>Sou div com estilos diferentes</h2>
     
-</div>
+</header>
 <div style="background-color:#1a5c37;width:900px;width:800px;">
     <h1 style="text-align:center;font-size:30px;background-color:#063d1e;color:#ebe5c5;border-radius:40px;">Todos os projetos JS HTML | CSS PHP WP</h1>
     <hr>
