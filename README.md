@@ -1,5 +1,5 @@
 # Estudos
-<header class="home" style="background-color:#906; color:#fff;">
+<header style="background-color:#906;color:#fff;">
     <h2>Sou div com estilos diferentes</h2>
     
 </header>
