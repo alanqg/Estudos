@@ -16,7 +16,7 @@ header > h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     list-style: none;
@@ -51,4 +51,19 @@ article > p{
     margin-bottom: 20px;
     /*Espaçamento antes de cada paragrafos*/
     text-indent: 20px;
+}
+
+
+/*Menu hamburg*/
+span#burguer{
+    background-color: rgb(48, 48, 48);
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
 }
