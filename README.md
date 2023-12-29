@@ -4,7 +4,7 @@
         background-color: #906;
     }
 </style>
-<div class="home">
+<div class="home" style="background-color:#906;">
     <h2>Sou div com estilos diferentes</h2>
     
 </div>
