@@ -5,7 +5,7 @@
     }
 </style>
 <div class="home">
-    
+    <h2>Sou div com estilos diferentes</h2>
     
 </div>
 <div style="background-color:#1a5c37;width:900px;width:800px;">
