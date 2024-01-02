@@ -10,7 +10,6 @@
     <h1 style="text-align:center;font-size:30px; color:#fff;border-radius:40px;">Acesse os Links é Leja os Principais Projetos</h1>
     <hr>
 
-</div>
     <hr>
     <p style="text-align:center;font-size:20px;background-color:#1a5c37;color:#ebe5c5;border-radius:40px;">Todos os projetos são desenvolvido por: Aq<span style="color:brown;">Goes</span>.</p>
 </div>
