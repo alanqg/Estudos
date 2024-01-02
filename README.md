@@ -12,5 +12,4 @@
         <h2>Corpo do Porjeto</h2>
     </div>
     <hr>
-    <p style="text-align:center; font-size: 20px; background-color:#1a5c37;color:#ebe5c5; border-radius:40px;">Todos os projetos são desenvolvido por: Aq<span style="color:brown;">Goes</span>.</p>
 </div>
