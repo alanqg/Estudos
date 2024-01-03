@@ -3,9 +3,6 @@
     <p style="font-size: 30px;" >
         Todos os resumos dos estudo HTML | CSS | JS | PHP | WP
     </p>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
 </header>
 
 <div style=" background-image: linear-gradient(to top, #BD2A2E,  #3B3936 ); width:100%; height: 700px;">
