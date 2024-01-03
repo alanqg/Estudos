@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<title>Tela 01 de Login</title>
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	<!--Link para icones usados no projetos https://boxicons.com/?query=lock -->
-	<link rel="stylesheet" type="text/css" href="css/customer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form in HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Site dos icones https://boxicons.com/-->
 </head>
+
 <body>
-	<div class="wrapper">
-		<form action="">
-			<h1>Login</h1>
-			<div class="input-box">
-				<input type="text" placeholder="Usuário" required>	
-			</div>
+    
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
 
-			<div class="input-box">
-				<input type="password" placeholder="Senha" required>
-			</div>
+            <div class="input-box">
+                <input type="text" placeholder="Login" required>
+                <i class='bx bxs-user' ></i>
+            </div>
 
-			<div class="esqueci-senha">
-				<label> <input type="checkbox"> Lembre-me </label>
-				<input type="submit" value="Enviar">
-				<a href="#">Recupe seu Senha</a>
-			</div>
-			<button type="submit" class="btn">Login</button>
+            <div class="input-box">
+                <input type="password" placeholder="Senha" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
 
-			<div class="register-link">
-				<p>Ainda não Conta <a href="#">Registre-se</a> </p>
-			</div>
-		</form>
-	</div>
+            <div class="lembre-senha">
+                <label> <input type="checkbox"> Lembre-me </label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
 
 
+            <button type="submit" class="btn">Acessar</button>
+
+            <div class="novo-user">
+                <p>Não tenho conta <a href="#">Registre-se</a></p>
+                
+            </div>
+        </form>
+
+
+    </div>
 </body>
+
 </html>
