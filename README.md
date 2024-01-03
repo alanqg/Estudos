@@ -9,7 +9,7 @@
 </header>
 
 <div style=" background-image: linear-gradient(to top, #BD2A2E,  #3B3936 ); width:100%; height: 700px;">
-    <h1 style="text-align:center;font-size:30px; color:#fff;border-radius:40px;">Acesse os Links é Leja os Principais Projetos</h1> 
+    <h1 style="text-align:center;font-size:30px; color:#fff;border-radius:40px;">Acesse os Links é Veja os Principais Projetos</h1> 
     <br><br><br><br>
     <hr>
     </div>
