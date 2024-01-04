@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        header{
+            background-color: brown;
+            width: 100%;
+            height: 100px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.199)
+        }
+        header, h1, p{
+            text-align: center;
+            color: #fff;
+            padding: 5px;
+        }
+        #banner{
+            display: flex;
+            width: 100%;
+            height: 700px;
+            margin-top: 5px;
+            background-image: linear-gradient(to top, #fff, #ccc);
+            box-shadow: 0px 0px 30px #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FlexBox</h1>
+        <p>
+           Alguns exemplos de FlexBox css moderno. 
+        </p>
+    </header>
+    
+    <section id="banner">
+        <div class="um">
+            <h2>Primeira Caixa</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum aliquid hic saepe distinctio libero, porro blanditiis quidem quo nobis pariatur nisi commodi quisquam fugit incidunt dolor unde et harum laudantium?
+            </p>
+        </div>
+
+        <div class="dois">
+            <h2>Segunda Caixa</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam similique deleniti deserunt iste officiis. Ipsam est sequi consequuntur provident! Modi explicabo quidem fugit ad facilis quas nihil doloribus. Odio, iusto?
+            </p>
+        </div>
+
+        <div class="tres">
+            <h2>Terceira Caixa</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt repudiandae eveniet veritatis assumenda consequatur a deleniti, cumque dolorem esse accusamus, fugiat hic molestiae eos delectus sed facere expedita iste!
+            </p>
+        </div>
+    </section>
+</body>
+</html>
