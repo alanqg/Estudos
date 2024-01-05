@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
 :root{
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
@@ -16,9 +18,13 @@ body{
 
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 ::before,::after{
     box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 /*Seção home*/
 .section{
@@ -39,6 +45,52 @@ body{
     position: fixed;
     left: 0;
     top: 0;
+    padding: 30px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
+}
+.asides .logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.asides .logo a{
+    color: var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.asides .logo a span{
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+}
+.asides .logo a::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+.asides .logo a::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
+.asides .nav{
+    margin-top: 50px;
+
 }
