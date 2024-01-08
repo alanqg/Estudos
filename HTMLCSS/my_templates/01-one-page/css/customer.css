@@ -47,6 +47,7 @@ ul{
     top: 0;
     padding: 30px;
     height: 100%;
+    border-right: 1px solid var(--bg-black-50) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +58,11 @@ ul{
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
+}
+.asides .nav-toggler{
+    height: 40px;
+    width: 4px;
+    border: 1px solid var(--bg-black-50);
 }
 .asides .logo a{
     color: var(--text-black-900);
@@ -93,4 +99,23 @@ ul{
 .asides .nav{
     margin-top: 50px;
 
+}
+.asides .nav li{
+    margin-bottom: 20px;
+    display: black;
+    
+}
+.asides .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px var(--bg-black-50);
+    color: var(--text-black-900);
+    padding: 5px 15px;
+}
+.asides .nav li a.active{
+    color: var(--skin-color);
+}
+.asides .nav li a i{
+    margin-right: 15px;
 }
