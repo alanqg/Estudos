@@ -63,6 +63,7 @@ ul{
     height: 40px;
     width: 4px;
     border: 1px solid var(--bg-black-50);
+    cursor: pointer;
 }
 .asides .logo a{
     color: var(--text-black-900);
