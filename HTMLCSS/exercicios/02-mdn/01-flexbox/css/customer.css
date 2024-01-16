@@ -17,7 +17,6 @@
     --btn: #017A97;
     --btn-hover: #0B1D29;
 
-
     --fonte-principal: 'Roboto', sans-serif;
     --fonte-titulos:  'Lemon', serif;
 
@@ -28,18 +27,17 @@
   }
 
  header h1 {
-    
+    font-family: var(--fonte-titulos);
     text-align: center;
     color: white;
     letter-spacing: 3px;
-
-  
   }
 
   article {
     padding: 10px;
     margin: 10px;
     background: aqua;
+    font-family: var(--fonte-principal);
   }
 
   /* Add your flexbox CSS below here */
