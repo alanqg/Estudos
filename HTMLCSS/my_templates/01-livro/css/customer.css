@@ -26,6 +26,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: var(--bg-color);
+    color: var(--text-color);
 }
 .wrapper{
     position: relative;
@@ -47,4 +48,19 @@ body{
 }
 .cover.cover-right.turn{
     transform: rotateY(180deg);
+}
+
+/*Book*/
+.book{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.book .book-page{
+     position: absolute;  
+     width: 50%;
+     height: 100%;
+     background: var(--pages-color);
+     box-shadow: 0 0 .6rem rgba(0, 0, 0, .1);
 }
