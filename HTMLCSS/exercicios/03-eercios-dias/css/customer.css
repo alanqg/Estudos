@@ -65,7 +65,7 @@ main h3{
 .medel-box{
     width: 100%;
     height: 450px;   
-    background: var(--bck-hover);
+  
 }
 section .primeiro-modelo{
     width: 450px;
@@ -75,19 +75,14 @@ section .primeiro-modelo{
     float: left;
     border-radius: 50px;
     text-align: center;
-    box-shadow: 1px 5px 5px var(--cor-branca);
-    background: var(--cor-branca);
+    box-shadow: 1px 1px 5px var(--cor-escura);
+   
 }
-section .primeiro-modelo.noticas h2{
-    margin: 10px;
-    color: var(--cores-segu01);
-}
-section .primeiro-modelo.esportes h2{
-   color: var(--cores-segu02);
-}
-section.primeiro-modelo.tecnologia h3{
-    color: var(--bck);
-}
-div .flex-box{
+.flex-box{
     display: flex;
+    background: var(--bck);
+    color: var(--cor-branca);
+    padding: 45px;
+    margin-right: 45px;
 }
+
