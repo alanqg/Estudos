@@ -88,14 +88,6 @@ section .primeiro-modelo.esportes h2{
 section.primeiro-modelo.tecnologia h3{
     color: var(--bck);
 }
-section > div{
-    width: 100%;
-    height: 350px;
-    margin: 15px;
+div .flex-box{
+    display: flex;
 }
-section.flex-box{
-    display: inline-flex;
-    background: var(--bck-hover);
-    
-}
-
