@@ -1,0 +1,65 @@
+/*
+    Desenvolvido por: Aqgoes
+    Cores usado nos exercios -->  https://www.colourlovers.com/palette/4937156/Branded_Tequila
+    Fontes usado no projeto:
+    Titulos: @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+    Paragrafos: 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+:root{
+    --bck: #263633;
+    --bck-hover: #07544E;
+    --cores-segu01: #053831;
+    --cores-segu02: #216E68;
+    --cor-branca: #fff;
+    --cor-escura: #000;
+
+    --titulos: 'Lemon', serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 450px;
+    font-family: 'Lemon', serif;
+    text-align: center;
+    background: var(--bck);
+    color: var(--cor-branca);
+}
+header h1{
+    padding-top: 150px;
+    font-size: 90px;
+
+}
+header span.aq:hover{
+    color: var(--cores-segu02);
+}
+header span.goes:hover{
+    color: var(--cores-segu02);
+}
+header span.goes{
+    color: var(--cores-segu02);
+}
+header span.goes:hover{
+    color: var(--cor-branca);
+}
+.medel-box{
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    background: var(--cores-segu02);
+}
+section .primeiro-modelo{
+    width: 350px;
+    height: 250px;
+    background: var(--cor-branca);
+}
+section .segundo-modelo{
+    width: 350px;
+    height: 250px;
+    background: var(--cor-branca);
+}
