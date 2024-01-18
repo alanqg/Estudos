@@ -50,15 +50,10 @@ header h1{
     padding-top: 40px ;
     text-align: center;
 }
-.geral{
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 50%;
-    right: 50%;
-}
-article.contianer-artigo{
-    width: 350px;
-    height: 350px;
-    
+header nav ul li{
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    background: var(--cores-segu01);
 }
