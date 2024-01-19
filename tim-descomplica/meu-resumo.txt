@@ -1,2 +1,0 @@
-Primeiros passos mão na massa.
-Heráqquia de texto, mostrando como usar a semantica do html.
