@@ -73,3 +73,19 @@ section.boxmodel h2{
     font-size: 45px;
     
 }
+  /*Foter*/
+  section.footer{
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-top: 40px;
+    background: var(--bck);
+  }
+  .footer-content{
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    background: var(--cor-branca);
+    text-align: center;
+  }
