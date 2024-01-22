@@ -4,4 +4,5 @@
 function muda_nomeN(){
     alert('Aqgoe');
 }
-document.write('5+5');
+let x = 2;
+document.write(x + " Aqgoes") 
