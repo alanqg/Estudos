@@ -1,0 +1,54 @@
+:root{
+    --cor_bkc: #990100;
+    --houver: #B90504;
+    --cor-clara: #E8E8E8;
+    --cor-escura: #333333;
+}
+/*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*Paragrafors*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+}   
+header{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background: var(--cor_bkc);
+    color: var(--cor-clara);
+    text-align:  center;
+}
+header h1{
+    font-family: 'Lobster', sans-serif;
+    padding: 15px;
+}
+section.pmodulo{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient( to bottom right, #990100, #333333);
+    color: var(--cor-clara);
+    text-align:  center;
+}
+section.pmodulo h2, h3{
+    text-align: center;
+    padding: 5px;
+}
+section.pmodulo p{
+    margin-bottom: 30px;
+}
+section.pmodulo a{
+    padding: 15px;
+    border-radius: 35px;
+    background: var(--cor-escura);
+    color: #E8E8E8;
+    font-size: 35px;
+    text-decoration: none;
+}
+section.pmodulo a i{
+    color: var(--cor-clara);
+    font-size: 30px;
+    margin: 10px;
+}
