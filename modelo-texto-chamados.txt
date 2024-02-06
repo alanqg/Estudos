@@ -1,0 +1,11 @@
+Relatorio de encerramento de ordem de serviço em T.I.
+
+Problema indentificado
+Restaurar o backup, micro foi reconhido para manutenção devolvido depois da manutenção.
+
+Solução
+Foi realizado a resutaçãod dos dados, porém cleinte não estava no local para assinar  o formulário, preveisão
+de retorno Quarti-Feira 15/02/24 .
+
+
+
