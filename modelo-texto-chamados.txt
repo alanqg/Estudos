@@ -1,11 +1,61 @@
 Relatorio de encerramento de ordem de serviço em T.I.
 
+
 Problema indentificado
-Restaurar o backup, micro foi reconhido para manutenção devolvido depois da manutenção.
+Ninguém no setor está conseguindo imprimir na imporesso do endereço lágino IS0025. 
 
 Solução
-Foi realizado a resutaçãod dos dados, porém cleinte não estava no local para assinar  o formulário, preveisão
-de retorno Quarti-Feira 15/02/24 .
+Realizado procedimento de desinstalação é instalação de driver, mas o problema persiste, efetuado testes com outros usuários, sempre aparace a mesma mensagem de imprimindo, mas não sai a imporessão.
 
 
+
+
+
+
+
+      <===============>
+(Primeiro modelo da página sobre)
+Criar uma página sobre mim.
+
+Me chamo Alan Queirós trabalho é estudo na area de tecnicologia a mais de 20 anos, crie essa blog para deixar uma documenteção da alto ajudo para pessoas que trabalham na área de programação web.
+
+(Mesma versão com GPchat)
+
+Sobre Alan Queirós
+
+Olá! Meu nome é Alan Queirós e sou apaixonado por tecnologia. Com mais de 20 anos de experiência na área de tecnologia da informação, venho dedicando minha carreira ao estudo e ao aprimoramento contínuo, especialmente focado na programação web.
+
+Desde o início da minha jornada profissional, tenho trabalhado arduamente para acumular conhecimento e experiência, enfrentando desafios e aprendendo com cada oportunidade que surge. Ao longo dos anos, desenvolvi habilidades sólidas em diversas áreas da tecnologia, mas foi na programação web que encontrei minha verdadeira paixão.
+
+Decidi criar este blog com o objetivo de compartilhar meu conhecimento e experiência com outras pessoas que trabalham na área de programação web. Aqui, você encontrará uma variedade de recursos, tutoriais, dicas e documentação que podem ajudá-lo a expandir seus conhecimentos e aprimorar suas habilidades como desenvolvedor web.
+
+Acredito firmemente na importância da colaboração e do compartilhamento de conhecimento na comunidade de desenvolvimento web. Por isso, estou comprometido em oferecer conteúdo de qualidade que possa ser útil para programadores de todos os níveis de experiência, desde iniciantes até profissionais experientes em busca de novos desafios.
+
+Se você está procurando aprender os fundamentos da programação web, explorar novas tecnologias ou resolver problemas específicos em seus projetos, este blog é para você. Estou aqui para fornecer orientação, apoio e recursos práticos para ajudá-lo a alcançar seus objetivos como desenvolvedor web.
+
+Além disso, estou sempre aberto a sugestões, comentários e perguntas dos leitores. Se houver algum tópico específico que você gostaria de ver abordado ou se tiver dúvidas sobre algum conceito ou técnica, não hesite em entrar em contato comigo.
+
+Agradeço por visitar meu blog e espero que você encontre aqui a inspiração e o conhecimento necessários para impulsionar sua carreira na programação web.
+
+Seja bem-vindo(a) e aproveite o conteúdo!
+
+Atenciosamente,
+
+Alan Queirós
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
