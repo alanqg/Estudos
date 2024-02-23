@@ -165,3 +165,23 @@ nav ul li a{
     display: inline-block;
     margin-right: 25px;
 }
+
+/*Courses*/
+#courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.courses-col-right{
+    flex-basis: 50%;
+}
+.courses-col-right img{
+    width: 100%;
+}
+.courses-col-left{
+    flex-basis: 50%;
+}
