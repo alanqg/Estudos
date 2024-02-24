@@ -97,7 +97,7 @@ nav ul li a{
 }
 
 /*Seção Sobre*/
-#about{
+#about,#offer{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -184,4 +184,15 @@ nav ul li a{
 }
 .courses-col-left{
     flex-basis: 50%;
+}
+.couse-text{
+    max-width: 350px;
+}
+.couse-text button{
+    margin: 30px 0;
+}
+
+/*offer*/
+#offer button{
+    margin: 30px 0;
 }
