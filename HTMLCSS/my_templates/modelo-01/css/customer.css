@@ -269,3 +269,9 @@ hr{
     font: 13px;
     color: #777;
 }
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
