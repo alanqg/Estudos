@@ -277,11 +277,20 @@ hr{
 }
 .footer-info{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer-logo img{
     width: 100px;
+    
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text,.footer-logo{
+     flex-basis: 40%;       
 
 }
