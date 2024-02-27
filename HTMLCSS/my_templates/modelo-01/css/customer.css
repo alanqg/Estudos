@@ -294,3 +294,26 @@ hr{
      flex-basis: 40%;       
 
 }
+
+/*Media Social */
+.media-socias{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.media-socias img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+/*Media query*/
+@media only  screen and (max-width: 770px) {
+    #header{
+        background-image: none;
+    }       
+}
