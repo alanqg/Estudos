@@ -35,6 +35,7 @@ h1{
 .common-btn{
     padding: 15px 40px;
     background: transparent;
+    outline: none;
     border: 2px solid #f67c92;
     font-weight: bold;
     cursor: pointer;
@@ -331,4 +332,46 @@ hr{
         font-size: 25px;
     }
     
+    #menuBtn{
+        width: 40px;
+        right: 50px;
+       
+    }
+    .common-btn{
+        padding: 10px 16px;
+    }
+    .media-socias img{
+        width: 20px;
+        margin: 15px auto;
+    }
+    .about-left-col,.about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin-right: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+    .features-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .courses-col-left{
+        flex-basis: 100%;
+    }
+    .courses-col-right{
+        margin-top: 50px;
+    }
+    .contect-left-col,.contact-right-col{
+        flex-basis: 100%;   
+    }
+    .footer-left-col{
+        flex-basis: 100%;
+        margin-top: 60px;
+    }
+    .footer-right-col{
+        flex-basis: 100%;
+    }
 }
