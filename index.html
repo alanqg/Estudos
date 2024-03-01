@@ -1,14 +1,647 @@
-<header style=" background-image: linear-gradient(to top, #BD2A2E,  #3B3936 ); color:#fff; width: 100%; height: 150px; text-align: center; ">
-    <h2 style="padding-top: 15px; font-size: 35px;" >Sou div com estilos diferentes</h2>
-    <p style="font-size: 30px;" >
-        Todos os resumos dos estudo HTML | CSS | JS | PHP | WP
-    </p>
-</header>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimeiro Modelo HTML | CSS</title>
+    <link rel="stylesheet" href="css/customer.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczP29yGGo11Q27XwUsWNwTIPojBLt0QRcywFiVPanYXqa7QsybYgs4jFNOac-XtT7VfIZ4GJy2upD6jnxeTd7YyDbdY33uvHVG7mw9hFj1Er7dCOup9XbxuFdENuF6d4SxfCJPwxzZKU5kfbp-Bh-bFJJMW7SN39kSq-sB4BesCdCwIltMswRTSGXPkiVcN_hG6h9wxoNqRDy3IpC7m0yvy1q-vSpy4_cosDpN-WJ2_YkpW12E9zyk8N7GGTsDJ8gCRcGEF5OP-saws64fQ0UKYV6u3ch1kuSfoIwgftB_oTTxyxc_3yB45Qy2yWeL_rH4OjZFX7UZg66XjT7-QFiBDKyPaY2jUL4ZAutdpf6-MVdxnAUsXA5lCYXhpBGv8DD6ECM86OrUtwz0C9L97pcdNo1AiBMqtY7MM0tEhufxBecBCqMf6kYGRx-GBS6s7WAdfiJehL9oIV1Y0SxTbJjSR5qiy0ngnnhuwrNUpJErz0OCvyxUXiYhIytmiIjBGyijYKR1Jw81kf5IhcJG3gGD3WqGs-e1AVpmd8U5OWWo_uQPrU-cdxtuwATxsHxqq7D79fFAA-LZYArJoog8QgcqODWEIG2K_gjta1WAtqKhqLkg8C1PHziqpKFT2tB-eVZiPxFP78l4HsZw7Zbxy1KKwlSGA81fsaWx5c16B1SyztZ6Uh4IhJn4-_ftnSVf-O0_JwUZeaRboX0bhVszb5eYoS8u4nhOO7_kgMYHjqn725U6Sd7D9NXKolNZhYQW_7zoqYso7OzBw6Gv3cur-zm7I4a5evWelyII9-3US-DUTpRte8USyFWaYDSdE3dm0QmUw86JJoV1VUAtxP9w3hq1n7zNWZTdlR13uldsoWC2LUn5qejxgKz7t9WDx4FBT0iRTeCN6yrEOaTjAhtJHrJnAUqfY4=w1694-h953-s-no-gm?authuser=0) ;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+.common-btn{
+    padding: 15px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+} 
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line{
+    line-height: 8px;
+}
+.line-1{
+  width: 15px;
+  height: 15px;
+  background-color: #f67c92;  
+  display: inline-block;
+}
+.line-2{
+  width: 80px;
+  height: 1px;
+  background-color: #f67c92;  
+  display: inline-block;
+}
+.line-3{
+  width: 60px;
+  height: 1px;
+  background-color: #f67c92;  
+  display: inline-block;
+}
+#sideNav{
+    width: 250PX;
+    height: 100VH;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff ;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
 
-<div style=" background-image: linear-gradient(to top, #BD2A2E,  #3B3936 ); width:100%; height: 700px;">
-    <h1 style="text-align:center;font-size:30px; color:#fff;border-radius:40px;">Acesse os Links é Leja os Principais Projetos</h1> 
-    <hr>
-    </div>
-    <hr>
-    <p style="text-align:center; font-size: 20px; background-color:#1a5c37;color:#ebe5c5; border-radius:40px;">Todos os projetos são desenvolvido por: Aq<span style="color:brown;">Goes</span>.</p>
-</div>
+
+/*Seção Sobre*/
+#about,#offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+
+/*features*/
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.features-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.features-col img{
+    width: 100px;
+}
+.features-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature-btn{
+    margin-top: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-btn .line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+
+/*Courses*/
+#courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.courses-col-right{
+    flex-basis: 50%;
+}
+.courses-col-right img{
+    width: 100%;
+}
+.courses-col-left{
+    flex-basis: 50%;
+}
+.couse-text{
+    max-width: 350px;
+}
+.couse-text button{
+    margin: 30px 0;
+}
+
+
+/*offer*/
+#offer button{
+    margin: 30px 0;
+}
+
+
+/*Contato*/
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contect-left-col,.contact-right-col{
+    flex-basis: 50%;   
+}
+.contact-right-col img{
+    width: 100%;
+}
+
+
+/*Fomrulário*/
+form{
+   max-width: 350px;
+   margin: 30px 0; 
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/*Footer*/
+#footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.link-title  small{
+    font: 13px;
+    color: #777;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+    
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text,.footer-logo{
+     flex-basis: 40%;       
+
+}
+
+/*Media Social */
+.media-socias{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.media-socias img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+/*Media query*/
+@media only  screen and (max-width: 770px) {
+    #header{
+        background-image: none;
+    }  
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+    #menuBtn{
+        width: 40px;
+        right: 50px;
+       
+    }
+    .common-btn{
+        padding: 10px 16px;
+    }
+    .media-socias img{
+        width: 20px;
+        margin: 15px auto;
+    }
+    .about-left-col,.about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin-right: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+    .features-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .courses-col-left{
+        flex-basis: 100%;
+    }
+    .courses-col-right{
+        margin-top: 50px;
+        margin-top: 70px;
+    }
+    .contect-left-col,.contact-right-col{
+        flex-basis: 100%;   
+    }
+    .footer-left-col,.footer-right-col{
+        flex-basis: 100%;
+       
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    
+}
+    </style>
+</head>
+<body>
+
+    <!--Seção header-->
+    <section id="header">
+        <div class="container">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczPdymlCBfZvKRz-HB88MKV75c8BvJIUF8EbmezeStLi8Ms9_fsCwtUBJ_0P7AtgP9o6Btb-JGTbCxcRpgPlQXvVfuRc-r-vkhkSV-GNitn-AH3k7NooXa7Zi1FuPKV_CSP5uXk-Mzzi9LqojtJK3bNivFCwKkr2d1pFa2zDbVImQvlPymNF9v1Ey5gbXzJARzFdnX29wcxb8_fgJ8D6wepL6I2y3bpjoa7A8kGIU9r7Yi_yoEytt8pZEIHz-TK0bzSBE3-WXmn4xYsREPWe-NK-GoDYMTKjaOciqTpDsfBZRvuLMrG9OEaXF4OrB2tVKxMUIgri3JpQw6tw92coo37-g89ywDFkPhr1qfv4wLZcA1Sx8jYImH-3r42OntLlN9V_jVfcJXvadjAjRJmxfFDdoLpge13GHlIzFXv20w-t8id323iLXW5z4ZJ4zfCvJmJDHgdzrQ7EX_2jebSQn6xO-WspWP-lEQa3R7aNiN5tCNg9oqzQMu9UtfCcqVc2MsAAf-Mt6o0607BTTCVdpGz1JSXUcf-rDn4jg8UC90jFrspElTbl5SOVIyvp2bxqb7UOvqhmZo1pQmuHCwd-KyRFp8prsASHNzlauQSWQohmBHNPY6VLc5llpBtjypq1YYdqup2Hm65K_QFItW7VVYlCpUkPAnE35juMFA1nHZaWAGY8olSGIWh7-xuFnUM3UBQJADmp-tJazqNZJFLqsogkNQ7DrJ9EgH4RuWnRwaq2_FgtKew3cur50v0Yfh3qCnROO4PGwxw4o3n4CZdqH3GoGpvFcajKTkPqB72Zi8g82EThxU14gG_6sSRBq153lgTNAIy2h6kQY_T5mG8wQA0tEZmOCm9wYw1MUiiBzUPHjSxqFIvcq60uMUdooXaNPpHF7m9pJ6O7VTE8hFHIMadGDYAc=w163-h112-s-no-gm?authuser=0" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1>O objetivo é ensinar, trazer <br>aprendizado às pessoas.</h1>
+                <span class="square"></span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis impedit totam! Eos odio quos doloremque atque eaque sit provident rerum illo, accusamus expedita alias nemo delectus consequuntur nobis debitis!
+                </p>
+                <button class="common-btn">Read More</button>
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Seção Menu-->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczPegh1q6zBsdUPCCbAYl6oIZvWkusMILIRz3ZV7FeDnRi2Ns6UlSgviBJz1pozsgU06fb-4HsEUPtjxAwKH_tofVACkIz-aWm2OwRNRXFrinMF1CJKHqZr_GOlACDQ4iwUsRhf-CswcQcgN2XanLoyPGcUDsq1gpc2JoNMu5zS3KO9-6_c5O2lRXsJObXubCRMOteUxdQhBuu4g9T9GhtaYenpqQq6ii5gKJxsqrY42P13ZsJgCVat95bqL-ZV7n0UUwS0-KxIlFfvUqtfRVJs8knA8wPM2Is-LE-pkhdKgz6iwkAgK0qURC-6bqWaNgE0FAVv5gsPcheCdYEgzFjsK98zLc-TR_5Ho8Y5e1duBn-agqR-uLZ9Sys0I5xGyWLipn66bMduymSdqzmLDCx7f7bFzKpz4R6qLJryGGWoLhN5U1ffQJBpZh7IVku145fyDX2unTxxAqUVWW38NkroXBUxX7PsmkfjJpvU3rxJaorFOgrZRrMR61y7DdHTYkrsmQEK3F6aOlYxqbdBx_pzc_6Bm7P5C9zwR4hNooqp-2IrgFAM0Yj0Vl2VDvjhkLfCXOAHAhVWsmNaB8eSRUSITo-fu9bd141FHrCvsuYW2UPH2KyaMdX7bPWDWWnTvG5rT6x79TGgyhiccRFTjq8xlJ9TIl2yU42SON-3lW8IVsdfSlKd_Gx0g9GQNSi-s0bB0mj23ZqH1ZH1S85Uc_MJYI6E_ZnZuP-Qpj2ZYy-8-VtqYDx79O0I1ylGi0W-3GOGpzzLEr6XOPEjNPmMmWmWNURWkp8W_Y4ujL8pcAk814Wr-g0Qh0IxGX6w6cF-0nlcN_6Jjfg_0f8sFi0a5BFar81mqK5nBmcE1CHeiyi13ajE8UTGyU0d_44axqMYseuownNUMYneiXq7f3H3ppOSDWJHB=w103-h103-s-no-gm?authuser=0" id="menuBtn" alt="Menu">
+
+
+
+<!---Seção Sobre-->
+   <section id="about">
+        <div class="about-left-col">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNb3EdyV0mBVnK9XmKrERb-xYUoQZjq36anhIZ2uF-WirKSPN2BHzxljPJf4Ib7eL9g5K7Fd9-IaI0bvs_YqOs-_gziaUHp0SjIDbKSoqgFNRs52Y9oElTjjnQYJS9ZH5VIfGy-KL_ndbOOp8ClVAdptGwlgBdzNu2EdRrdwr_rjQKwYAeF8V_x-9QRZaWEkP0gjlN_cyZh9KjALTeOo9Fwsr9hNLfHFYjFPV5vSNdjP455dZjFoSil1F_KrGRaggXXv_r2P_rvHCozcOJL4n9KV8_jR8izsqS8A72AilKNLRkPDp-IB1h_c6hbTJOkPjr3BicsgURaOkyZphX0v-bq-QkOM9tMTUZJvjA3L_HDwDy13RYEDPvWyytBquvaLmdUQan_5Od8scGHB5ocfLeem7SB_9lNRGSwIgtJh1JC0A9yV_hSOukm1CH-jBAR1F922EwHj0TZKE5_xSSTf1ODBGi9nUR0BVqINv8F85q9HQ_GRAXPTx_cjZOeuCmC2RJYn4JFCChz-O33YPYOLGPL-OSjm3kquaJBgwvpBGpz6NtmLGAQYHY1Ox5AVO6mY2tA6uGZyWj264IUgU_ICUsJYp7XenWqW6TtdIn7DBgGK0DGlFSdr1zr1fcww5xffjEmMVPBwBfpkOeseAinuK1H2XrSlobrCGwQKIl_FFRym2_pJttJjCuJM10-uw2TtCuB1pziyPiaHQ8lJd-So9bnKV8lWwCD_r3fzey7oiZ8Y4jB27yhIJz4AnaLBIJ70IKDFzv0VMtEaHUAtTO0RVLBZEbj2UM5SMPrNK-H7QC5EQZKEBz2hiX8-j6z5hTcrSN2NMwnjOad1Hp376N_uuXGc0ufF7FxIEC4FralSEO8ec--ddTPaM6If1x7BPGhadCOJfosB-BUhL06mTI0WN4Wki6y=w1190-h953-s-no-gm?authuser=0" alt="Imagem Sobre">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ad ea fuga quasi eaque maxime laudantium, non voluptatem tempore, quia molestias recusandae laboriosam sint. Voluptatibus dicta sit reiciendis fugit necessitatibus.
+                </p> <br><br>
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2> "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus sit nostrum sapiente blanditiis" </h2>
+                <h3>----Abigail Adams</h3>
+            </div>
+        </div>
+   </section>
+    
+
+
+   <!--Features-->
+   <section id="features">
+        <div class="features-row">
+            <div class="features-col">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNgiKQZ05ZWsZ0SAbBKLAQhT0REa1eInKByHRSf620T5B6V-yr4OKuSAHNAsKZFFWWUq7Knjtwc_718QRQH-nVhXbU7g3t77PrPC5gUDsP8N31udSRr973fZmtsD8CwuXebSbU0DKXw2-3GggvxjQx1U2Hc8mbQv7KGm6Nhq0fdNpJD25RnJZjQ-v2qdN9IakmujtzfB_Ea120QsMzw90u62sgv38cRgGAY4eIg3MsACkC_RnRjvFeOkzXE77T-3txMmQ3aDic56Fe6C6DoPCFVhzm0zc1LX6Ccsu7GL2OBa6to4iOkhGIhpUAr8SA8n9qDwlsKCBa3ZznS7pp0s8ucrMqUJUdoGxpYDcbTjmMvwW5lp72JEIN2Mjaqb53wWl7LqQyswweW2bnI_qV4mGwecai1x_CpUCgxIWTAcK-aFybxYVRACg14Gvwx0B3-C7VROwglilIdv1UyGTOaNV_3Pv0E65mOzoChYS835ihnIc1eQEftzX5KAJ6mTiOAeZ_LpSgCTFl3I34brk9V6r6FfO1BCwDMRrQ_hudUWXHhg8k6E27AcO7LPSzY0LzJdbD2DeT6FIKU_yI9K7HaBOUihjS1WaTJOYbyciZ0NtJy2LFSh2u54v02sjNuqiR695xrW51WlOqDEADBOrCZJlyo4eSSlAvGKe5kC_BrPIy1bbIio0gLd26grMiSlVTgrDW9tuj97ORiicEb-48ZWggJ2PJofH8D1owcIm_YCAapnEreBHThCO-ScEnfU6EilW6cmE5tizaY1dDdgbIEP-VAhcP6rRig0DZoOTnBVQ3HNQVGV9bc-ipH4Wxv-R_GxvXmCPxeiN4vRX6YU9wy4PCcXQ7aJ00SW-GBNMCEaXOdVUzd2N2osSXQ3qbq_CN9S11GMvFjt9xCd67bo62aTwKnEAA=w200-h200-s-no-gm?authuser=0">
+                <h4>Learn Anywhere</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="features-col">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOsFrBTxTcc1CEYA8V701Gf0rxxFqMsCanTY0qgnjHibiKZQnx8Y2D81UeZz--5nOt_Bg--6yqt2MWUg8cOI06T0SZDMq8dObZa3oQDgnwf_dGWGacwt-1xKdjrY7P2bpNfiOJanU2sFO1dEOsSyX-Tp9jNUL4PRwUvUQ6BHSbUBJL0wmu_2-IM8GTz5oTmKfQ4TdkUKlTjN84ZbMfA0d95xuBrkzAFHB48rNYzVgSBQ4ZVa3Z1EcIGh6uggkloa1kYN9jWB8EnJ6TzBrUL0Zq2ms9xb11s7lWiqm9_BUQVgEnrKf0u1HSaYJcPuf8glgGwRaeY4d8qCd7WCuO8jtxIQZ5Y74cTp-LWk3Pgj9HMtW16a21Djy0xjqbghxSziVYxXzJ1TL6wC34RPJEAWIqxwRAqigX_SqCNeFP-9bVv9VvnFdf9M21iyw301q7EyNV-BZ0v1oWHoORP2BvlJGnobxnKGwbY-UsXJb0XA55pTeb6-pkanb1JouTjoeJRLGx1KOq6hBb9RMy8NmkMY-MTYYx3f235rD8mvGDOn-yy1E5KIoXBVxLskha-T1Sh4EnUMTa2FXOOdUVbIOyAOkKBW9kSBwBfv2XZWyhYS6pxiX23nBq-JytkQfhKdQQ7F3oikjP3RZiUnSBUVvi8n9npUo6VNvRZ2PNlxDHrO1oSJSFf56Nc8-gBycn3HbYQY9xM9aRHz9M4pa2nyFOvbL2XPK9p8oo0xq2wT6QbY0LExnU7hrchHuOTkofTtG_8rzsdy6Y48Gtg9EV1SDwQX1baplzN4pXcjSdbk7V8S9I28xe8HGhTRPXvIrx-y_zGXGKMtRgn83u9GKmXZUQJbBn6xy1Wzub7xUM0XAdPDWAL_DQKfC3TK14LsKttLThF3Z8hmWyIfyBiL98ce_40JIQcD8L4=w200-h200-s-no-gm?authuser=0" alt="pic-2">
+                <h4>Learn Anywhere</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="features-col">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPjDlTLeAYmSEd-guzBIvp_DEC0SjheAD8i1kseW3bV81d-zYfRlsopUol8XzpVt-8ZQiNaLGGDyqtcBh1aPMOPLnGiGp5DdojJYAzbG6bFAnCIp1CWw0Et6gKgT-34GCpkrywaFKznvs1Nm1jZWQUqRT61Ens1VgadN2VtGktE09RyS7Qzp-3-cACi7iAlriMVPzM9F5dqxK_aJiIES_PVviDhsLt-nLJ79x89dsefORSjkQW2w9xlMk4Pf7VHMSN8DYDZtYs6eGVY7QOZf2Pa5qnPjnlry6F4rWugs3ngkK0LGUFfb6GSEi-pClORcifudFP33LRJ7l91WSUwVGHV9oQ-xM7DMrzLIuWMwQy-Rf1E-WDFXWW_245_83E65pIHYJlaKDb9prx7rTTFHoW1ifRzufZXHS26K03bXMZiwSwCMavtxumAwkWVvV38gFu41dhPmnfTXo3oWlYcwnvBHJfyEThdSzc32iqQBVDyfvLO2fs4T_c2l9ynw42H4kIyW6EjS1aES9VXCN-KE6UaQEujL-4jgCDskXiowANdN6UJEecBg99eV_YGXSd1u9aMqxXcw4JBvCk-e8K4YW32CnzWkfqqDqtcqKwZunPkhUqIkXU48VeV8AIsaBat9aTNhO97DiQmxmQqWh3ZrPG1eCyJWs6IQmShEodMaDCuKD8qVKmro0IJt3maGAj-TtnzUJbU-QpJ7gdLvkZjUse7v3QeXq7CwU0G6y9fvgQI9GGGVnRcY-A2JCgr4THvEYy_JfPgw1Urpz6dMle13PE_RdXbza5OxD4txS6DtZbqnjEYTX7b731UzGNF5BOG3N46JabyG2C44x8l69SaKvEFGuu32lQDvrl9W-M0y180bimojz34cfYsj96Uj558evy8KhfDLglwG-txyGlc9Ypawj4=w200-h200-s-no-gm?authuser=0" alt="">
+                <h4>Learn Anywhere</h4>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Texto lustrativo</button>
+        </div>
+   </section>
+
+
+    
+   <!--Courses-->
+    <section id="courses">
+        <div class="container course-row">
+            <div class="courses-col-left">
+                <div class="couse-text">
+                    <h1>Titulo com <br> um br </h1>
+                    <span class="square"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quasi exercitationem possimus corrupti iusto, facilis dolor pariatur a numquam quos fugit asperiores facere amet voluptates dolorem incidunt quisquam! Numquam, eos.
+                    </p>
+                    <button class="common-btn">Texto lustrativo</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                </div>
+            </div>
+
+            <div class="courses-col-right">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNaNm0l2yp_mTydRVm_Q8tbAhG1k9uVnz02McVm8MbU_ufPe_wiwutFRYDbcNqM2PtcNVkf6Jlfco6dItsh50mcM13WfP1oKkjv0SciyYn4wGBvcQdy33Ox0Xs36vu58MPoPbOD_jwAMI6Zqw8TEQb_M-RFAUY0mI77eeZEu68ZaMnP_QAjQ-jw5pn_PGKhO7XrFJu9lZ6vMmiGL64Bpduu2598ylwrOo_vNNJ7-Jwn7ki_SXWxjYCUqu9WcOp5NRfVxdoJZ68lHo3WE5UUYWzWHC3G5L_H3pO940bwWT_lNqezzuRNcJOlbrlGXc7-URwPQRDEvDElJc8Sn2FBCLKoqNaOU-XTB7K0mS8STeY-o3EnVddONMF79iq5YA9iD9jqse1A__MGZdDkgk7zu1nm4CrO3Yu_F7CenGmQ49-T6aV4fbq4l9HRah13xAUyOkEjWp6jNDYZAQtILLDloDQhg6JaaPOYdeuPwI-KX6jzWTBc-FcJY7ADll0tRA8EcQ7BFFa74L1oBIR60Kz1XNFmkNMzMgldL1hyVusLo7CYSdZRSbtctJ6MAVcf4KGa3egebzVryGhHviDddN1Nb2L33jYSQytC3rkCoXyrVzlFDwxpWc-c7RiM77fF3OKZUQsbX5PcRK2eU9FjLxKqRpsmpXDn18DOx7UNImTx6MC8KlZY5Cbihs0E6cZdX2HbHLBFj7DkVLzMGeUung1_3LdoNFu333fImHsWpXKkOxbJVZc3X3-Ck737g96AhOY4xZ8zclz_JJhfFGrv7ZmoNbpFXOoZYanjBmLRW_FzduxoKJ6h8dPDfXrWL0772rPckj3Iy-LfQsLyCnmm9S1mpc29WLuBM3f3K8r-twd9k0LjTimVKh5S9L-kOwOI4OlRwziJT6xXT3fU4Cx6bx5O364qNl8=w1096-h670-s-no-gm?authuser=0" alt="Cursos">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Offer-->
+    <section id="offer">
+            <div class="about-left-col">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczO_unSbmLdlwjRyVU2Vz9XLHewHPU9J0hoAhz3h6AQCMAktjjId42Vw-DY7lDYQLrz06Blk4aOo26vfAxq5_MVSqk58adgKV407Jr6c396kZZpJuqJpyvwOsjCU9a3x4tEXzlJPntWlMiCh12vx2cWB1jDZhPN2tC2yT88vHIQTnZqpNo_gsSzd7KIfZ6T7_7iBDQKpAfRj7NCIttQwpSeG6_KhP2RuOh01ErjtZvljS_iyH3WUFDNR3-PFhbm4kiSpUj3ENsxexerp0WJKrc_e4WSBvjOzo7aH3P9YEHNikxltWdF7Zri7YVmn_8gewWeurUPvKeCBuVeeKv9LOBNuHjXR-j6aCE_FuCiFbgGdgtzOU6N2odgRTPywdTxMqa28C--dcFfVr5pxyG26vqoq4u67SyWCXfsC75J7RpqjIg8YJN7dgEEtXxm4CicdcIi5U6cp5mpIPCy3HlRD7TNdUD6Jc_zFG97dgggN_sgkPb1uSGNwYJSrrptN9vwIhcKhYusCC5fJckOWEhV32vDdzY_lSrhA7Ov9GwI6pXMOYxqpxNJQR8Vi9fhpHg641XpvXxsjF27d8waRKiRpGMgu6JNzPau6RPPdav2dhx6Y1K0vfosDCBb3Bdgv5jeLap474u3OCNSN-bPcFZmVnFQwO5B8zSHPETRVNTAakcTHu41M1perfi37YwTijXaYbrD6tvZuhUmCnJN-8iZi55z0PZkEmMxEIKbY1dCTqq-yIoyA-oM-4kYhOMghFNVyYMPAgmMWzB8UO3d_4GXzv88gX-Ll_sLXV2TsDyOVRAc-zdYjKm_Biy9Or876AKSoc782GP0PhWO4WS0kiZ5Hj6-m2FQ63cf7ADdsK6piCc2ozzucO6G15NaBziqibE4Ct_nu53gljkQyn2GR23MW8H-HboSo=w1186-h953-s-no-gm?authuser=0" alt="Imagem Sobre">
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h1>Offer <br> com um br</h1>
+                    <span class="square"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ad ea fuga quasi eaque maxime laudantium
+                    </p> 
+                    <button class="common-btn">Texto lustrativo</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+        <!--Contato-->
+        <section id="contact">
+            <div class="container contact-row">
+                <div class="contect-left-col">
+                    <h1>Mais com titulo <br> com um br</h1>
+                    <form>
+                        <input type="text" placeholder="Seu Nome">
+                        <input type="email" placeholder="E-mail">
+                        <input type="password" placeholder="Senha">
+                        <div class="btn-box">
+                            <button class="common-btn">Sign Up</button>
+                            <button class="common-btn">Login</button>
+                        </div>
+                    </form>
+
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+                <div class="contact-right-col">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMC-arQdDGPRbFqdDoXCqMz0GMA3DkFC9EeNgnuGfEjqZEXycqBzKt3UrTXeqq3BCpij9sYjbjh5fO5KIdOhecpW-6wbiQHLA-e27lW7YEWIS_QlLUJY1GWLUGkZGhjfMQN3JvjClyVxm6YHDrdnkQ3vJa_-xVtlOUGGnnT4tsYzkiQdEq96fXDpkM3d3tipo0LYmxvLQ5aL_hlMxFq8WD8Jzo7fNabZL6qgfW309IFmyiTguUvhNvdlVJpnXQqusrUIG_gt_PfqraPYJdlGf2IIkVllHU6E235XDKZkuYEObbHFnadNnZ2DEfVad9PoQ738hgDaAeePa0AeDEZCsBVwD3MFpOWUwDclyxOPoZ0sb4Ie7LGUq9TVvPxFDCVDTCo6QxFQ5EfFMiP0gEsazpiukP6YW4hVa9q1tkvX4Z6y3UpK2DEj-nl6lbh-oycxtkQyS6AOw1hEdD_9CsMJs_g1abUW4VnmwDFU6S4Y0aOy7R_mC0dQFo76UX84eaooAR2xEL9syFpGv4XuqOqOjJK8cKXCk190cNoa9XgZw7aMfhL92YmWYzugwvnyZIuVaeO1JH48AHg5xyzboEcYDQc8ze2qev__7BH2CBu1yFMCw_zg74SZnrBsJb3ebg6MNbGdXTLRg2ldz33u-p3OEVwjRAIHfn_oLNNfp3YgFRFIJTbHknfr1Fw5dIhEmhRUAWOeZE15qrzemLOMcOL4o0ymxEx9JzbYEZURJRS86fvnEuieQ1IbRIjWkXahSyE-ZzA0lQ68YXVLHrkg2WJlqd6FxoUnLnYIWNST0JNFL5Lu9rX-FaWF7gu2sav89tDChSWtCB6uahOvjG1nZqObwrK8Dlwas-uXMEu8PcNHHYUlDnmKVr7Q6Fmim9okHy3L5B6xCJdce5XxFhLrVMHbVuPV-t9=w1077-h744-s-no-gm?authuser=0" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--footer-->
+        <section id="footer">
+            <div class="container footer-row">
+                <hr>
+                <div class="footer-left-col">
+                    <div class="footer-links">
+                        <div class="link-title">
+                            <h4>Links Relacionados</h4>
+                            <small>Um dois textos</small><br>
+                            <small>Dois de dois textos</small>
+                        </div>
+
+                        <div class="link-title">
+                            <h4>Sobre mim</h4>
+                            <small>Um dois textos</small><br>
+                            <small>Dois de dois textos</small>
+                        </div>
+
+                        <div class="link-title">
+                            <h4>Suporte</h4>
+                            <small>Um dois textos</small><br>                        
+                            <small>Dois de dois textos</small>
+                        </div>
+
+                        <div class="link-title">
+                            <h4>Exploere</h4>
+                            <small>Um dois textos</small> <br>
+                            <small>Dois de dois textos</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-right-col">
+                   <div class="footer-info">
+                        <div class="copyright-text">
+                            <small>aqgoes@contato.com</small> <br>
+                            <small>copyright - 2024 Alan</small>
+                        </div>
+                        <div class="footer-logo">
+                            <img src="https://lh3.googleusercontent.com/pw/AP1GczNz7-fxFR2V9XCrpF5T1SaY8gz1lHFVxDcquB56uL-CLBWe0bNv7avuihIqS8_ivmlofx_LXOuXFGyx79cmf5xs9PjlVd3LlcJha66-erT-I0BNV_26St-yxE6KgnDa3lXptNfniVAGgCuRE5u__g4cqvrzeSqA8awUYtRtW314q9RngGP-IiLXEcY-1xaz_7YaYKhELxpPx36Kuvbj-mrv2vNmCfMAwB7uE1O4XRStQ3D2mF8z-EziEh7yV9oDgKWUiipS8M_yMcsf5a_6hxiycHSSvoffOGkuf-pjQeC4TCs1vwBvUUvoyOUm1zarZtdZwlnruBScPyoYgnAhE9x_p3YaH9F2HT_xBNqucOagTtjou7BocH7lA86kytJZ_zo4YcV7ZN8M1fFd5_WIrENns6NYCZOhbRmD_Yo1-CmcwQwDvMRQhY_C34Sg0GvrkDvXPwoaaw1l9q0HmOUKqa_vN6osgW2oj79oerVXECjbsrqX7q7bDGpMnGMlrWJtXR_qBrDKabEs1xYS7cvYUutkvIsm22MeMhG_rVq5zY7uT7S00BMnGJN-hmlNtWMv8wIFJXVK5m2CEmfno8svZHmC-dvsvaNQHEhneucHSOO9EPbrKigYwU3QFEBHUXYCBv55UUatHU3RFgouEv67pCWJ0wOjo3Ew1RXD8EC8o-ZTwiddHLX8eRydLZnZ_942NFRkou3ffMObqRaUTB525j0iPu4UHaZRR380ilI0RSOjt4PIoMOFCA1marcEt8blxjSln2hC0NhqdiiEPCjsgf114dYeEH0jb_oTwMrWLRMmjuvgGWaG4Ks3vx1weJGWdwXMQhAdtKZ3oGO-NYeVf0s60YhnytejC53OnpfkTauBScVyAOMGa9-E9uI2C8WJP54MmyrniJCmU3m4ldPnyPyAIsiV=w163-h112-s-no-gm?authuser=0" alt="logo">
+                            <button class="common-btn">Login</button>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Media Social-->
+        
+        <div class="media-socias">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczMwhRoEIOfH6vQKoudNjHz8UOx8TwBM2OjVhpJMhek3AaTGiVMY06mC08G9I5fc5c_e-1C4dvrjJQWx-HxQvrJF3g71fehyzQwfVDM6w-vS_jwMrKy0UTP0OCtsjJ8EJE5BUL7YDmnZkWAIaeb0IMgBv_eyOKyDClLh3r_VhNHoQu-TFWOz9nNtIeavQULcrhekh04igUynp4-mfDlJOFfv-qd1SQWeJIxR4-A5RVcqKr733eLxaZ-5EMQilu_fmCxmzZxM2zbW3Ir3cX5ovc655gIGzxg6Iz72G48PhOuyziY4wnYwSl2-r3l6TOPvRWEtWf6awDW64r758wALn5cQh-Obwj9X3Sx77Jp31U6yCEtIEWaH0O7-bs2FOcwVFPDt0wgEeYYN3iZ8oN2sL7bavwJkQOnk_z-Utk-cRG_B6DkS2n5oXqceT99djtI3h6AsNYZuo_IE18D8-Zs8fBh-HOEP1rJMdpaFenbGlTRSuJqreq9zHMmD4B3GZ5iX3_ltBFBsJeOPTHpCunvjJc7bbSwNlbqFpIJhlmFF2vwcvqArxpdimni0X9OdV1BEtterqieNYPjmbKufF1GpIJDYvmVoqdRV_tqjuK6uvoyIQZlskncjQk89Sz2Vf_aCHmAsctjPXRu_KqwbZN29sF8m9TSinwMVevcDe2g8ElgIje1h9pEzwIDQvvpD43JNYLdAAUOchh_4hZZyT1MthQakWFmVckRPvy-Bi5pL4UdMdLsEndJ2O-sqfEM34u3e5plmWRomcERY6dGvQnTLtcL-M65pA2Xw2kbmiK7WAknm7UOF5mId8UnPu7dHObYOUvzrfCASoDl1XudLTcmK6CuGmst42IamPUtpYYudNEKoQOJp1tRYG-OpQDprkR-KUjiYebRUcmMTvzCmhu20SBsZgC4=w35-h35-s-no-gm?authuser=0" alt="Facebook">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNsF6qeVxt4QfbYxMgO2p02SeHjfhXBTy7XLefEy6og7HU3wFdZNMFPlh66Y8_oDK39Mdj5lEN11xp_I8h10PGFz4-4ioxZa66vjg0POJZuHDGg4SRUI_2nEhO0pJtEMpnzAl7il7EISukirIKu1Pmo2RUpXLhj4X92mYugnuL9rNTagW5ZxidGzTcdvjViA6mPLN7gPrht59PdhcB8jPsGad4qHiN9-KGjtxEptWMHiEo8pziYMNDXrTHQJ4LaplBXCZ_Q_M9gNLmOF-Gp-Vk2uzpnZLTgpXDGN1-hhL_c7jTpXF-A-E0aJCLmzxOAtE8jE26An_P7I-BjeRxGQ4kyFAb0fBcDFgFAF1MKiJFBfaFKnwtvTAgIuGqOx7Pihhzio0HKK0DncHDOCJieUSJEb8QMFWk279-t7JT5h0_LA32KLvuSmug8yMGePwcyS1yMrz37hHpS1NZTnepW6jKGxZq4t0pT6BtqxzO3LLjzSlgfP45IgQ-6lFehQm5aD9SaeHqz8dc0zqmXoBE919_M6NfgGibyzBLRnLS_DQw2CB6zrhchg7CzmFNzZiJp6P7_pYwKWIF6IHlXSQ6OaxBiqzxHMZtZMJ-BKlV_rOMVoWyBqmfjYXZSZniXtqr1iUKDwoeHjZAvddy7aAJSPR-RCrpcZiUA3hZ6Uqo1eOr7xtLExej5QO64tLyNs3rzuQvWSx3fT_QVk8OGWiwRAvWhZoDzQKy-2Ujz6alhnbHIuw_KQCUbjXExIOIZHX4weshF5myAbO0ujiQ9HTfFjiS4MRoysGQAv5AOrsp3tmFnoZ8EfhUs2u_yuzWUThQ_NESF3oD2W36r2RF3zlniWD7iBrZNz9p0CepBKd3xh_6u1f-0PWPBEigzySuQmH7-pwk2i7sbw2LKNnj_KoUYcZOOiYqi=w35-h35-s-no-gm?authuser=0" alt="Instragen">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNxmE8fG02gGWhX7yg9ncVTzTC-7S3AtPSsWz3-rA1hotbvlTTuN4n6JzAkglWNPahuRbFJxEt6-YRnVJo8ox_yB_IPeV6cK9PYqH_McHPR_eS60g_Hv6vtZ8JrOCVE7_cdOoquGWILJy43GDpucVaj35Iyz193Zz3V6OUVRuI1FQFhafM-JsY7rPrEWs9gSjasefsYAPytEZd2-uvUInufTCiIBnSW4j_fSNvGHVTmKo-EH88sqhtnDDpIN6pTmGQD3KpjIqxEOsrl62BQsJ__953syF4y-ZCeiA596WJNf7J_FvtsuzLnszEJLIk4BDCK9Z5qVMPgz7MByWpGXF-xNC-gK9tWJwAhoAxOd4pgd9jBHG4PUymm3l8TZnjnkrCPSzjDkHrEFNyYSiTW1E-c09CxenKDcLkcEta5wXnmnQPzgQ2JgYxU3Q4IreBKgHD4NYTRjKhn2ghu1YAab3qx2mlqrps_2SDjJpgU4oaoWRJ1sjZ3aeoxdSSIzE2b4AygjLZx04gAn_D-plwgRQnLU_wmkLhcN4RuHxCFHdDSKHGsgnSLwoaEpD5CpZktbuq0RMyLSCrSEVKJv9_AC6UkZ1J_OEtyB5opdUsvjeXReP1JMGFwHcTBRyQXocC9OmXh696tyY9cvrpjs0fFZ61m2ORhocsTJskUvFApkjuz-cy0WJpPgu0kcHjDUSykvUwEiNsNEsbVO3f7LyYLnIj8FtS9asc_PXrX8XzJGt1Sehbkbog7AUYzW_iX6a50kMg2746kAVrvsW45zxbdykjd_T64kzVh1djiPgKqbe_c8OUqo_9Mw37sOkQy7ZIFEqgBtFWWU8niDr8U2fyvZGWnOQJg4n5q96JzzPv9pgsQGT0veySlMtne5HzIFGdPxF0VWYecCYkCCetpHgVhH5AZYHGB=w35-h35-s-no-gm?authuser=0" alt="twitter">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczPUtuBnadv4sv6A1zqdx9BG-irOlTJy9Bm2k6e5xSJcWht_Br3E7HQZvRdpsD-MOJdvBrwjLmCH1OdH6kF7hzTUys6rm0CmlZ18KcmbrAPmtVnDd-OUUXvqZJpmVhm9a1krO0CNoq4AlWlP0fSLTpxIUoMxZgE2pkiuKI9zekRX9Fr9rJC6ZGFFdaJ0-X-h2zhAV-AXLA2UXG-iTvxD9dMpYS8PiOxzFLn6nnnW2OeSg8RRGMxCMST0OBVkF29ZMZIfgpeuVx1uY87vbteLST8X1CjCkmBY-KfVoHkNHDyiaPptAHvODWWxEosUTrhsrl3Jobe_CQvGqlifpCol04NxEMNQ8Ot4pyHTk1VmSEtbOKbtADZ9dmoIPgMSjZPBFdtAOrspRhySZwzAGRc8y-auTxPuI5SfQ-kjAytRu14uHu2bvIpVXIBFsqBF8kNtzGq2ldy6O8aRqAVmnj8JcFSLVm0pbZJ5zkpVa6LFqOBEsgdGi1Drlnxu5BFzVJ52qygo7i8G2vJWAPmlwsjtD6oIc0SL3lYucn2U7Xj6AoiiLjrAnofUeHB-ZgM7I5CradiHMQ5MSPcS1dpqRjlE9lo5244ZKa9jdtk46MNYW19T_DFl-FRB0tLOrvuPbb1iC1siRpr4hYIk4zW7Hojg352y6fWvgyAQNwNDwBf9WAV9SGHGqgOvedjVlhAB-QJexUOmBqVJDCJjqWMcbrIDObXDEyAUbv8v55ZTBIlYul3txI2b1AbHbPU62Ujp9r2mF05T-1CMx65ocm5DmUrin1KEnvKA78AHOOW0uDfm_ffEs-MQnLyZt9GahD8FpBljv0H8C4qFGxBexRKJfzG34Zhbod2HbkcqCmd5blDMep9VGFg6jyMwX6eAfhlJ-erTD5CqvWqIIYXgXP6puve3YiqBrjfo=w35-h35-s-no-gm?authuser=0" alt="linkedin">
+        </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px"
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            speed: 1000,
+            speedAsDuration: true
+        }
+
+        )
+    </script>
+
+
+
+</body>
+</html>
