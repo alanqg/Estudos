@@ -2,10 +2,10 @@ Relatorio de encerramento de ordem de serviço em T.I.
 
 
 Problema indentificado
-Ninguém no setor está conseguindo imprimir na imporesso do endereço lágino IS0025. 
+Micro não liga. 
 
 Solução
-Realizado procedimento de desinstalação é instalação de driver, mas o problema persiste, efetuado testes com outros usuários, sempre aparace a mesma mensagem de imprimindo, mas não sai a imporessão.
+Feito os testes trocado de tomadas, mesmo assim micro não ligou.
 
 
 
