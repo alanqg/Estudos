@@ -28,3 +28,15 @@
     --font-android: 'androind'
 
 }
+header{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor-houver), var(--cor-primaria));
+}
+header h1{
+    padding-top: 50px;
+    color: #fff;
+    letter-spacing: 15px;
+    font-size: 45px;
+}
