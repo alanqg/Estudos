@@ -40,3 +40,23 @@ header h1{
     letter-spacing: 15px;
     font-size: 45px;
 }
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+}
+nav a{
+    color: #000;
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 15px;
+}
+nav a:hover{
+    color: var(--cor-primaria);
+    text-decoration: underline;
+}
