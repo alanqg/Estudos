@@ -7,3 +7,8 @@ header h1{
 .noticias{
     background-color: brown;
 }
+.noticias h2{
+    background-color: aquamarine;
+    border-radius: 25px;
+    text-align: center;
+}
