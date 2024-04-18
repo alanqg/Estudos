@@ -4,11 +4,22 @@ header h1{
     font-size: 35px;
     color: brown;
 }
-.noticias{
-    background-color: brown;
-}
 .noticias h2{
     background-color: aquamarine;
     border-radius: 25px;
     text-align: center;
+    color: #fff;
+    background-color: burlywood;
+}
+.esportes h2{
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: aqua;
+}
+.tecnologia h2{
+    border-radius: 25px;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
 }
