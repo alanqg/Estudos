@@ -18,9 +18,13 @@ header {
 }
 
 header h1 {
-  padding: 35px;
+  padding: 25px 0 0 25px;
   font-family: "Indie Flower", cursive;
   color: #F6F6F6;
+}
+header h1:hover{
+  color: #ccc;
+  cursor: pointer;
 }
 
 header nav ul {
@@ -33,4 +37,10 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #F6F6F6;
+  font-size: 25px;
 }/*# sourceMappingURL=customer.css.map */
+
+header nav ul li a:hover{
+  text-decoration: underline;
+  color: #ccc;
+}
