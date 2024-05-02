@@ -2,14 +2,16 @@ Relatorio de encerramento de ordem de serviço em T.I.
 
 
 Problema indentificado
-Micro não liga. 
+Micro desligado.
 
 Solução
-Feito os testes trocado de tomadas, mesmo assim micro não ligou.
+Foi feito a ligação do micro realizado os testes tudo ok
 
 
+207950
 
-
+Core site 
+#fbce3b > 
 
 
 
