@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inputs de Texto</title>
+	<!-- Fonte de Icones -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+</head>
+<body> 
+	<div class="container" style="margin-top: 100px;">
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">account_circle</i>
+						<input type="text" id="primeiro_nome" placeholder="Digite seu Nome" class="validate">
+						<label for="primeiro_nome">Primeiro Nome</label>	
+					</div>
+					<div class="input-field col s12 m6">
+						<input type="text" id="sobrenome" placeholder="Digite seu Sobrenome" class="validate">
+						<label for="sobrenome">Sobrenome</label>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input disabled type="text" id="desativado" placeholder="Este campo esta desabilitado..." class="validate">
+						<label for="desativado">Campo Desativado</label>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input type="password" id="senha" class="validate">
+						<label for="senha">Senha</label>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input type="email" id="Email" class="validate">
+						<label for="Email">Email</label>	
+						<span class="helper-text" data-error="Email fora do Padrão!!!" data-success="Email Correto!!!">Texto de Ajuda</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						Este é um Input em Linha
+						<div class="input-field inline">
+							<input type="email" id="email2" class="validate" data-length="20">
+							<label for="email2">Email</label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">mode_edit</i>
+						<textarea id="textarea" class="materialize-textarea" data-length="120"></textarea>
+						<label for="textarea">Conteúdo</label>	
+					</div>
+				</div>
+				<div class="file-field input-field ">
+					<div class="btn">
+						<span>Arquivo</span>
+						<input type="file">
+					</div>
+					<div class="file-path-whapper">
+						<input type="text" class="file-path validate">
+					</div>
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<!-- Compiled and minified JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('input#email2, textarea#textarea').characterCounter();
+		});
+	</script>
+</body>
+</html>

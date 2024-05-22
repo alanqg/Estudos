@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Select</title>
+	<!-- Fonte de Icones -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+</head>
+<body> 
+	<div class="container" style="margin-top: 100px;">
+		<form>
+			<div class="input-field col s12">
+				<select>
+					<option value="" disabled selected>Escolha uma opção</option>
+					<option value="1">Opção 1</option>
+					<option value="2">Opção 2</option>
+					<option value="3">Opção 3</option>
+				</select>
+				<label>Modelo de Select</label>
+			</div>
+			<div class="input-field col s12">
+				<select multiple>
+					<option value="" disabled selected>Escolha uma opção</option>
+					<option value="1">Opção 1</option>
+					<option value="2">Opção 2</option>
+					<option value="3">Opção 3</option>
+				</select>
+				<label>Modelo de Select</label>
+			</div>
+			<div class="input-field col s12">
+				<select>
+					<option value="" disabled selected>Escolha uma opção</option>
+					<optgroup label="Grupo 1">
+						<option value="1">Opção 1</option>
+						<option value="2">Opção 2</option>
+					</optgroup>
+					<optgroup label="Grupo 2">
+						<option value="3">Opção 3</option>
+					    <option value="2">Opção 4</option>
+					</optgroup>
+				</select>
+				<label>Modelo de Select</label>
+			</div>
+			<div class="input-field col s12">
+				<select class="icons">
+					<option value="" disabled selected>Escolha uma opção</option>
+					<option value="1" data-icon="img/img2.jpg">Opção 1</option>
+					<option value="2" data-icon="img/img2.jpg">Opção 2</option>
+					<option value="3" data-icon="img/img2.jpg">Opção 3</option>
+				</select>
+				<label>Modelo de Select</label>
+			</div>
+			<div class="col s12">
+				<label>Modelo de Select</label>
+				<select class="browser-default">
+					<option value="" disabled selected>Escolha uma opção</option>
+					<option value="1">Opção 1</option>
+					<option value="2">Opção 2</option>
+					<option value="3">Opção 3</option>
+				</select>
+			</div>
+
+		</form>
+	</div>
+	<!-- Compiled and minified JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('select').formSelect();
+		});
+	</script>
+</body>
+</html>

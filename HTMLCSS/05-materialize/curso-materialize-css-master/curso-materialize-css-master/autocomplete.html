@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AutoComplete</title>
+	<!-- Fonte de Icones -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+</head>
+<body> 
+	<div class="container" style="margin-top: 100px;">
+		<div class="row">
+			<div class="col s12">
+				<div class="input-field col s12">
+					<i class="material-icons prefix">textsms</i>
+					<input type="text" id="titulo" class="autocomplete">
+					<label for="titulo">Autocomplete</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('input.autocomplete').autocomplete({
+				data: {
+					"Bootstrap 4": null,
+					"CodeIgniter": null,
+					"Android": null,
+					"PhotoShop": 'https://pontocomdesenvolvimento.net/assets/frontend/img/trabalhos/img1.png',
+					"Materialize": null,
+					"Materialize 1": null,
+					"Materialize 2": null,
+					"Materialize 3": null,
+					"Materialize 4": null,
+					"Materialize 5": null,
+				},
+				limit: 2,
+				minLength: 3,
+			});
+		});
+	</script>
+</body>
+</html>
