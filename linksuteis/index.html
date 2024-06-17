@@ -37,6 +37,40 @@
         color: #000;
         text-shadow: 1px 1px 3px #fff;
     }
+    .container{
+        display: flex;
+        padding-top: 15px;
+    }
+    .container > div{
+        height: 350px;
+        width: 100%;
+        margin: 15px;
+        border-radius: 25px;
+        box-shadow: 2px 3px 5px brown;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .container ul{
+        margin-top: 20px;
+    }
+    .container ul li{
+        list-style: none;
+        padding: 30px;
+    }
+    .container ul li a{
+        color: brown;
+        text-decoration: none;
+        padding: 18px;
+        border-radius: 25px;
+        font-size: 18px;
+        box-shadow: 2px 3px 5px brown;
+    }
+    .container ul li a:hover{
+        color: #000;
+    }
+    .espaco-cards{
+        color: brown;
+    }
     </style>
 </head>
 <body>
@@ -44,5 +78,33 @@
         <h1> <span>AqGoes</span> Desenvolvimento</h1>
         <p>Todos os links relacionados aos estudos da faculdade Estácio e cursos relacionados ao desenvolvimento web.</p>
     </header>
+    <section>
+        <div class="container">
+            <div class="cat01">
+                <h2>HTHL <span class="espaco-cards"> | </span> CSS</h2>
+                <p>Links relacionados aos estudos html css, documentação, modelos etc..</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
+                </ul>
+            </div>
+            <div class="cat01">
+                <h2>PHP <span class="espaco-cards">|</span> JS</h2>
+                <p>Links relacionados aos estudos javascript e php, documentação, modelos etc..</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/php/default.asp" target="_blank">PHP</a></li>
+                    <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JS</a></li>
+                </ul>
+            </div>
+            <div class="cat01">
+                <h2>WP <span class="espaco-cards">|</span> Wordpress</h2>
+                <p>Links relacionados aos estudos wordpress, documentação, modelos etc..</p>
+                <ul>
+                    <li><a href="https://br.wordpress.org/themes/" target="_blank">TEMAS</a></li>
+                    <li><a href="https://br.wordpress.org/plugins/" target="_blank">PLUGINS</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
