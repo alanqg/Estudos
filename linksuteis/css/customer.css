@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
+    box-shadow: 2px 3px 5px #000;
+}
+header > h1{
+padding-top: 45px;
+font-family: sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 35px;
+text-shadow: 2px 3px 5px #000;
+}
+header > p{
+padding-top: 15px;
+font-size: 28px;
+font-family: sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+header > h1 > span{
+color: #000;
+text-shadow: 1px 1px 3px #fff;
+}
+.container{
+display: flex;
+padding-top: 15px;
+}
+.container > div{
+height: 350px;
+width: 100%;
+margin: 15px;
+border-radius: 25px;
+box-shadow: 2px 3px 5px brown;
+text-align: center;
+padding-top: 10px;
+}
+.container ul{
+margin-top: 20px;
+}
+.container ul li{
+list-style: none;
+padding: 30px;
+}
+.container ul li a{
+color: brown;
+text-decoration: none;
+padding: 18px;
+border-radius: 25px;
+font-size: 18px;
+box-shadow: 2px 3px 5px brown;
+}
+.container ul li a:hover{
+color: #000;
+}
+.espaco-cards{
+color: brown;
+}
+section .chamada-acao{
+width: 100%;
+height: 250px;
+background-color: brown;
+text-align: center;
+color: #fff;
+box-shadow: 2px 3px 5px #000;
+}
+.chamada-acao h1{
+    padding-top: 35px;
+    font-size: 35px;
+}
+.chamada-acao p{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+.chamada-acao a{
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: brown;
+    font-size: 18px;
+    text-decoration: none;
+    
+}.chamada-acao a:hover{
+    color: #000;
+    background-color: burlywood;
+}
+footer{
+   text-align: center;
+   margin-top: 10px;
+}
+footer p{
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    text-shadow: 2px 3px 5px #000;
+}
+footer h4{
+    padding-top: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    text-shadow: 2px 3px 5px #000;
+}
+footer span{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    text-shadow: 2px 3px 5px #000;
+}
